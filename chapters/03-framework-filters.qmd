@@ -31,9 +31,7 @@ If the answer is **yes** — proceed to Filter 2.
 ## Filter 2: Does it explain your specific dependent variable mechanistically?
 
 Many theories address a phenomenon at a level of description that 
-does not connect to your specific measure. A theory of event cognition 
-might address memory for events in general without saying anything specific about, say, boundary detection latencies or surprise ratings. 
-If the theory does not reach down to your dependent variable (DV), it cannot be tested by your study — and a theory that cannot be tested by your study does not belong in your paper.
+does not connect to your specific measure. A theory of event cognition might address memory for events in general without saying anything specific about, say, boundary detection latencies or surprise ratings. If the theory does not reach down to your dependent variable (DV), it cannot be tested by your study — and a theory that cannot be tested by your study does not belong in your paper.
 
 If the answer is **no** — the theory gets one sentence acknowledging its existence and a citation. Nothing more.
 

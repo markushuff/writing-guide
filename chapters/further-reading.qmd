@@ -50,6 +50,11 @@ crisis in psychology. *Psychonomic Bulletin & Review, 26*(5), 1596–1618.
 A more recent and accessible treatment of the same problem. Directly 
 relevant to the argument in Chapter 1 of this guide.
 
+**McPhetres, J., Albayrak-Aydemir, N., Barbosa Mendes, A., et al. (2021).** A decade of theory as reflected in *Psychological Science* (2009–2019). *PLOS ONE, 16*(3), e0247986.
+[https://doi.org/10.1371/journal.pone.0247986](https://doi.org/10.1371/journal.pone.0247986)
+
+Empirical evidence for the theory inflation problem. Across 2,225 articles in *Psychological Science*, the authors identified 359 distinct theories mentioned in text — most referred to only once. Theories proliferate faster than they are tested or retired. 
+
 ## On the review process
 
 **Casadevall, A., & Fang, F. C. (2010).** Reproducible science. 
