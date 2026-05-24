@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 500">
+
+  <!-- Level 1: The phenomenon -->
+  <polygon points="80,20 600,20 560,145 120,145" fill="#2C2C2A" stroke="#2C2C2A" stroke-width="1"/>
+  <text x="340" y="64" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The phenomenon</text>
+  <text x="340" y="102" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#B4B2A9">Why it matters — one or two sentences</text>
+
+  <!-- Level 2: The anchor theory -->
+  <polygon points="120,155 560,155 520,280 160,280" fill="#5F5E5A" stroke="#5F5E5A" stroke-width="1"/>
+  <text x="340" y="200" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The anchor theory</text>
+  <text x="340" y="238" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#D3D1C7">Core claim and mechanism — two to four sentences</text>
+
+  <!-- Level 3: The specific prediction -->
+  <polygon points="160,290 520,290 480,415 200,415" fill="#888780" stroke="#888780" stroke-width="1"/>
+  <text x="340" y="336" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The specific prediction</text>
+  <text x="340" y="374" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#F1EFE8">Given your design — one or two sentences</text>
+
+  <!-- Right side labels -->
+  <line x1="560" y1="82" x2="622" y2="82" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="628" y="82" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Broad</text>
+
+  <line x1="520" y1="217" x2="622" y2="217" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="628" y="217" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Focused</text>
+
+  <line x1="480" y1="352" x2="622" y2="352" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="628" y="352" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Specific</text>
+
+  <!-- Bottom caption -->
+  <line x1="40" y1="438" x2="640" y2="438" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="340" y="462" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888780">Everything before the prediction exists to make the prediction feel inevitable.</text>
+
+</svg>

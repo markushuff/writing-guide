@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 740">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#444441" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Start -->
+  <rect x="220" y="20" width="240" height="44" rx="8" fill="#F1EFE8" stroke="#444441" stroke-width="1"/>
+  <text x="340" y="42" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">A theory comes to mind</text>
+
+  <!-- Start to Q1 -->
+  <line x1="340" y1="64" x2="340" y2="110" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Q1 diamond -->
+  <polygon points="340,106 500,150 340,194 180,150" fill="#EEEDFE" stroke="#444441" stroke-width="1"/>
+  <text x="340" y="143" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Q1: Different prediction</text>
+  <text x="340" y="161" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">for your study design?</text>
+
+  <!-- Q1 No -->
+  <line x1="500" y1="150" x2="560" y2="150" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="527" y="142" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444441">No</text>
+  <rect x="560" y="122" width="100" height="56" rx="4" fill="white" stroke="#444441" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="610" y="143" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Brief</text>
+  <text x="610" y="161" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">mention</text>
+
+  <!-- Q1 Yes -->
+  <line x1="340" y1="194" x2="340" y2="248" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="352" y="226" font-family="sans-serif" font-size="12" fill="#444441">Yes</text>
+
+  <!-- Q2 diamond -->
+  <polygon points="340,248 500,292 340,336 180,292" fill="#EEEDFE" stroke="#444441" stroke-width="1"/>
+  <text x="340" y="285" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Q2: Explains your DV</text>
+  <text x="340" y="303" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">mechanistically?</text>
+
+  <!-- Q2 No -->
+  <line x1="500" y1="292" x2="560" y2="292" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="527" y="284" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444441">No</text>
+  <rect x="560" y="264" width="100" height="56" rx="4" fill="white" stroke="#444441" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="610" y="285" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">One</text>
+  <text x="610" y="303" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">sentence</text>
+
+  <!-- Q2 Yes -->
+  <line x1="340" y1="336" x2="340" y2="390" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="352" y="368" font-family="sans-serif" font-size="12" fill="#444441">Yes</text>
+
+  <!-- Q3 diamond -->
+  <polygon points="340,390 500,434 340,478 180,434" fill="#EEEDFE" stroke="#444441" stroke-width="1"/>
+  <text x="340" y="427" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Q3: Changes your</text>
+  <text x="340" y="445" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">interpretation?</text>
+
+  <!-- Q3 No -->
+  <line x1="500" y1="434" x2="560" y2="434" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="527" y="426" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444441">No</text>
+  <rect x="560" y="406" width="100" height="56" rx="4" fill="white" stroke="#444441" stroke-width="2"/>
+  <line x1="560" y1="406" x2="660" y2="462" stroke="#444441" stroke-width="0.75"/>
+  <line x1="660" y1="406" x2="560" y2="462" stroke="#444441" stroke-width="0.75"/>
+  <text x="610" y="427" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">Omit</text>
+  <text x="610" y="445" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="500" fill="#2C2C2A">entirely</text>
+
+  <!-- Q3 Yes -->
+  <line x1="340" y1="478" x2="340" y2="536" stroke="#444441" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="352" y="512" font-family="sans-serif" font-size="12" fill="#444441">Yes</text>
+
+  <!-- Include fully -->
+  <rect x="180" y="536" width="320" height="56" rx="4" fill="white" stroke="#444441" stroke-width="3"/>
+  <text x="340" y="556" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">Include fully</text>
+  <text x="340" y="574" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#444441">Dedicated paragraph — engage deeply</text>
+
+  <!-- Legend -->
+  <line x1="40" y1="626" x2="640" y2="626" stroke="#B4B2A9" stroke-width="0.5"/>
+  <polygon points="60,648 80,658 60,668 40,658" fill="white" stroke="#444441" stroke-width="1"/>
+  <text x="92" y="659" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#444441">Decision</text>
+  <rect x="180" y="648" width="36" height="20" rx="4" fill="white" stroke="#444441" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="226" y="659" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#444441">Brief mention</text>
+  <rect x="340" y="648" width="36" height="20" rx="4" fill="white" stroke="#444441" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="386" y="659" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#444441">One sentence</text>
+  <rect x="500" y="648" width="36" height="20" rx="4" fill="white" stroke="#444441" stroke-width="2"/>
+  <line x1="500" y1="648" x2="536" y2="668" stroke="#444441" stroke-width="0.75"/>
+  <line x1="536" y1="648" x2="500" y2="668" stroke="#444441" stroke-width="0.75"/>
+  <text x="546" y="659" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#444441">Omit</text>
+  <text x="340" y="700" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888780">Fail any filter → stop. Pass all three → include fully.</text>
+</svg>
