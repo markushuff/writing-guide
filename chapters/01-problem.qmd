@@ -1,0 +1,35 @@
+# The Problem
+
+::: {.callout-note icon="false"}
+## In a nutshell
+
+- Theory overload is rational but harmful — it produces comprehensive,
+  unreadable drafts
+- The problem has three interlocking sources: theory proliferation,
+  reviewing culture, and writer response
+- Understanding where it comes from is the first step to fixing it
+:::
+
+When researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.
+
+This is not a failure of intelligence. It is a failure of incentives — and it happens before the paper is ever published.
+
+## The theory overload problem
+
+Psychology — and cognitive psychology in particular — is a theory-rich field. For almost any phenomenon you study, there are multiple accounts, frameworks, and models that are at least partially relevant. Event cognition alone has produced a remarkable number of competing and overlapping theories: Event Segmentation Theory, Situation Models, Narrative Comprehension models, and more.
+
+When a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed.
+
+The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.
+
+## Where it comes from
+
+The problem has three interlocking sources:
+
+**Theory proliferation.** Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.
+
+**Reviewing culture.** Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper.
+
+**Writer response.** Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.
+
+These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation. But the writer is the one who can act — and that is what this guide is about.

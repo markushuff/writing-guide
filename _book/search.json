@@ -2,41 +2,1081 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "writing-guide",
+    "title": "Writing Guide",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Preface\nThis guide grew out of frustration — not with my students, but with a pattern I kept seeing. Talented PhD students and postdocs would produce manuscript drafts that were theoretically exhaustive but argumentatively weak. Every relevant theory got a paragraph. Every related concept got a mention. The papers were comprehensive and unreadable.\nThe problem wasn’t knowledge. My students knew the literature well — sometimes too well. The problem was a set of unwritten rules nobody had told them about: how to decide which theories are load-bearing for your argument and which are not, how to write for a reader who needs to be convinced rather than impressed, and how to survive a review process that sometimes incentivizes the wrong things.\nThis problem has gotten worse. The arrival of AI writing tools has accelerated a tendency that was already there. Ask an AI assistant to improve your introduction and it will suggest three more theories you haven’t mentioned. The writing comes back polished and bloated, and it sounds authoritative enough that the underlying problem — a missing argument — becomes harder to see.\nThis guide is my attempt to write the unwritten rules down. It is not a comprehensive textbook on scientific writing — there are excellent books for that. It is a practical field guide for researchers who already know their science and are struggling with turning it into a paper that works. The final chapter addresses AI writing tools directly — not to discourage their use, but to help you use them as a sharp tool rather than a crutch.\nThe examples are drawn from cognitive psychology and event cognition, but the principles apply broadly. The specific problem this guide addresses — too many theories, too little argument — is most acute in theory-rich fields, where phenomena attract multiple competing accounts and reviewing culture reinforces citation of all of them. In fields with tighter theoretical consensus, or where data more reliably rule out competing accounts — physics being the obvious extreme — the pressure is lower. Psychology is a theory-rich field: phenomena attract multiple accounts, and few are falsified cleanly enough to clear the landscape. But the tools here — finding an anchor, applying the filters, keeping the Discussion honest — are useful wherever you write a paper that makes a theoretical claim. If you are working in neuroscience, clinical psychology, or an adjacent field, the norms around theoretical framing may differ from what is described here; treat the specific advice as a starting point rather than a prescription.\nIf you are a PhD student preparing your first manuscript, a postdoc revising a rejected paper, or a supervisor looking for something to hand your students — this is for you.",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "chapters/01-problem.html",
+    "href": "chapters/01-problem.html",
+    "title": "1  The Problem",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 The theory overload problem\nWhen researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.\nThis is not a failure of intelligence. It is a failure of incentives — and it happens before the paper is ever published.\nPsychology — and cognitive psychology in particular — is a theory-rich field. For almost any phenomenon you study, there are multiple accounts, frameworks, and models that are at least partially relevant. Event cognition alone has produced a remarkable number of competing and overlapping theories: Event Segmentation Theory, Situation Models, Narrative Comprehension models, and more.\nWhen a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed.\nThe rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "objectID": "chapters/01-problem.html#where-it-comes-from",
+    "href": "chapters/01-problem.html#where-it-comes-from",
+    "title": "1  The Problem",
+    "section": "1.2 Where it comes from",
+    "text": "1.2 Where it comes from\nThe problem has three interlocking sources:\nTheory proliferation. Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.\nReviewing culture. Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper.\nWriter response. Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.\nThese three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation. But the writer is the one who can act — and that is what this guide is about.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "chapters/02-framework-anchor.html",
+    "href": "chapters/02-framework-anchor.html",
+    "title": "2  Finding your Anchor",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "NoteIn a nutshell\n\n\n\n\nBefore deciding which theories belong in your paper, you need to answer a more fundamental question\nMost writing problems at the theoretical level are actually thinking problems in disguise\nThis chapter gives you a diagnostic exercise to find out\n\n\n\nBefore you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is actually driving your study?\nWe call this your anchor theory. It is the theoretical account that is load-bearing for your hypotheses — the one you would have to abandon if your results came out differently. Every other theory in your manuscript will be judged relative to it.\nFinding your anchor is harder than it sounds. Many studies grow organically from a lab tradition, a paradigm, or an interesting effect rather than from a single theoretical commitment. In those cases, the anchor is often implicit — everyone in the lab knows which theory motivates the work, but nobody has written it down explicitly. Writing it down is the first act of writing the paper.\nA good anchor theory has three properties. First, you can derive your specific hypothesis directly from it — not loosely inspired by it, but derived from it. Second, it makes a concrete prediction about your specific manipulation and dependent variable, not just about the broader phenomenon. Third, if your results contradict it, something scientifically important has been learned.\nIf your theory would predict the same result regardless of what you found, it is not your anchor — it is background.\nThere is also a harder truth here. Sometimes a student cannot name the anchor theory because the study was not designed around one. In that case, the writing problem is actually a design problem in disguise. No amount of good writing will fix a study that was never theoretically grounded. If you find yourself in this situation, the right move is to stop writing and talk to your supervisor before going further.\n\n\n\n\n\n\nTipThe anchor exercise\n\n\n\nBefore writing a single word of your introduction, complete this sentence:\n\nThis study tests the prediction of [theory] that [specific hypothesis], as operationalized by [dependent variable and manipulation].\n\nIf you can complete that sentence cleanly and specifically, you have your anchor. If you cannot — if the sentence feels vague, or if several theories seem equally plausible — you are not ready to write yet. Go back to your design and your data, and ask which theoretical account is most directly at stake.\nOnce you have your anchor, everything else follows. The three filters in the next section are all answered relative to it.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Finding your Anchor</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-filters.html",
+    "href": "chapters/03-framework-filters.html",
+    "title": "3  The Three Filters",
+    "section": "",
+    "text": "3.1 Filter 1: Does it make a different prediction from your anchor theory, for your specific study design?\nOnce you have your anchor theory, you will inevitably encounter other theories that feel relevant. Some of them are. Most of them are not — at least not for this paper.\nThe problem is that relevance is a spectrum, and “loosely related to the phenomenon I am studying” is not the same as “necessary for the argument I am making.” In a theory-rich field, almost any theory can be made to sound relevant with a sentence or two of framing. That is precisely the trap.\nThe three filters below force a more honest question: does this theory do any work in this paper? Not in the field generally. Not in a review article. In this paper, with this design, for this argument.\nApply the filters sequentially. If a theory fails the first filter, you do not need to apply the second. Each filter has a specific consequence — a theory is not simply “in” or “out”, but earns a level of treatment proportional to its actual role in your argument.\nThis is the most important question. Not whether the theory addresses the same phenomenon — it almost certainly does, or you would not be considering it. The question is whether it predicts something different from your anchor theory, given your specific manipulation and dependent variable.\nIf the answer is no — the theory deserves a brief mention or citation at most, not a paragraph.\nIf the answer is yes — proceed to Filter 2.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-writing.html",
+    "href": "chapters/04-writing.html",
+    "title": "4  Writing the Theoretical Framing",
+    "section": "",
+    "text": "4.1 One paragraph, one job\nYou have your anchor theory. You have run every other candidate through the three filters. You know what belongs in your paper and what does not. Now you have to write it.\nThis is where many students encounter a second problem. They understand the logic of what they want to say, but the prose comes out wrong — either too dense, too hedged, or structured in a way that buries the argument. This chapter is about how to turn a clear theoretical decision into clear theoretical prose.\nThe most common structural mistake in theoretical framing is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and then mentions your study without connecting it to the argument. The reader finishes it without knowing what to think.\nEvery paragraph in your theoretical framing should have exactly one job. That job should be statable in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.\nThe jobs available to a paragraph in a theoretical framing are limited:\nThat is roughly five paragraph jobs for an entire theoretical framing section. If you find yourself writing a sixth or seventh paragraph, something has gone wrong.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-writing.html#one-paragraph-one-job",
+    "href": "chapters/04-writing.html#one-paragraph-one-job",
+    "title": "4  Writing the Theoretical Framing",
+    "section": "",
+    "text": "Establish why the phenomenon matters\nIntroduce the anchor theory and its core claim\nState the specific prediction that follows from the anchor theory for your study\nAcknowledge competing theories and explain why your study does not adjudicate them\nState the gap your study fills",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-writing.html#the-funnel-structure",
+    "href": "chapters/04-writing.html#the-funnel-structure",
+    "title": "4  Writing the Theoretical Framing",
+    "section": "4.2 The funnel structure",
+    "text": "4.2 The funnel structure\nA well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. This is sometimes called the funnel structure, and it is standard for good reason: it orients the reader before it demands anything of them.\n\n\n\nThe funnel structure for theoretical framing\n\n\nThe funnel has three levels.\n\n4.2.1 The phenomenon\nOne or two sentences establishing what you are studying and why it matters. This is not a literature review — it is an orientation. The reader should finish these sentences knowing what the paper is about.\n\n\n4.2.2 The anchor theory\nA concise statement of the theoretical account that drives your hypotheses. What does the theory claim? What mechanism does it propose? What does it predict in general? Keep this tight — two to four sentences at most. You are not writing a review of the theory; you are establishing the lens through which your results will be interpreted.\n\n\n4.2.3 The specific prediction\nThe narrowest point of the funnel. Given your anchor theory, given your specific design, what do you predict and why? This sentence — or two at most — is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.\nThe next chapter addresses what to do with the theories that did not make it into the funnel.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing-landscape.html",
+    "href": "chapters/05-writing-landscape.html",
+    "title": "5  Navigating the Theoretical Landscape",
+    "section": "",
+    "text": "5.1 Where other theories go\nYou have your funnel. You know what your anchor theory is and what it predicts. But your paper does not exist in a vacuum — there are other theories in the field, and you need to handle them without letting them take over.\nTheories that passed Filter 1 but failed Filter 2 do not get their own paragraph — they get one sentence. Theories that failed Filter 3 are omitted entirely. Either way, the acknowledgement is brief, typically placed after you have stated your anchor theory:\nThis sentence does the necessary work — it signals awareness of the landscape without making the landscape your argument. Notice what it does not do: it does not explain why you excluded other theories, and it does not apologise for your focus. It simply states what your study is for.\nA well-framed argument makes its scope obvious without needing to justify it. If you feel the urge to write a defensive sentence explaining your exclusions, that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor, and the defensiveness disappears.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing-landscape.html#where-other-theories-go",
+    "href": "chapters/05-writing-landscape.html#where-other-theories-go",
+    "title": "5  Navigating the Theoretical Landscape",
+    "section": "",
+    "text": "Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing-landscape.html#the-one-sentence-test",
+    "href": "chapters/05-writing-landscape.html#the-one-sentence-test",
+    "title": "5  Navigating the Theoretical Landscape",
+    "section": "5.2 The one-sentence test",
+    "text": "5.2 The one-sentence test\nBefore submitting any draft, apply this test to your theoretical framing: read only the last sentence of each paragraph. Those sentences, read in sequence, should tell the complete story of your theoretical argument — from phenomenon to prediction.\nIf they do not — if the sequence feels incomplete, or if one of those sentences is doing housekeeping rather than advancing the argument — that paragraph needs to be revised or removed.\n\n\n\n\n\n\nTipBefore you write: the two-sentence check\n\n\n\nBefore drafting your theoretical framing, complete both sentences below. Write them down. Do not start writing your introduction until you can complete them clearly and specifically.\nSentence 1: Your anchor\nMy anchor theory is [theory], which predicts [specific hypothesis] in my study because [mechanism].\nThis sentence should be uncomfortable to write vaguely. If you find yourself writing “which predicts generally better performance” or “because of cognitive factors”, you have not yet found your anchor. A good anchor sentence names a specific mechanism and connects it to a specific outcome in your specific design.\nA weak anchor sentence:\n\nMy anchor theory is Event Segmentation Theory, which predicts better memory in my study because of event boundaries.\n\nA strong anchor sentence:\n\nMy anchor theory is Event Segmentation Theory, which predicts that memory for actions will be better at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model, making boundary-adjacent information more accessible.\n\nThe difference is specificity. The strong version could only describe one study. The weak version could describe almost any study in event cognition.\nSentence 2: Your landscape\nOther theories in the field that address [phenomenon] include [list]. They do not appear in this paper / appear only in one sentence because [reason for each].\nThis sentence forces you to be explicit about your exclusions before a reviewer forces you to be defensive about them. The reason for exclusion should always be one of three things: the theory makes no differential prediction for this design, it does not address this dependent variable mechanistically, or it would not change the interpretation of these results.\nA weak landscape sentence:\n\nOther theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. They do not appear in this paper because they are not the focus of this study.\n\nThat reason — “not the focus” — is circular. It says nothing. A reviewer reading this would rightly ask: why not?\nA strong landscape sentence:\n\nOther theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. Situation Model theory addresses comprehension of spatial and causal relations rather than the temporal boundaries that are my dependent variable, so it does not generate a differential prediction for my boundary detection task. Narrative Comprehension accounts operate at the level of story-level meaning rather than the subsecond perceptual processes I am measuring, so including it would not change the interpretation of my results.\n\nNotice that this version gives a specific reason for each theory — and each reason maps directly onto one of the three filters. You do not need to write this sentence in your paper. But you need to be able to write it before you write your paper. If a reviewer later asks why you did not discuss Situation Models, you have a precise, principled answer ready.\nIf you cannot give one of those three reasons for a theory’s exclusion, go back to the filters. The theory may belong in your paper after all.\nIf you cannot complete either sentence\nDo not start writing. Talk to colleagues and collaborators first. Present your arguments in a lab meeting. A theoretical framing that cannot be summarised in two sentences will not become clearer at 2000 words — it will become longer.\n\n\nOnce you can complete both sentences, you are ready to write.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-review.html",
+    "href": "chapters/06-review.html",
+    "title": "6  Surviving Peer Review",
+    "section": "",
+    "text": "6.1 Why reviewers ask for more theory\nYou have written a focused, well-argued paper. You have your anchor theory. You have applied the three filters. You have a clear funnel. Then the reviews come back, and Reviewer 2 wants you to discuss three more theories.\nThis chapter is about how to handle that — calmly, professionally, and without abandoning the argument you worked hard to build.\nIt helps to understand why this happens before deciding how to respond.\nReviewers are experts in the field. They have spent years working with specific theoretical frameworks, and they notice when those frameworks are not discussed. This is not always unreasonable — sometimes a theory genuinely is relevant and the author missed it. But sometimes the request reflects habit, territory, or a different view of what a paper should do rather than a genuine gap in the argument.\nThe key question is simply to run the theory through the three filters: does it make a different prediction for this design? Does it offer a mechanistic account of this dependent variable? Would including it change the interpretation of these results?\nIf the answer is no to all three, you have a principled basis for a polite but firm response. If the answer is yes to any of them, the reviewer may have identified something genuinely important — and you should take it seriously.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-review.html#the-two-types-of-reviewer-request",
+    "href": "chapters/06-review.html#the-two-types-of-reviewer-request",
+    "title": "6  Surviving Peer Review",
+    "section": "6.2 The two types of reviewer request",
+    "text": "6.2 The two types of reviewer request\nNot all requests for more theory are the same. It helps to distinguish them.\nThe legitimate request. The reviewer identifies a theory that makes a differential prediction for your design, addresses your specific dependent variable, or would genuinely change the interpretation of your results. This is a gift. Engage with it seriously, run it through the filters, and if it passes, include it properly — not as a defensive gesture, but as a genuine improvement to the argument.\nThe territorial request. The reviewer wants their preferred framework acknowledged, but the framework does not do any argumentative work in your paper. This is common. It does not mean the reviewer is acting in bad faith — it may simply reflect a different view of what thorough scholarship looks like. But agreeing to add a paragraph that does no argumentative work makes your paper worse.\nThe challenge is that you cannot always tell which type you are dealing with from the review alone. Start by assuming good faith and engaging seriously with the request before deciding how to respond.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-review.html#how-to-respond",
+    "href": "chapters/06-review.html#how-to-respond",
+    "title": "6  Surviving Peer Review",
+    "section": "6.3 How to respond",
+    "text": "6.3 How to respond\nWhen a reviewer asks for more theoretical coverage, your response should do three things: acknowledge the framework they have raised, explain its relationship to your study specifically, and state clearly what role it plays in your revised manuscript.\nA weak response:\n\nWe thank the reviewer for this suggestion. We have added a discussion of [Theory X] to the introduction.\n\nThis response adds words without adding argument. It is the written equivalent of the bloated manuscript you were trying to avoid.\nA strong response:\n\nWe thank the reviewer for raising [Theory X]. This framework offers an important account of [phenomenon] at the level of [description]. In our study, however, [Theory X] and our anchor theory [Theory Y] generate identical predictions for [specific manipulation and DV], so including a substantive discussion of [Theory X] would not help the reader distinguish between the two accounts on the basis of our data. We have added a sentence acknowledging [Theory X] and its relationship to our theoretical framing [cite location in manuscript].\n\nThis response is respectful, specific, and principled. It shows the reviewer that you have engaged seriously with their request and explains clearly why a one-sentence acknowledgement is the appropriate level of treatment.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-review.html#when-to-give-ground",
+    "href": "chapters/06-review.html#when-to-give-ground",
+    "title": "6  Surviving Peer Review",
+    "section": "6.4 When to give ground",
+    "text": "6.4 When to give ground\nSometimes the right answer is to give ground — not because the reviewer is right about the theory being essential, but because the cost of resistance is higher than the cost of inclusion. This is a judgment call, and it depends on the journal, the editor, and how central the paper is to your research programme.\nIf you do add a theory under pressure, add it properly. One weak paragraph that mentions a theory without engaging with it satisfies nobody and weakens the paper. If the theory is going in, apply the framework: what does it predict for your design? How does it relate to your results? What does including it add to the interpretation?\nA theory that earns its place even under pressure is better than a theory that was always there for the wrong reasons.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-review.html#a-note-on-tone",
+    "href": "chapters/06-review.html#a-note-on-tone",
+    "title": "6  Surviving Peer Review",
+    "section": "6.5 A note on tone",
+    "text": "6.5 A note on tone\nReviewer responses are read by editors as well as reviewers. A response that comes across as dismissive or impatient — even when you are right — can damage your chances with the editor. Firmness and respect are not opposites. The strong response above is firm precisely because it is specific and engaged, not because it is blunt.\nWhen in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.\nThe next chapter addresses the practical mechanics of the revision process — the cover letter, the response document, and track changes.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html",
+    "href": "chapters/07-example.html",
+    "title": "7  A Worked Example",
+    "section": "",
+    "text": "7.1 The study\nThis chapter walks through the complete process — from choosing an anchor theory to handling a reviewer request — using a fictional but realistic study in event cognition. The study is invented, but the problems it illustrates are real.\nImagine you have conducted the following study:\nThis is a clean, focused study. It has one manipulation, one dependent variable, and one theoretical prediction. It should produce a clean, focused theoretical framing. It often does not — and here is why.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#the-study",
+    "href": "chapters/07-example.html#the-study",
+    "title": "7  A Worked Example",
+    "section": "",
+    "text": "Participants watched short video clips of everyday activities — making coffee, unpacking groceries, setting a table. At unpredictable moments the video paused and participants rated their surprise on a 7-point scale. Pause points were either at event boundaries (moments of natural transition between sub-actions) or within events (mid-action). The dependent variable was surprise rating. The hypothesis was that surprise ratings would be lower at boundaries than within events, because boundary detection involves an updating of the current event model that reduces prediction error.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#the-first-attempt-what-goes-wrong",
+    "href": "chapters/07-example.html#the-first-attempt-what-goes-wrong",
+    "title": "7  A Worked Example",
+    "section": "7.2 The first attempt: what goes wrong",
+    "text": "7.2 The first attempt: what goes wrong\nHere is how a typical first draft of the theoretical framing might look:\n\nEvent cognition has been studied from multiple theoretical perspectives. Event Segmentation Theory (Zacks et al., 2007) proposes that people continuously segment the stream of activity into discrete events, with boundaries occurring at points of maximal change. Situation Models (Zwaan & Radvansky, 1998) describe the mental representations that readers and observers construct during narrative comprehension, including spatial, temporal, and causal dimensions. Narrative Comprehension accounts (Graesser et al., 1994) emphasise the role of goal structures and causal chains in organising event understanding. More recently, predictive processing frameworks (Clark, 2013) have proposed that perception involves continuous prediction and error-correction at multiple levels of abstraction. Each of these frameworks offers important insights into how people understand and remember everyday events.\nIn the present study, we examined surprise ratings at event boundaries and within events.\n\nThis paragraph mentions four theories in five sentences and commits to none of them. The reader finishes it knowing that event cognition is complicated and that something was measured. They do not know what the study is for.\nNotice also the final sentence — “we examined surprise ratings at event boundaries and within events” — which describes the method without stating the prediction. The theoretical framing has done no work.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#applying-the-framework",
+    "href": "chapters/07-example.html#applying-the-framework",
+    "title": "7  A Worked Example",
+    "section": "7.3 Applying the framework",
+    "text": "7.3 Applying the framework\nBefore rewriting, let’s apply the tools from the previous chapters.\nStep 1: The anchor exercise\n\nMy anchor theory is Event Segmentation Theory, which predicts that surprise ratings will be lower at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.\n\nThis sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.\nStep 2: Running the filters\nSituation Models: - Filter 1: Does it make a different prediction for surprise ratings at boundaries vs. within events? No — Situation Model theory does not generate specific predictions about surprise ratings as a function of boundary location. → Brief mention at most.\nNarrative Comprehension accounts: - Filter 1: Does it make a different prediction for this design? No — these accounts address goal and causal structures in narrative, not perceptual boundary detection in video. → Brief mention at most.\nPredictive processing: - Filter 1: Does it make a different prediction? Potentially yes — predictive processing also predicts reduced prediction error at boundaries. But does it predict something different from EST? In this design, no — both frameworks predict the same direction of effect. → One sentence acknowledging the connection.\nThe result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#the-revised-framing",
+    "href": "chapters/07-example.html#the-revised-framing",
+    "title": "7  A Worked Example",
+    "section": "7.4 The revised framing",
+    "text": "7.4 The revised framing\nHere is what the theoretical framing looks like after applying the framework:\n\nEveryday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).\nEST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.\nThe present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models and Narrative Comprehension frameworks — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.\n\nThree paragraphs. One job each. The first establishes the phenomenon and orients the reader. The second introduces the anchor theory and its mechanism. The third states the specific prediction and places the other frameworks in one sentence.\nCompare this to the first attempt. The revised version is shorter, clearer, and more confident. The reader knows exactly what the study is for before the method section begins.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#handling-the-reviewer",
+    "href": "chapters/07-example.html#handling-the-reviewer",
+    "title": "7  A Worked Example",
+    "section": "7.5 Handling the reviewer",
+    "text": "7.5 Handling the reviewer\nThe paper is submitted. A reviewer responds:\n\nThe authors fail to engage with predictive processing frameworks, which are highly relevant to the phenomena under investigation. A thorough discussion of Clark (2013) and related work is needed.\n\nHere is a weak response:\n\nWe thank the reviewer for this suggestion. We have added a discussion of predictive processing to the introduction.\n\nAnd here is a strong response:\n\nWe thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, we believe a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).\n\nThis response is specific, respectful, and principled. It uses the language of the three filters — differential predictions, adjudication — without naming them as such. The reviewer may still push back, but the response gives the editor a clear basis for accepting the authors’ judgment.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-example.html#what-this-example-shows",
+    "href": "chapters/07-example.html#what-this-example-shows",
+    "title": "7  A Worked Example",
+    "section": "7.6 What this example shows",
+    "text": "7.6 What this example shows\nThe difference between the first attempt and the revised version is not a difference in knowledge. The writer of the first attempt knew all four theories. The difference is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.\nThat decision is the hardest part. Everything else — the funnel, the filters, the reviewer response — follows from it.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html",
+    "href": "chapters/08-ai.html",
+    "title": "8  Writing with AI",
+    "section": "",
+    "text": "8.1 What AI does well\nAI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.\nUsed poorly, it makes exactly the problem this guide is about significantly worse.\nAI writing tools are genuinely useful for:\nNotice what all of these have in common: they work on text that already has a clear argument behind it. AI is good at making a clear argument sound better. It is not good at finding the argument in the first place.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#what-ai-does-well",
+    "href": "chapters/08-ai.html#what-ai-does-well",
+    "title": "8  Writing with AI",
+    "section": "",
+    "text": "Sentence-level editing — improving clarity, flow, and concision once the argument is already clear\nCutting — identifying redundant sentences and paragraphs that do not advance the argument\nFormatting and consistency — standardising terminology, checking reference formatting, fixing grammar\nOvercoming blank page paralysis — generating a rough first draft that you then revise heavily",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "href": "chapters/08-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "title": "8  Writing with AI",
+    "section": "8.2 What AI does badly: the sycophancy problem",
+    "text": "8.2 What AI does badly: the sycophancy problem\nAI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it is a structural feature of how these systems are trained. Adding content feels like helping. Cutting content feels like withholding.\nThis tendency has a name in the AI research literature: sycophancy. The model tells you what seems helpful and agreeable rather than what is actually true or useful. In the context of academic writing, sycophancy produces exactly the bloat this guide is designed to prevent.\nA concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are “highly relevant to event cognition research.” It has added a sentence noting that “predictive processing frameworks offer a complementary perspective.” The writing is fluent. The argument is weaker.\nThe problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from Chapter 7, generated in thirty seconds.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#the-three-failure-modes",
+    "href": "chapters/08-ai.html#the-three-failure-modes",
+    "title": "8  Writing with AI",
+    "section": "8.3 The three failure modes",
+    "text": "8.3 The three failure modes\nSycophantic expansion. As described above — AI adds theories, qualifications, and hedges that dilute the argument. This is the most common failure mode and the hardest to detect because the output looks polished.\nConfident vagueness. AI connects theories to your argument with fluent but imprecise language. Phrases like “this aligns with”, “is consistent with”, and “offers a complementary perspective on” sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the filter test.\nPremature polish. AI produces text that looks finished before the argument is sound. This kills the impulse to revise. If a paragraph reads well, it feels wrong to delete it — even if it is doing no argumentative work. The polish is a trap.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#how-to-use-ai-well",
+    "href": "chapters/08-ai.html#how-to-use-ai-well",
+    "title": "8  Writing with AI",
+    "section": "8.4 How to use AI well",
+    "text": "8.4 How to use AI well\nThe single most important rule: complete your anchor sentence before opening an AI tool.\nIf you have not written — by hand, without AI assistance — the sentence My anchor theory is [theory], which predicts [specific outcome] in my study because [mechanism], you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.\nWith it, you can use AI productively. Specific prompts that work:\nFor drafting: &gt; I am writing the theoretical framing for a study that tests the &gt; following prediction: [paste anchor sentence]. Write a three-paragraph &gt; introduction that moves from the phenomenon to the anchor theory to &gt; this specific prediction. Do not introduce any theoretical frameworks &gt; other than [anchor theory].\nFor cutting: &gt; Here is my theoretical framing: [paste text]. My anchor sentence is: &gt; [paste anchor sentence]. Identify every sentence that does not directly &gt; serve this argument and suggest removing it.\nFor reviewer responses: &gt; A reviewer has asked me to add a discussion of [Theory X]. My anchor &gt; theory is [Theory Y]. In my design, both theories predict [same outcome]. &gt; Write a polite reviewer response explaining why a one-sentence &gt; acknowledgement is the appropriate level of treatment.\nNotice the pattern: in every case, you give the AI your anchor sentence as a constraint. The anchor is the filter. Without it, the AI optimises for something else — usually comprehensiveness, which is the opposite of what you need.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#a-note-on-honesty",
+    "href": "chapters/08-ai.html#a-note-on-honesty",
+    "title": "8  Writing with AI",
+    "section": "8.5 A note on honesty",
+    "text": "8.5 A note on honesty\nUsing AI to assist with writing is not dishonest, provided you follow your institution’s guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.\nIf you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.\nAI can help you write what you think. It cannot think for you. The anchor exercise, the filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-ai.html#the-sharp-tool",
+    "href": "chapters/08-ai.html#the-sharp-tool",
+    "title": "8  Writing with AI",
+    "section": "8.6 The sharp tool",
+    "text": "8.6 The sharp tool\nA sharp tool cuts well in the right hands and badly in the wrong ones. The same AI prompt produces a focused, well-argued theoretical framing when the writer has a clear anchor — and a bloated, theory-laden paragraph when they do not.\nThe guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. Everything else follows from holding it.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html",
+    "href": "chapters/02-ai.html",
+    "title": "2  Writing with AI",
+    "section": "",
+    "text": "2.1 What AI does well\nAI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.\nUsed poorly, it makes exactly the problem this guide is about significantly worse.\nAI writing tools are genuinely useful for:\nNotice what all of these have in common: they work on text that already has a clear argument behind it. AI is good at making a clear argument sound better. It is not good at finding the argument in the first place.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#what-ai-does-well",
+    "href": "chapters/02-ai.html#what-ai-does-well",
+    "title": "2  Writing with AI",
+    "section": "",
+    "text": "Sentence-level editing — improving clarity, flow, and concision once the argument is already clear\nCutting — identifying redundant sentences and paragraphs that do not advance the argument\nFormatting and consistency — standardising terminology, checking reference formatting, fixing grammar\nOvercoming blank page paralysis — generating a rough first draft that you then revise heavily",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "href": "chapters/02-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "title": "2  Writing with AI",
+    "section": "2.2 What AI does badly: the sycophancy problem",
+    "text": "2.2 What AI does badly: the sycophancy problem\nAI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it is a structural feature of how these systems are trained. Adding content feels like helping. Cutting content feels like withholding.\nThis tendency has a name in the AI research literature: sycophancy. The model tells you what seems helpful and agreeable rather than what is actually true or useful. In the context of academic writing, sycophancy produces exactly the bloat this guide is designed to prevent.\nA concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are “highly relevant to event cognition research.” It has added a sentence noting that “predictive processing frameworks offer a complementary perspective.” The writing is fluent. The argument is weaker.\nThe problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from Chapter 9, generated in thirty seconds.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#the-three-failure-modes",
+    "href": "chapters/02-ai.html#the-three-failure-modes",
+    "title": "2  Writing with AI",
+    "section": "2.3 The three failure modes",
+    "text": "2.3 The three failure modes\nSycophantic expansion. As described above — AI adds theories, qualifications, and hedges that dilute the argument. This is the most common failure mode and the hardest to detect because the output looks polished.\nConfident vagueness. AI connects theories to your argument with fluent but imprecise language. Phrases like “this aligns with”, “is consistent with”, and “offers a complementary perspective on” sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the filter test — the three questions introduced in Chapter 4 for deciding whether a theory belongs in your paper.\nPremature polish. AI produces text that looks finished before the argument is sound. This kills the impulse to revise. If a paragraph reads well, it feels wrong to delete it — even if it is doing no argumentative work. The polish is a trap.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#how-to-use-ai-well",
+    "href": "chapters/02-ai.html#how-to-use-ai-well",
+    "title": "2  Writing with AI",
+    "section": "2.4 How to use AI well",
+    "text": "2.4 How to use AI well\nThe single most important rule: complete your anchor sentence before opening an AI tool.\nIf you have not written — by hand, without AI assistance — the sentence My anchor theory is [theory], which predicts [specific outcome] in my study because [mechanism], you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.\nWith it, you can use AI productively. Specific prompts that work:\nFor drafting:\n\nI am writing the theoretical framing for a study that tests the following prediction: [paste anchor sentence]. Write a three-paragraph introduction that moves from the phenomenon to the anchor theory to this specific prediction. Do not introduce any theoretical frameworks other than [anchor theory].\n\nFor cutting:\n\nHere is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly serve this argument and suggest removing it.\n\nFor reviewer responses:\n\nA reviewer has asked me to add a discussion of [Theory X]. My anchor theory is [Theory Y]. In my design, both theories predict [same outcome. Write a polite reviewer response explaining why a one-sentence acknowledgement is the appropriate level of treatment.\n\nNotice the pattern: in every case, you give the AI your anchor sentence as a constraint. The anchor is the filter. Without it, the AI optimises for something else — usually comprehensiveness, which is the opposite of what you need.\nThe single most important rule: complete your anchor sentence before opening an AI tool. (The anchor exercise is explained fully in Chapter 3 — but the principle is simple: know what your paper is arguing before you ask AI to help you write it.)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#a-note-on-honesty",
+    "href": "chapters/02-ai.html#a-note-on-honesty",
+    "title": "2  Writing with AI",
+    "section": "2.5 A note on honesty",
+    "text": "2.5 A note on honesty\nUsing AI to assist with writing is not dishonest, provided you follow your institution’s guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.\nIf you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.\nAI can help you write what you think. It cannot think for you. The anchor exercise, the filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-ai.html#the-sharp-tool",
+    "href": "chapters/02-ai.html#the-sharp-tool",
+    "title": "2  Writing with AI",
+    "section": "2.6 The sharp tool",
+    "text": "2.6 The sharp tool\nA sharp tool cuts well in the right hands and badly in the wrong ones. The same AI prompt produces a focused, well-argued theoretical framing when the writer has a clear anchor — and a bloated, theory-laden paragraph when they do not.\nThe guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. Everything else follows from holding it.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-anchor.html",
+    "href": "chapters/03-framework-anchor.html",
+    "title": "3  Finding the Anchor",
+    "section": "",
+    "text": "NoteIn a nutshell\n\n\n\n\nBefore deciding which theories belong in your paper, you need to answer a more fundamental question\nMost writing problems at the theoretical level are actually thinking problems in disguise\nThis chapter gives you a diagnostic exercise to find out\n\n\n\nBefore you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is actually driving your study?\nWe call this your anchor theory. It is the theoretical account that is load-bearing for your hypotheses — the one you would have to abandon if your results came out differently. Every other theory in your manuscript will be judged relative to it.\nFinding your anchor is harder than it sounds. Many studies grow organically from a lab tradition, a paradigm, or an interesting effect rather than from a single theoretical commitment. In those cases, the anchor is often implicit — everyone in the lab knows which theory motivates the work, but nobody has written it down explicitly. Writing it down is the first act of writing the paper.\nA good anchor theory has three properties. First, you can derive your specific hypothesis directly from it — not loosely inspired by it, but derived from it. Second, it makes a concrete prediction about your specific manipulation and dependent variable, not just about the broader phenomenon. Third, if your results contradict it, something scientifically important has been learned.\nIf your theory would predict the same result regardless of what you found, it is not your anchor — it is background.\nThere is also a harder truth here. Sometimes a student cannot name the anchor theory because the study was not designed around one. In that case, the writing problem is actually a design problem in disguise. No amount of good writing will fix a study that was never theoretically grounded. If you find yourself in this situation, the right move is to stop writing and talk to your supervisor before going further.\n\n\n\n\n\n\nTipThe anchor exercise\n\n\n\nBefore writing a single word of your introduction, complete this sentence:\n\nThis study tests the prediction of [theory] that [specific hypothesis], as operationalized by [dependent variable and manipulation].\n\nIf you can complete that sentence cleanly and specifically, you have your anchor. If you cannot — if the sentence feels vague, or if several theories seem equally plausible — you are not ready to write yet. Go back to your design and your data, and ask which theoretical account is most directly at stake.\nOnce you have your anchor, everything else follows. The three filters in the next section are all answered relative to it.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Finding the Anchor</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-framework-filters.html",
+    "href": "chapters/04-framework-filters.html",
+    "title": "4  The Three Filters",
+    "section": "",
+    "text": "NoteIn a nutshell\n\n\n\n\nNot every relevant theory belongs in your paper\nRelevance to a field is not the same as necessity for an argument\nThis chapter gives you a principled way to decide what stays and what goes\n\n\n\nOnce you have your anchor theory, you will inevitably encounter other theories that feel relevant. Some of them are. Most of them are not — at least not for this paper.\nThe problem is that relevance is a spectrum, and “loosely related to the phenomenon I am studying” is not the same as “necessary for the argument I am making.” In a theory-rich field, almost any theory can be made to sound relevant with a sentence or two of framing. That is precisely the trap.\nThe three filters below force a more honest question: does this theory do any work in this paper? Not in the field generally. Not in a review article. In this paper, with this design, for this argument.\nApply the filters sequentially. If a theory fails the first filter, you do not need to apply the second. Each filter has a specific consequence — a theory is not simply “in” or “out”, but earns a level of treatment proportional to its actual role in your argument.\nFilter 1: Does it make a different prediction for your specific study design?\nThis is the most important question. Not whether the theory addresses the same phenomenon — it almost certainly does, or you would not be considering it. The question is whether it predicts something different from your anchor theory, given your specific manipulation and dependent variable.\nIf the answer is no — if both theories predict the same pattern of results in your study — then the theory is not doing scientific work here. It may deserve a citation, but not a paragraph.\nFilter 2: Does it explain your specific dependent variable mechanistically?\nMany theories address a phenomenon at a level of description that does not connect to your specific measure. A theory of event cognition might address memory for events in general without saying anything specific about, say, boundary detection latencies or surprise ratings. If the theory does not reach down to your DV, it cannot be tested by your study — and a theory that cannot be tested by your study does not belong in your results section.\nIf the answer is no, the theory gets one sentence acknowledging its existence and a citation. Nothing more.\nFilter 3: Would ignoring it change your interpretation of results?\nThis is the final gate. Even if a theory makes different predictions and addresses your DV, you need to ask: if I simply did not mention this theory, would a reader interpret my results differently? Would an important alternative explanation go unaddressed?\nIf the answer is no — if your interpretation stands just as well without it — the theory is doing decorative work, not argumentative work. Omit it.\nIf the answer is yes, include it fully. Give it a dedicated paragraph. Engage with it seriously. It has earned its place.\nThe following flowchart summarises the three filters as a decision procedure.\n\n\n\nThe three-filter decision tree for theory inclusion",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing.html",
+    "href": "chapters/05-writing.html",
+    "title": "5  Writing the Theoretical Framing",
+    "section": "",
+    "text": "5.1 One paragraph, one job\nYou have your anchor theory. You have run every other candidate through the three filters. You know what belongs in your paper and what does not. Now you have to write it.\nThis is where many students encounter a second problem. They understand the logic of what they want to say, but the prose comes out wrong — either too dense, too hedged, or structured in a way that buries the argument. This chapter is about how to turn a clear theoretical decision into clear theoretical prose.\nThe most common structural mistake in theoretical framing is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and then gestures at your study. The reader finishes it without knowing what to think.\nEvery paragraph in your theoretical framing should have exactly one job. That job should be statable in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.\nThe jobs available to a paragraph in a theoretical framing are limited:\nThat is roughly five paragraph jobs for an entire theoretical framing section. If you find yourself writing a sixth or seventh paragraph, something has gone wrong.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing.html#one-paragraph-one-job",
+    "href": "chapters/05-writing.html#one-paragraph-one-job",
+    "title": "5  Writing the Theoretical Framing",
+    "section": "",
+    "text": "Establish why the phenomenon matters\nIntroduce the anchor theory and its core claim\nState the specific prediction that follows from the anchor theory for your study\nAcknowledge competing theories and explain why your study does not adjudicate them\nState the gap your study fills",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-writing.html#the-funnel-structure",
+    "href": "chapters/05-writing.html#the-funnel-structure",
+    "title": "5  Writing the Theoretical Framing",
+    "section": "5.2 The funnel structure",
+    "text": "5.2 The funnel structure\nA well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. This is sometimes called the funnel structure, and it is standard for good reason: it orients the reader before it demands anything of them.\n\n\n\nThe funnel structure for theoretical framing\n\n\nThe funnel has three levels.\nThe phenomenon. One or two sentences establishing what you are studying and why it matters. This is not a literature review — it is an orientation. The reader should finish these sentences knowing what the paper is about.\nThe anchor theory. A concise statement of the theoretical account that drives your hypotheses. What does the theory claim? What mechanism does it propose? What does it predict in general? Keep this tight — two to four sentences at most. You are not writing a review of the theory; you are establishing the lens through which your results will be interpreted.\nThe specific prediction. The narrowest point of the funnel. Given your anchor theory, given your specific design, what do you predict and why? This sentence — or two at most — is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-writing-landscape.html",
+    "href": "chapters/06-writing-landscape.html",
+    "title": "6  Navigating the Theoretical Landscape",
+    "section": "",
+    "text": "6.1 Where other theories go\nYou have your funnel. You know what your anchor theory is and what it predicts. But your paper does not exist in a vacuum — there are other theories in the field, and you need to handle them without letting them take over.\nTheories that passed Filter 1 but failed Filter 2 or 3 do not get their own paragraph. They get acknowledged in a single sentence, typically after you have stated your anchor theory:\nThis sentence does the necessary work — it signals awareness of the landscape without making the landscape your argument. Notice what it does not do: it does not explain why you excluded other theories, and it does not apologise for your focus. It simply states what your study is for.\nA well-framed argument makes its scope obvious without needing to justify it. If you feel the urge to write a defensive sentence explaining your exclusions, that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor, and the defensiveness disappears.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-writing-landscape.html#where-other-theories-go",
+    "href": "chapters/06-writing-landscape.html#where-other-theories-go",
+    "title": "6  Navigating the Theoretical Landscape",
+    "section": "",
+    "text": "Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-writing-landscape.html#the-one-sentence-test",
+    "href": "chapters/06-writing-landscape.html#the-one-sentence-test",
+    "title": "6  Navigating the Theoretical Landscape",
+    "section": "6.2 The one-sentence test",
+    "text": "6.2 The one-sentence test\nBefore submitting any draft, apply this test to your theoretical framing: read only the last sentence of each paragraph. Those sentences, read in sequence, should tell the complete story of your theoretical argument — from phenomenon to prediction.\nIf they do not — if the sequence feels incomplete, or if one of those sentences is doing housekeeping rather than advancing the argument — that paragraph needs to be revised or removed.\n\n\n\n\n\n\nTipBefore you write: the two-sentence check\n\n\n\nBefore drafting your theoretical framing, complete both sentences below. Write them down. Do not start writing your introduction until you can complete them clearly and specifically.\nSentence 1: Your anchor\nMy anchor theory is [theory], which predicts [specific outcome] in my study because [mechanism].\nThis sentence should be uncomfortable to write vaguely. If you find yourself writing “which predicts generally better performance” or “because of cognitive factors”, you have not yet found your anchor. A good anchor sentence names a specific mechanism and connects it to a specific outcome in your specific design.\nA weak anchor sentence:\n\nMy anchor theory is Event Segmentation Theory, which predicts better memory in my study because of event boundaries.\n\nA strong anchor sentence:\n\nMy anchor theory is Event Segmentation Theory, which predicts that memory for actions will be better at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model, making boundary-adjacent information more accessible.\n\nThe difference is specificity. The strong version could only describe one study. The weak version could describe almost any study in event cognition.\nSentence 2: Your landscape\nOther theories in the field that address [phenomenon] include [list]. They do not appear in this paper / appear only in one sentence because [reason for each].\nThis sentence forces you to be explicit about your exclusions before a reviewer forces you to be defensive about them. The reason for exclusion should always be one of three things: the theory makes no differential prediction for this design, it does not address this dependent variable mechanistically, or it would not change the interpretation of these results.\nA weak landscape sentence:\n\nOther theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. They do not appear in this paper because they are not the focus of this study.\n\nThat reason — “not the focus” — is circular. It says nothing. A reviewer reading this would rightly ask: why not?\nA strong landscape sentence:\n\nOther theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. Situation Model theory addresses comprehension of spatial and causal relations rather than the temporal boundaries that are my dependent variable, so it does not generate a differential prediction for my boundary detection task. Narrative Comprehension accounts operate at the level of story-level meaning rather than the subsecond perceptual processes I am measuring, so including it would not change the interpretation of my results.\n\nNotice that this version gives a specific reason for each theory — and each reason maps directly onto one of the three filters. You do not need to write this sentence in your paper. But you need to be able to write it before you write your paper. If a reviewer later asks why you did not discuss Situation Models, you have a precise, principled answer ready.\nIf you cannot give one of those three reasons for a theory’s exclusion, go back to the filters. The theory may belong in your paper after all.\nIf you cannot complete either sentence\nDo not start writing. Talk to colleagues and collaborators first. Present your arguments in a lab meeting. A theoretical framing that cannot be summarised in two sentences will not become clearer at 2000 words — it will become longer.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Navigating the Theoretical Landscape</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-review.html",
+    "href": "chapters/07-review.html",
+    "title": "7  Surviving Peer Review",
+    "section": "",
+    "text": "7.1 Why reviewers ask for more theory\nYou have written a focused, well-argued paper. You have your anchor theory. You have applied the three filters. You have a clear funnel. Then the reviews come back, and Reviewer 2 wants you to discuss three more theories.\nThis chapter is about how to handle that — calmly, professionally, and without abandoning the argument you worked hard to build.\nIt helps to understand why this happens before deciding how to respond.\nReviewers are experts in the field. They have spent years working with specific theoretical frameworks, and they notice when those frameworks are not discussed. This is not always unreasonable — sometimes a theory genuinely is relevant and the author missed it. But sometimes the request reflects habit, territory, or a different view of what a paper should do rather than a genuine gap in the argument.\nThe key question is simply to run the theory through the three filters: does it make a different prediction for this design? Does it offer a mechanistic account of this dependent variable? Would including it change the interpretation of these results?\nIf the answer is no to all three, you have a principled basis for a polite but firm response. If the answer is yes to any of them, the reviewer may have identified something genuinely important — and you should take it seriously.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-review.html#the-two-types-of-reviewer-request",
+    "href": "chapters/07-review.html#the-two-types-of-reviewer-request",
+    "title": "7  Surviving Peer Review",
+    "section": "7.2 The two types of reviewer request",
+    "text": "7.2 The two types of reviewer request\nNot all requests for more theory are the same. It helps to distinguish them.\nThe legitimate request. The reviewer identifies a theory that makes a differential prediction for your design, addresses your specific dependent variable, or would genuinely change the interpretation of your results. This is a gift. Engage with it seriously, run it through the filters, and if it passes, include it properly — not as a defensive gesture, but as a genuine improvement to the argument.\nThe territorial request. The reviewer wants their preferred framework acknowledged, but the framework does not do any argumentative work in your paper. This is common. It does not mean the reviewer is acting in bad faith — it may simply reflect a different view of what thorough scholarship looks like. But agreeing to add a paragraph that does no argumentative work makes your paper worse.\nThe challenge is that you cannot always tell which type you are dealing with from the review alone. Start by assuming good faith and engaging seriously with the request before deciding how to respond.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-review.html#how-to-respond",
+    "href": "chapters/07-review.html#how-to-respond",
+    "title": "7  Surviving Peer Review",
+    "section": "7.3 How to respond",
+    "text": "7.3 How to respond\nWhen a reviewer asks for more theoretical coverage, your response should do three things: acknowledge the framework they have raised, explain its relationship to your study specifically, and state clearly what role it plays in your revised manuscript.\nA weak response:\n\nWe thank the reviewer for this suggestion. We have added a discussion of [Theory X] to the introduction.\n\nThis response adds words without adding argument. It is the written equivalent of the bloated manuscript you were trying to avoid.\nA strong response:\n\nWe thank the reviewer for raising [Theory X]. This framework offers an important account of [phenomenon] at the level of [description]. In our study, however, [Theory X] and our anchor theory [Theory Y] generate identical predictions for [specific manipulation and DV], so including a substantive discussion of [Theory X] would not help the reader distinguish between the two accounts on the basis of our data. We have added a sentence acknowledging [Theory X] and its relationship to our theoretical framing [cite location in manuscript].\n\nThis response is respectful, specific, and principled. It shows the reviewer that you have engaged seriously with their request and explains clearly why a one-sentence acknowledgement is the appropriate level of treatment.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-review.html#when-to-give-ground",
+    "href": "chapters/07-review.html#when-to-give-ground",
+    "title": "7  Surviving Peer Review",
+    "section": "7.4 When to give ground",
+    "text": "7.4 When to give ground\nSometimes the right answer is to give ground — not because the reviewer is right about the theory being essential, but because the cost of resistance is higher than the cost of inclusion. This is a judgment call, and it depends on the journal, the editor, and how central the paper is to your research programme.\nIf you do add a theory under pressure, add it properly. One weak paragraph that mentions a theory without engaging with it satisfies nobody and weakens the paper. If the theory is going in, apply the framework: what does it predict for your design? How does it relate to your results? What does including it add to the interpretation?\nA theory that earns its place even under pressure is better than a theory that was always there for the wrong reasons.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-review.html#a-note-on-tone",
+    "href": "chapters/07-review.html#a-note-on-tone",
+    "title": "7  Surviving Peer Review",
+    "section": "7.5 A note on tone",
+    "text": "7.5 A note on tone\nReviewer responses are read by editors as well as reviewers. A response that comes across as dismissive or impatient — even when you are right — can damage your chances with the editor. Firmness and respect are not opposites. The strong response above is firm precisely because it is specific and engaged, not because it is blunt.\nWhen in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.\nThe next chapter addresses the practical mechanics of the revision process — the cover letter, the response document, and track changes.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Surviving Peer Review</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html",
+    "href": "chapters/09-example.html",
+    "title": "9  A Worked Example",
+    "section": "",
+    "text": "9.1 The study\nThis chapter walks through the complete process — from choosing an anchor theory to handling a reviewer request and writing a cover letter — using a fictional but realistic study in event cognition. The study is invented, but the problems it illustrates are real.\nImagine you have conducted the following study:\nThis is a clean, focused study. It has one manipulation, one dependent variable, and one theoretical prediction. It should produce a clean, focused theoretical framing. It often does not — and here is why.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-study",
+    "href": "chapters/09-example.html#the-study",
+    "title": "9  A Worked Example",
+    "section": "",
+    "text": "Participants watched short video clips of everyday activities — making coffee, unpacking groceries, setting a table. At unpredictable moments the video paused and participants rated their surprise on a 7-point scale. Pause points were either at event boundaries (moments of natural transition between sub-actions) or within events (mid-action). The dependent variable was surprise rating. The hypothesis was that surprise ratings would be lower at boundaries than within events, because boundary detection involves an updating of the current event model that reduces prediction error.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-first-attempt-what-goes-wrong",
+    "href": "chapters/09-example.html#the-first-attempt-what-goes-wrong",
+    "title": "9  A Worked Example",
+    "section": "9.2 The first attempt: what goes wrong",
+    "text": "9.2 The first attempt: what goes wrong\nHere is how a typical first draft of the theoretical framing might look:\n\nEvent cognition has been studied from multiple theoretical perspectives. Event Segmentation Theory (Zacks et al., 2007) proposes that people continuously segment the stream of activity into discrete events, with boundaries occurring at points of maximal change. Situation Models (Zwaan & Radvansky, 1998) describe the mental representations that readers and observers construct during narrative comprehension, including spatial, temporal, and causal dimensions. Narrative Comprehension accounts (Graesser et al., 1994) emphasise the role of goal structures and causal chains in organising event understanding. More recently, predictive processing frameworks (Clark, 2013) have proposed that perception involves continuous prediction and error-correction at multiple levels of abstraction. Each of these frameworks offers important insights into how people understand and remember everyday events.\nIn the present study, we examined surprise ratings at event boundaries and within events.\n\nThis paragraph mentions four theories in five sentences and commits to none of them. The reader finishes it knowing that event cognition is complicated and that something was measured. They do not know what the study is for.\nNotice also the final sentence — “we examined surprise ratings at event boundaries and within events” — which describes the method without stating the prediction. The theoretical framing has done no work.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#applying-the-framework",
+    "href": "chapters/09-example.html#applying-the-framework",
+    "title": "9  A Worked Example",
+    "section": "9.3 Applying the framework",
+    "text": "9.3 Applying the framework\nBefore rewriting, let’s apply the tools from the previous chapters.\nStep 1: The anchor exercise\n\nMy anchor theory is Event Segmentation Theory, which predicts that surprise ratings will be lower at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.\n\nThis sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.\nStep 2: Running the filters\nSituation Models:\n\nFilter 1: Does it make a different prediction from EST for this design? No — both frameworks predict lower surprise at boundaries due to reduced prediction error. They differ in mechanism but not in direction. → Brief mention at most.\n\nNarrative Comprehension accounts:\n\nFilter 1: Does it make a different prediction for this design? No — these accounts address goal and causal structures in narrative, not perceptual boundary detection in video. → Brief mention at most.\n\nPredictive processing:\n\nFilter 1: Does it make a different prediction? Potentially yes — predictive processing also predicts reduced prediction error at boundaries. But does it predict something different from EST? In this design, no — both frameworks predict the same direction of effect. → One sentence acknowledging the connection.\n\nThe result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-revised-framing",
+    "href": "chapters/09-example.html#the-revised-framing",
+    "title": "9  A Worked Example",
+    "section": "9.4 The revised framing",
+    "text": "9.4 The revised framing\nHere is what the theoretical framing looks like after applying the framework:\n\nEveryday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).\nEST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.\nThe present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models and Narrative Comprehension frameworks — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.\n\nThree paragraphs. One job each. The first establishes the phenomenon and orients the reader. The second introduces the anchor theory and its mechanism. The third states the specific prediction and places the other frameworks in one sentence.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#handling-the-reviewer",
+    "href": "chapters/09-example.html#handling-the-reviewer",
+    "title": "9  A Worked Example",
+    "section": "9.5 Handling the reviewer",
+    "text": "9.5 Handling the reviewer\nThe paper is submitted. A reviewer responds:\n\nThe authors fail to engage with predictive processing frameworks, which are highly relevant to the phenomena under investigation. A thorough discussion of Clark (2013) and related work is needed.\n\nHere is a weak response:\n\nWe thank the reviewer for this suggestion. We have added a discussion of predictive processing to the introduction.\n\nAnd here is a strong response:\n\nWe thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, we believe a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).\n\nThis response is specific, respectful, and principled. It uses the language of the three filters — differential predictions, adjudication — without naming them as such. The reviewer may still push back, but the response gives the editor a clear basis for accepting the authors’ judgment.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#what-this-example-shows",
+    "href": "chapters/09-example.html#what-this-example-shows",
+    "title": "9  A Worked Example",
+    "section": "9.8 What this example shows",
+    "text": "9.8 What this example shows\nThe difference between the first attempt and the revised version is not a difference in knowledge. The writer of the first attempt knew all four theories. The difference is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.\nThe reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. Everything depends on the anchor.\nThat decision is the hardest part. Everything else — the funnel, the filters, the response document, the cover letter — follows from it.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html",
+    "href": "chapters/08-revision.html",
+    "title": "8  The Revision Process",
+    "section": "",
+    "text": "8.1 Before you write anything: the revision strategy\nGetting reviews back is one of the most disorienting experiences in academic life. Even positive reviews require substantial work, and negative ones can feel like a personal attack on months or years of effort. This chapter is about the practical mechanics of turning a reviewed manuscript into an accepted one.\nThe worst thing you can do when reviews arrive is open your manuscript and start making changes immediately. Before you touch a single word, you need a strategy.\nWait at least 24 hours. Reviews received on a bad day look different read on a good one. Decisions made in the first hour after a rejection are rarely the right ones.\nThen read all the reviews once without taking notes. Read them again and sort every comment into three categories.\nMust do. Changes that are clearly correct, clearly improve the paper, or are required by the editor. Do these without argument.\nNegotiate. Changes you disagree with but where the reviewer has a legitimate concern. These require a response that engages seriously with the concern while explaining your position.\nResist. Changes that would genuinely weaken the paper — including, as discussed in Chapter 6, requests to add theoretical coverage that does no argumentative work. These require a polite, principled, specific response.\nDo this sorting before you draft anything. It gives you a clear picture of the work ahead and prevents the common mistake of making unnecessary concessions out of anxiety.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html#the-cover-letter",
+    "href": "chapters/08-revision.html#the-cover-letter",
+    "title": "8  The Revision Process",
+    "section": "8.2 The cover letter",
+    "text": "8.2 The cover letter\nThe cover letter is read by the editor, not the reviewers. Its job is to signal that you have taken the reviews seriously and done the work — and to flag anything the editor needs to know before reading the response document.\nA good cover letter does four things.\nStates what the paper is. One sentence — the anchor sentence from your theoretical framing, adapted for a non-specialist editor. This is not the time for nuance; it is the time for clarity.\nAcknowledges the reviewers’ main concerns. Two or three sentences summarising what the reviewers asked for. This shows the editor you read the reviews carefully and understood them.\nStates what you did. A brief summary of the major changes — not a list of every edit, but the substantive responses to the substantive concerns.\nNotes any points of disagreement. If you have not complied with a reviewer request, say so here — briefly and professionally. Editors dislike surprises. A cover letter that flags a polite disagreement is far better than a response document the editor has to read to discover you ignored a reviewer.\nA cover letter template:\n\nDear [Editor],\nWe are pleased to resubmit our manuscript “[Title]” for consideration in [Journal]. The paper [one-sentence statement of contribution].\nWe thank the reviewers for their careful reading. The reviews raised three main concerns: [brief summary]. We have addressed each of these in the revised manuscript.\nThe major changes are as follows: [two to four sentences summarising substantive changes]. We have also made numerous smaller revisions throughout to improve clarity.\nWe were unable to fully comply with one reviewer request: [brief statement]. Our reasons are explained in detail in the response document.\nSincerely, [Authors]\n\nKeep it to one page. Editors are busy. A cover letter that requires scrolling is already too long.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html#the-response-document",
+    "href": "chapters/08-revision.html#the-response-document",
+    "title": "8  The Revision Process",
+    "section": "8.3 The response document",
+    "text": "8.3 The response document\nThe response document is a formal record of every reviewer comment and your response to it. Done well, it makes the editor’s job easy. Done badly, it creates more work for everyone.\nStructure. Organise by reviewer, then by comment. Number every comment and every response:\n\nReviewer 1, Comment 3:\n\nThe authors should discuss Event Segmentation Theory in relation to predictive processing frameworks.\n\nResponse:\nWe thank the reviewer for this suggestion. [Your response here.] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.\n\nFour rules for a strong response document:\nAlways quote the reviewer. Never paraphrase. Quoting shows you read the comment carefully and prevents misunderstandings.\nAlways give a page and line reference for every change you made. This allows the editor and reviewers to find your revisions without reading the entire manuscript.\nBe specific about what you changed. “We have revised this section” is not a response. “We have added two sentences on p. 4 clarifying the relationship between our manipulation and the boundary detection measure” is a response.\nFor points you are not complying with, explain why clearly and specifically. Then offer something: an acknowledgement, a clarification, a sentence added. A pure refusal with no gesture towards the reviewer’s concern rarely lands well.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html#track-changes",
+    "href": "chapters/08-revision.html#track-changes",
+    "title": "8  The Revision Process",
+    "section": "8.4 Track changes",
+    "text": "8.4 Track changes\nWhen submitting a revision, most journals ask for a version showing what was altered. A few rules:\nUse track changes from the start of your revision, not as an afterthought. If you revise directly and then try to reconstruct changes later, you will miss things.\nAccept all changes before making new ones in sections you are not revising. A manuscript where every sentence is marked as changed is impossible to review. Only actual revisions should be tracked.\nBe selective. Minor copyediting and formatting changes do not need to be visible — they create noise that obscures the substantive revisions. Track the things that matter: added paragraphs, deleted sections, changed conclusions, new analyses.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html#rejection-and-resubmission",
+    "href": "chapters/08-revision.html#rejection-and-resubmission",
+    "title": "8  The Revision Process",
+    "section": "8.5 Rejection and resubmission",
+    "text": "8.5 Rejection and resubmission\nRejection is not the end of the paper — it is information.\nDesk rejection usually means one of three things: the paper is outside the journal’s scope, the contribution is not seen as significant enough for that venue, or the writing did not communicate the contribution clearly enough. The first is a targeting problem. The second and third are fixable.\nRejection after review is more useful. The reviews tell you exactly what needs to change. Read them as carefully as you would read an acceptance with major revisions — because that is often what they are, at a different journal.\nBefore resubmitting elsewhere, ask honestly: do the reviews identify a genuine weakness in the argument or the evidence? If yes, fix it before resubmitting. Do not simply send the same paper to a lower-ranked journal and hope the reviewers miss the problem. They usually do not.\nIf the reviews reflect a scope mismatch rather than a genuine flaw, resubmit with confidence — but sharpen the cover letter to address the mismatch directly.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-revision.html#a-note-on-tone",
+    "href": "chapters/08-revision.html#a-note-on-tone",
+    "title": "8  The Revision Process",
+    "section": "8.6 A note on tone",
+    "text": "8.6 A note on tone\nEvery document in the revision process is read by human beings who are doing you a favour. Reviewers are unpaid. Editors are overworked. A response that is clear, specific, and professionally warm makes their job easier and creates goodwill that carries forward.\nThis does not mean being sycophantic — everyone can tell when praise is hollow. It means being direct, being specific, and treating the process as a collaboration even when it does not feel like one.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-reviews-arrive",
+    "href": "chapters/09-example.html#the-reviews-arrive",
+    "title": "9  A Worked Example",
+    "section": "9.5 The reviews arrive",
+    "text": "9.5 The reviews arrive\nThe paper is submitted and reviews come back. After waiting 24 hours, you sort the comments:\nMust do: - Reviewer 1 asks for clearer reporting of effect sizes → correct and straightforward, add to results section - Reviewer 2 notes a missing reference for the boundary detection paradigm → correct, add the citation\nNegotiate: - Reviewer 1 suggests the discussion overstates the implications for predictive processing → legitimate concern, revise the discussion to be more precise about scope\nResist: - Reviewer 2 requests a substantive discussion of predictive processing frameworks throughout the introduction → does not change the theoretical argument; one sentence already acknowledges it",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-reviewer-response",
+    "href": "chapters/09-example.html#the-reviewer-response",
+    "title": "9  A Worked Example",
+    "section": "9.6 The reviewer response",
+    "text": "9.6 The reviewer response\n\nReviewer 2, Comment 3:\n\nThe authors fail to engage with predictive processing frameworks, which are highly relevant to the phenomena under investigation. A thorough discussion of Clark (2013) and related work is needed.\n\nResponse:\nWe thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, we believe a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-example.html#the-cover-letter",
+    "href": "chapters/09-example.html#the-cover-letter",
+    "title": "9  A Worked Example",
+    "section": "9.7 The cover letter",
+    "text": "9.7 The cover letter\n\nDear [Editor],\nWe are pleased to resubmit our manuscript “Event boundaries reduce surprise: Evidence from a video-based rating task” for consideration in [Journal]. The paper tests the prediction of Event Segmentation Theory that surprise ratings will be lower at event boundaries than within events, using a video-based paradigm with everyday activities.\nWe thank the reviewers for their careful reading. The reviews raised three main concerns: the reporting of effect sizes, a missing reference, and the treatment of predictive processing frameworks. We have addressed the first two fully. On the third, we have added a sentence acknowledging the relationship between EST and predictive processing, but have not added a substantive discussion — our reasons are explained in detail in the response document.\nThe major changes are as follows: effect sizes have been added throughout the results section; the Zacks & Tversky (2001) reference has been added on p. 2; the discussion has been revised to more precisely scope the implications for predictive processing accounts; and a sentence has been added on p. 4 acknowledging the relationship between EST and predictive processing frameworks.\nSincerely, [Authors]",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/further-reading.html",
+    "href": "chapters/further-reading.html",
+    "title": "Further Reading",
+    "section": "",
+    "text": "On writing and structure\nThis guide deliberately keeps its reference list short. The following are the books, papers, and theses most worth reading alongside it — selected for usefulness to PhD students and postdocs, not for comprehensiveness.\nMensh, B., & Kording, K. (2017). Ten simple rules for structuring papers. PLOS Computational Biology, 13(9), e1005619. https://doi.org/10.1371/journal.pcbi.1005619\nThe paper that most directly inspired this guide. Concise, practical, and applicable across disciplines. Read it before writing your first manuscript and again before submitting your first revision.\nMensh and Kording address the structure of a paper as a whole — abstract, introduction, results, discussion — at the level of sections, paragraphs, and sentences. This guide addresses a narrower problem they deliberately set aside: how to decide which theoretical content belongs in the paper in the first place, and how to write it without letting the theoretical landscape swallow the argument. The two are complementary. If you find yourself asking how to structure what you have decided to include, Mensh and Kording is the next thing to read.\nSchimel, J. (2012). Writing science: How to write papers that get cited and proposals that get funded. Oxford University Press.\nThe best full-length book on scientific writing for researchers. Particularly strong on narrative structure and why papers fail to communicate. Recommended for anyone who wants to go deeper than this guide.\nPinker, S. (2014). The sense of style: The thinking person’s guide to writing in the 21st century. Viking.\nNot specifically about academic writing, but the best book on clear prose available. The chapter on the curse of knowledge is essential reading for anyone who has ever been told their writing is too technical.",
+    "crumbs": [
+      "Further Reading"
+    ]
+  },
+  {
+    "objectID": "chapters/further-reading.html#on-theory-in-psychology",
+    "href": "chapters/further-reading.html#on-theory-in-psychology",
+    "title": "Further Reading",
+    "section": "On theory in psychology",
+    "text": "On theory in psychology\nMeehl, P. E. (1978). Theoretical risks and tabular asterisks: Sir Karl, Sir Ronald, and the slow progress of soft psychology. Journal of Consulting and Clinical Psychology, 46(4), 806–834. https://doi.org/10.1037/0022-006X.46.4.806\nA foundational paper on why psychological theories are hard to test and why the field accumulates theories faster than it retires them. Difficult but worth the effort.\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nA more recent and accessible treatment of the same problem. Directly relevant to the argument in Chapter 1 of this guide.",
+    "crumbs": [
+      "Further Reading"
+    ]
+  },
+  {
+    "objectID": "chapters/further-reading.html#on-the-review-process",
+    "href": "chapters/further-reading.html#on-the-review-process",
+    "title": "Further Reading",
+    "section": "On the review process",
+    "text": "On the review process\nCasadevall, A., & Fang, F. C. (2010). Reproducible science. Infection and Immunity, 78(12), 4972–4975. https://doi.org/10.1128/IAI.00908-10\nA frank account of how reproducibility works in practice — its strengths, its failures, and what authors can do about both.\nSternberg, R. J. (2002). On civility in reviewing. APS Observer. https://www.psychologicalscience.org/observer/on-civility-in-reviewing\nShort and direct. Required reading before responding to your first hostile review.",
+    "crumbs": [
+      "Further Reading"
+    ]
+  },
+  {
+    "objectID": "chapters/further-reading.html#student-theses-from-this-lab",
+    "href": "chapters/further-reading.html#student-theses-from-this-lab",
+    "title": "Further Reading",
+    "section": "Student theses from this lab",
+    "text": "Student theses from this lab\nThe following theses were completed in our lab and represent good examples of the principles discussed in this guide — clear theoretical framing, focused arguments, and principled engagement with the literature.\nThis section will be updated as theses are completed and made available.\n\nSuggestions for additions to this list are welcome — contact markus.huff@uni-tuebingen.de.",
+    "crumbs": [
+      "Further Reading"
+    ]
+  },
+  {
+    "objectID": "chapters/further-reading.html#on-writing-with-ai",
+    "href": "chapters/further-reading.html#on-writing-with-ai",
+    "title": "Further Reading",
+    "section": "On writing with AI",
+    "text": "On writing with AI\nCheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., & Jurafsky, D. (2026). Sycophantic AI decreases prosocial intentions and promotes dependence. Science, 391, eaec8352. https://doi.org/10.1126/science.aec8352\nThe empirical basis for the sycophancy problem described in Chapter 2. Across 11 state-of-the-art models, AI affirmed users’ positions nearly 50% more often than humans — even when those positions involved deception or harm.\nUhler, L., Jordan, V., Buder, J., Huff, M., & Papenmeier, F. (2026). Influence of solution efficiency and valence of instruction on additive and subtractive solution strategies in humans, GPT-4, and GPT-4o. Communications Psychology, 5(1), 41. https://doi.org/10.1038/s44271-026-00403-0\nShows that AI tools systematically favour additive over subtractive solutions — directly relevant to why AI expands theoretical framings rather than cutting them. From our own department.\n\nSuggestions for additions to this list are welcome — contact markus.huff@uni-tuebingen.de.",
+    "crumbs": [
+      "Further Reading"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html",
+    "href": "chapters/07-revision.html",
+    "title": "7  The Revision Process",
+    "section": "",
+    "text": "7.1 Before you write anything: the revision strategy\nGetting reviews back is one of the most disorienting experiences in academic life. Even positive reviews require substantial work, and negative ones can feel like a personal attack on months or years of effort. This chapter is about the practical mechanics of turning a reviewed manuscript into an accepted one.\nThe worst thing you can do when reviews arrive is open your manuscript and start making changes immediately. Before you touch a single word, you need a strategy.\nWait at least 24 hours. Reviews received on a bad day look different read on a good one. Decisions made in the first hour after a rejection are rarely the right ones.\nThen read all the reviews once without taking notes. Read them again and sort every comment into three categories.\nMust do. Changes that are clearly correct, clearly improve the paper, or are required by the editor. Do these without argument.\nNegotiate. Changes you disagree with but where the reviewer has a legitimate concern. These require a response that engages seriously with the concern while explaining your position.\nResist. Changes that would genuinely weaken the paper — including, as discussed in Chapter 6, requests to add theoretical coverage that does no argumentative work. These require a polite, principled, specific response.\nDo this sorting before you draft anything. It gives you a clear picture of the work ahead and prevents the common mistake of making unnecessary concessions out of anxiety.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html#the-cover-letter",
+    "href": "chapters/07-revision.html#the-cover-letter",
+    "title": "7  The Revision Process",
+    "section": "7.2 The cover letter",
+    "text": "7.2 The cover letter\nThe cover letter is read by the editor, not the reviewers. Its job is to signal that you have taken the reviews seriously and done the work — and to flag anything the editor needs to know before reading the response document.\nA good cover letter does four things.\nStates what the paper is. One sentence — the anchor sentence from your theoretical framing, adapted for a non-specialist editor. This is not the time for nuance; it is the time for clarity.\nAcknowledges the reviewers’ main concerns. Two or three sentences summarising what the reviewers asked for. This shows the editor you read the reviews carefully and understood them.\nStates what you did. A brief summary of the major changes — not a list of every edit, but the substantive responses to the substantive concerns.\nNotes any points of disagreement. If you have not complied with a reviewer request, say so here — briefly and professionally. Editors dislike surprises. A cover letter that flags a polite disagreement is far better than a response document the editor has to read to discover you ignored a reviewer.\nA cover letter template:\n\nDear [Editor],\nWe are pleased to resubmit our manuscript “[Title]” for consideration in [Journal]. The paper [one-sentence statement of contribution].\nWe thank the reviewers for their careful reading. The reviews raised three main concerns: [brief summary]. We have addressed each of these in the revised manuscript.\nThe major changes are as follows: [two to four sentences summarising substantive changes]. We have also made numerous smaller revisions throughout to improve clarity.\nWe were unable to fully comply with one reviewer request: [brief statement]. Our reasons are explained in detail in the response document.\nSincerely, [Authors]\n\nKeep it to one page. Editors are busy. A cover letter that requires scrolling is already too long.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html#the-response-document",
+    "href": "chapters/07-revision.html#the-response-document",
+    "title": "7  The Revision Process",
+    "section": "7.3 The response document",
+    "text": "7.3 The response document\nThe response document is a formal record of every reviewer comment and your response to it. Done well, it makes the editor’s job easy. Done badly, it creates more work for everyone.\nStructure. Organise by reviewer, then by comment. Number every comment and every response:\n\nReviewer 1, Comment 3:\n\nThe authors should discuss Event Segmentation Theory in relation to predictive processing frameworks.\n\nResponse:\nWe thank the reviewer for this suggestion. [Your response here.] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.\n\nFour rules for a strong response document:\nAlways quote the reviewer. Never paraphrase. Quoting shows you read the comment carefully and prevents misunderstandings.\nAlways give a page and line reference for every change you made. This allows the editor and reviewers to find your revisions without reading the entire manuscript.\nBe specific about what you changed. “We have revised this section” is not a response. “We have added two sentences on p. 4 clarifying the relationship between our manipulation and the boundary detection measure” is a response.\nFor points you are not complying with, explain why clearly and specifically. Then offer something: an acknowledgement, a clarification, a sentence added. A pure refusal with no gesture towards the reviewer’s concern rarely lands well.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html#track-changes",
+    "href": "chapters/07-revision.html#track-changes",
+    "title": "7  The Revision Process",
+    "section": "7.4 Track changes",
+    "text": "7.4 Track changes\nWhen submitting a revision, most journals ask for a version showing what was altered. A few rules:\nUse track changes from the start of your revision, not as an afterthought. If you revise directly and then try to reconstruct changes later, you will miss things.\nAccept all changes before making new ones in sections you are not revising. A manuscript where every sentence is marked as changed is impossible to review. Only actual revisions should be tracked.\nBe selective. Minor copyediting and formatting changes do not need to be visible — they create noise that obscures the substantive revisions. Track the things that matter: added paragraphs, deleted sections, changed conclusions, new analyses.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html#rejection-and-resubmission",
+    "href": "chapters/07-revision.html#rejection-and-resubmission",
+    "title": "7  The Revision Process",
+    "section": "7.5 Rejection and resubmission",
+    "text": "7.5 Rejection and resubmission\nRejection is not the end of the paper — it is information.\nDesk rejection usually means one of three things: the paper is outside the journal’s scope, the contribution is not seen as significant enough for that venue, or the writing did not communicate the contribution clearly enough. The first is a targeting problem. The second and third are fixable.\nRejection after review is more useful. The reviews tell you exactly what needs to change. Read them as carefully as you would read an acceptance with major revisions — because that is often what they are, at a different journal.\nBefore resubmitting elsewhere, ask honestly: do the reviews identify a genuine weakness in the argument or the evidence? If yes, fix it before resubmitting. Do not simply send the same paper to a lower-ranked journal and hope the reviewers miss the problem. They usually do not.\nIf the reviews reflect a scope mismatch rather than a genuine flaw, resubmit with confidence — but sharpen the cover letter to address the mismatch directly.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-revision.html#a-note-on-tone",
+    "href": "chapters/07-revision.html#a-note-on-tone",
+    "title": "7  The Revision Process",
+    "section": "7.6 A note on tone",
+    "text": "7.6 A note on tone\nEvery document in the revision process is read by human beings who are doing you a favour. Reviewers are unpaid. Editors are overworked. A response that is clear, specific, and professionally warm makes their job easier and creates goodwill that carries forward.\nThis does not mean being sycophantic — everyone can tell when praise is hollow. It means being direct, being specific, and treating the process as a collaboration even when it does not feel like one.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>The Revision Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html",
+    "href": "chapters/08-example.html",
+    "title": "8  A Worked Example",
+    "section": "",
+    "text": "8.1 The study\nThis chapter walks through the complete process — from choosing an anchor theory to handling a reviewer request and writing a cover letter — using a fictional but realistic study in event cognition. The study is invented, but the problems it illustrates are real.\nImagine you have conducted the following study:\nThis is a clean, focused study. It has one manipulation, one dependent variable, and one theoretical prediction. It should produce a clean, focused theoretical framing. It often does not — and here is why.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-study",
+    "href": "chapters/08-example.html#the-study",
+    "title": "8  A Worked Example",
+    "section": "",
+    "text": "Participants watched short video clips of everyday activities — making coffee, unpacking groceries, setting a table. At unpredictable moments the video paused and participants rated their surprise on a 7-point scale. Pause points were either at event boundaries (moments of natural transition between sub-actions) or within events (mid-action). The dependent variable was surprise rating. The hypothesis was that surprise ratings would be lower at boundaries than within events, because boundary detection involves an updating of the current event model that reduces prediction error.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-first-attempt-what-goes-wrong",
+    "href": "chapters/08-example.html#the-first-attempt-what-goes-wrong",
+    "title": "8  A Worked Example",
+    "section": "8.2 The first attempt: what goes wrong",
+    "text": "8.2 The first attempt: what goes wrong\nHere is how a typical first draft of the theoretical framing might look:\n\nEvent cognition has been studied from multiple theoretical perspectives. Event Segmentation Theory (Zacks et al., 2007) proposes that people continuously segment the stream of activity into discrete events, with boundaries occurring at points of maximal change. Situation Models (Zwaan & Radvansky, 1998) describe the mental representations that readers and observers construct during narrative comprehension, including spatial, temporal, and causal dimensions. Narrative Comprehension accounts (Graesser et al., 1994) emphasise the role of goal structures and causal chains in organising event understanding. More recently, predictive processing frameworks (Clark, 2013) have proposed that perception involves continuous prediction and error-correction at multiple levels of abstraction. Each of these frameworks offers important insights into how people understand and remember everyday events.\nIn the present study, we examined surprise ratings at event boundaries and within events.\n\nThis paragraph mentions four theories in five sentences and commits to none of them. The reader finishes it knowing that event cognition is complicated and that something was measured. They do not know what the study is for.\nNotice also the final sentence — “we examined surprise ratings at event boundaries and within events” — which describes the method without stating the prediction. The theoretical framing has done no work.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#applying-the-framework",
+    "href": "chapters/08-example.html#applying-the-framework",
+    "title": "8  A Worked Example",
+    "section": "8.3 Applying the framework",
+    "text": "8.3 Applying the framework\nBefore rewriting, let’s apply the tools from the previous chapters.\nStep 1: The anchor exercise\n\nMy anchor theory is Event Segmentation Theory, which predicts that surprise ratings will be lower at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.\n\nThis sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.\nStep 2: Running the filters\nSituation Models:\n\nFilter 1: Does it make a different prediction from EST for this design? No — both frameworks predict lower surprise at boundaries due to reduced prediction error. They differ in mechanism but not in direction. → Brief mention at most.\n\nNarrative Comprehension accounts:\n\nFilter 1: Does it make a different prediction for this design? No — these accounts address goal and causal structures in narrative, not perceptual boundary detection in video. → Brief mention at most.\n\nPredictive processing:\n\nFilter 1: Does it make a different prediction? Potentially yes — predictive processing also predicts reduced prediction error at boundaries. But does it predict something different from EST? In this design, no — both frameworks predict the same direction of effect. → One sentence acknowledging the connection.\n\nThe result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-revised-framing",
+    "href": "chapters/08-example.html#the-revised-framing",
+    "title": "8  A Worked Example",
+    "section": "8.4 The revised framing",
+    "text": "8.4 The revised framing\nHere is what the theoretical framing looks like after applying the framework:\n\nEveryday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).\nEST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.\nThe present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models and Narrative Comprehension frameworks — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.\n\nThree paragraphs. One job each. The first establishes the phenomenon and orients the reader. The second introduces the anchor theory and its mechanism. The third states the specific prediction and places the other frameworks in one sentence.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-reviews-arrive",
+    "href": "chapters/08-example.html#the-reviews-arrive",
+    "title": "8  A Worked Example",
+    "section": "8.5 The reviews arrive",
+    "text": "8.5 The reviews arrive\nThe paper is submitted and reviews come back. After waiting 24 hours, you sort the comments:\nMust do: - Reviewer 1 asks for clearer reporting of effect sizes → correct and straightforward, add to results section - Reviewer 2 notes a missing reference for the boundary detection paradigm → correct, add the citation\nNegotiate: - Reviewer 1 suggests the discussion overstates the implications for predictive processing → legitimate concern, revise the discussion to be more precise about scope\nResist: - Reviewer 2 requests a substantive discussion of predictive processing frameworks throughout the introduction → does not change the theoretical argument; one sentence already acknowledges it",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-reviewer-response",
+    "href": "chapters/08-example.html#the-reviewer-response",
+    "title": "8  A Worked Example",
+    "section": "8.6 The reviewer response",
+    "text": "8.6 The reviewer response\n\nReviewer 2, Comment 3:\n\nThe authors fail to engage with predictive processing frameworks, which are highly relevant to the phenomena under investigation. A thorough discussion of Clark (2013) and related work is needed.\n\nResponse:\nWe thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, we believe a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#the-cover-letter",
+    "href": "chapters/08-example.html#the-cover-letter",
+    "title": "8  A Worked Example",
+    "section": "8.7 The cover letter",
+    "text": "8.7 The cover letter\n\nDear [Editor],\nWe are pleased to resubmit our manuscript “Event boundaries reduce surprise: Evidence from a video-based rating task” for consideration in [Journal]. The paper tests the prediction of Event Segmentation Theory that surprise ratings will be lower at event boundaries than within events, using a video-based paradigm with everyday activities.\nWe thank the reviewers for their careful reading. The reviews raised three main concerns: the reporting of effect sizes, a missing reference, and the treatment of predictive processing frameworks. We have addressed the first two fully. On the third, we have added a sentence acknowledging the relationship between EST and predictive processing, but have not added a substantive discussion — our reasons are explained in detail in the response document.\nThe major changes are as follows: effect sizes have been added throughout the results section; the Zacks & Tversky (2001) reference has been added on p. 2; the discussion has been revised to more precisely scope the implications for predictive processing accounts; and a sentence has been added on p. 4 acknowledging the relationship between EST and predictive processing frameworks.\nSincerely, [Authors]",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-example.html#what-this-example-shows",
+    "href": "chapters/08-example.html#what-this-example-shows",
+    "title": "8  A Worked Example",
+    "section": "8.8 What this example shows",
+    "text": "8.8 What this example shows\nThe difference between the first attempt and the revised version is not a difference in knowledge. The writer of the first attempt knew all four theories. The difference is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.\nThe reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. Everything depends on the anchor.\nThat decision is the hardest part. Everything else — the funnel, the filters, the response document, the cover letter — follows from it.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>A Worked Example</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html",
+    "href": "chapters/09-ai.html",
+    "title": "9  Writing with AI",
+    "section": "",
+    "text": "9.1 What AI does well\nAI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.\nUsed poorly, it makes exactly the problem this guide is about significantly worse.\nAI writing tools are genuinely useful for:\nNotice what all of these have in common: they work on text that already has a clear argument behind it. AI is good at making a clear argument sound better. It is not good at finding the argument in the first place.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#what-ai-does-well",
+    "href": "chapters/09-ai.html#what-ai-does-well",
+    "title": "9  Writing with AI",
+    "section": "",
+    "text": "Sentence-level editing — improving clarity, flow, and concision once the argument is already clear\nCutting — identifying redundant sentences and paragraphs that do not advance the argument\nFormatting and consistency — standardising terminology, checking reference formatting, fixing grammar\nOvercoming blank page paralysis — generating a rough first draft that you then revise heavily",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "href": "chapters/09-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "title": "9  Writing with AI",
+    "section": "9.2 What AI does badly: the sycophancy problem",
+    "text": "9.2 What AI does badly: the sycophancy problem\nAI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it is a structural feature of how these systems are trained. Adding content feels like helping. Cutting content feels like withholding.\nThis tendency has a name in the AI research literature: sycophancy. The model tells you what seems helpful and agreeable rather than what is actually true or useful. In the context of academic writing, sycophancy produces exactly the bloat this guide is designed to prevent.\nA concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are “highly relevant to event cognition research.” It has added a sentence noting that “predictive processing frameworks offer a complementary perspective.” The writing is fluent. The argument is weaker.\nThe problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from Chapter 8, generated in thirty seconds.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#the-three-failure-modes",
+    "href": "chapters/09-ai.html#the-three-failure-modes",
+    "title": "9  Writing with AI",
+    "section": "9.3 The three failure modes",
+    "text": "9.3 The three failure modes\nSycophantic expansion. As described above — AI adds theories, qualifications, and hedges that dilute the argument. This is the most common failure mode and the hardest to detect because the output looks polished.\nConfident vagueness. AI connects theories to your argument with fluent but imprecise language. Phrases like “this aligns with”, “is consistent with”, and “offers a complementary perspective on” sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the filter test — the three questions introduced in Chapter 3 for deciding whether a theory belongs in your paper.\nPremature polish. AI produces text that looks finished before the argument is sound. This kills the impulse to revise. If a paragraph reads well, it feels wrong to delete it — even if it is doing no argumentative work. The polish is a trap.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#how-to-use-ai-well",
+    "href": "chapters/09-ai.html#how-to-use-ai-well",
+    "title": "9  Writing with AI",
+    "section": "9.4 How to use AI well",
+    "text": "9.4 How to use AI well\nThe single most important rule: complete your anchor sentence before opening an AI tool. If you have not yet worked through the anchor exercise in Chapter 2, do that first.\nIf you have not written — by hand, without AI assistance — the sentence My anchor theory is [theory], which predicts [specific hypothesis] in my study because [mechanism], you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.\nWith it, you can use AI productively. Specific prompts that work:\nFor drafting:\n\nI am writing the theoretical framing for a study that tests the following prediction: [paste anchor sentence]. Write a three-paragraph introduction that moves from the phenomenon to the anchor theory to this specific prediction. Do not introduce any theoretical frameworks other than [anchor theory].\n\nFor cutting:\n\nHere is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly serve this argument and suggest removing it.\n\nFor reviewer responses:\n\nA reviewer has asked me to add a discussion of [Theory X]. My anchor theory is [Theory Y]. In my design, both theories predict [same outcome]. Write a polite reviewer response explaining why a one-sentence acknowledgement is the appropriate level of treatment.\n\nNotice the pattern: in every case, you give the AI your anchor sentence as a constraint. The anchor is the filter. Without it, the AI optimises for something else — usually comprehensiveness, which is the opposite of what you need.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#a-note-on-honesty",
+    "href": "chapters/09-ai.html#a-note-on-honesty",
+    "title": "9  Writing with AI",
+    "section": "9.5 A note on honesty",
+    "text": "9.5 A note on honesty\nUsing AI to assist with writing is not dishonest, provided you follow your institution’s guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.\nIf you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.\nAI can help you write what you think. It cannot think for you. The anchor exercise, the filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-ai.html#the-sharp-tool",
+    "href": "chapters/09-ai.html#the-sharp-tool",
+    "title": "9  Writing with AI",
+    "section": "9.6 The sharp tool",
+    "text": "9.6 The sharp tool\nA sharp tool cuts well in the right hands and badly in the wrong ones. The same AI prompt produces a focused, well-argued theoretical framing when the writer has a clear anchor — and a bloated, theory-laden paragraph when they do not.\nThe guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. Everything else follows from holding it.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-filters.html#filter-1-does-it-make-a-different-prediction-for-your-specific-study-design",
+    "href": "chapters/03-framework-filters.html#filter-1-does-it-make-a-different-prediction-for-your-specific-study-design",
+    "title": "3  The Three Filters",
+    "section": "",
+    "text": "The three-filter decision tree for theory inclusion",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-filters.html#filter-2-does-it-explain-your-specific-dependent-variable-mechanistically",
+    "href": "chapters/03-framework-filters.html#filter-2-does-it-explain-your-specific-dependent-variable-mechanistically",
+    "title": "3  The Three Filters",
+    "section": "3.2 Filter 2: Does it explain your specific dependent variable mechanistically?",
+    "text": "3.2 Filter 2: Does it explain your specific dependent variable mechanistically?\nMany theories address a phenomenon at a level of description that does not connect to your specific measure. A theory of event cognition might address memory for events in general without saying anything specific about, say, boundary detection latencies or surprise ratings. If the theory does not reach down to your dependent variable (DV), it cannot be tested by your study — and a theory that cannot be tested by your study does not belong in your paper.\nIf the answer is no — the theory gets one sentence acknowledging its existence and a citation. Nothing more.\nIf the answer is yes — proceed to Filter 3.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-filters.html#filter-3-would-ignoring-it-change-your-interpretation-of-results",
+    "href": "chapters/03-framework-filters.html#filter-3-would-ignoring-it-change-your-interpretation-of-results",
+    "title": "3  The Three Filters",
+    "section": "3.3 Filter 3: Would ignoring it change your interpretation of results?",
+    "text": "3.3 Filter 3: Would ignoring it change your interpretation of results?\nThis is the final gate. Even if a theory makes different predictions and addresses your DV, you need to ask: if I simply did not mention this theory, would a reader interpret my results differently? Would an important alternative explanation go unaddressed?\nThis filter requires honest self-assessment — if you are unsure, ask a colleague whether the theory would change their reading of your results.\nIf the answer is no — the theory is doing decorative work, not argumentative work. Omit it entirely.\nIf the answer is yes — include it fully. Give it a dedicated paragraph. Engage with it seriously. It has earned its place.\nThe following flowchart summarises the three filters as a decision procedure.\n\n\n\nThe three-filter decision tree for theory inclusion\n\n\nThe next chapter addresses how to write the theoretical framing once you know what belongs in it.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-framework-filters.html#flowchart",
+    "href": "chapters/03-framework-filters.html#flowchart",
+    "title": "3  The Three Filters",
+    "section": "3.4 Flowchart",
+    "text": "3.4 Flowchart\nThe following flowchart summarises the three filters as a decision procedure.\n\n\n\nThe three-filter decision tree for theory inclusion\n\n\nThe next chapter addresses how to write the theoretical framing once you know what belongs in it.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Three Filters</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-discussion.html",
+    "href": "chapters/06-discussion.html",
+    "title": "6  Theory in the Discussion",
+    "section": "",
+    "text": "6.1 Two jobs the Discussion actually has\nThe introduction is where theory overload is most visible. But the Discussion section is where it does the most damage — because by the time the reader reaches it, they have invested in your argument and the stakes are higher.\nThe pattern is predictable. A writer who mentioned four theories in the introduction feels obliged to return to all four in the Discussion. The results came out in favour of Event Segmentation Theory, so that gets a paragraph. Then, because Situation Models were mentioned in the introduction, they get a sentence noting that the results are “also consistent with” them. Predictive processing gets something similar. Narrative Comprehension accounts are noted as offering a “complementary perspective.” By the end, every theory that appeared in the introduction has reappeared in the Discussion, and the reader is no longer sure which one the paper was actually about.\nThis is the Discussion version of the omnibus paragraph. It has a specific cause: writers confuse two distinct tasks — interpreting results and cataloguing them.\nThe Discussion has two theoretical jobs, and only two.\nJob 1: Explain what the results mean for your anchor theory. Did the results confirm the prediction? If so, what does that tell us about the mechanism? If not — or not cleanly — what does that tell us? This is the primary job. It should take most of the theoretical space in your Discussion.\nJob 2: Address theories that passed the filters. If a competing theory earned a dedicated paragraph in your introduction — because it made a different prediction for your design — then your results say something about it, and the Discussion should say what. Did your results discriminate between the theories? If yes, state that clearly. If no — if the results were consistent with both — say that too, and explain what a future study would need to look like to adjudicate them.\nThat is it. Two jobs. A theory that did not pass the filters in the introduction has not earned a paragraph in the Discussion. Results being “consistent with” a theory is not a reason to discuss it — almost any result is consistent with almost any sufficiently flexible theory. “Consistent with” is not an argument.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Theory in the Discussion</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-discussion.html#the-mirror-test",
+    "href": "chapters/06-discussion.html#the-mirror-test",
+    "title": "6  Theory in the Discussion",
+    "section": "6.2 The mirror test",
+    "text": "6.2 The mirror test\nHere is a simple diagnostic. Draw a line down the middle of a page. On the left, list every theory that received substantive treatment in your introduction. On the right, list every theory that receives substantive treatment in your Discussion.\nThe two lists should match. A theory that appears on the right but not the left has entered your paper through the back door — included in the Discussion without having earned its place in the introduction. A theory that appears on the left but not the right is a loose thread you left for the reader to trip on.\nThe mirror test does not mean every theory gets equal space in both sections. Your anchor theory will receive more Discussion than the theories that passed Filter 1. But every theory that earned a paragraph in the introduction should receive at least a sentence in the Discussion, and no theory should appear in the Discussion without having appeared in the introduction.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Theory in the Discussion</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-discussion.html#what-consistent-with-actually-means",
+    "href": "chapters/06-discussion.html#what-consistent-with-actually-means",
+    "title": "6  Theory in the Discussion",
+    "section": "6.3 What “consistent with” actually means",
+    "text": "6.3 What “consistent with” actually means\nWhen writers say their results are “consistent with” Theory X, they usually mean one of three things: the theory makes no differential prediction for this design; both theories happen to predict the same outcome; or the theory is flexible enough to accommodate almost any result. In the first two cases, “consistent with” is true but uninformative. In the third, it is not even a meaningful claim.\nThe only case where “consistent with” earns space is when you can follow it with a sentence explaining why the consistency matters — what it adds to the argument that is not already provided by your anchor theory’s confirmation. If you cannot write that sentence, cut the phrase.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Theory in the Discussion</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-discussion.html#a-before-and-after",
+    "href": "chapters/06-discussion.html#a-before-and-after",
+    "title": "6  Theory in the Discussion",
+    "section": "6.4 A before and after",
+    "text": "6.4 A before and after\nHere is the Discussion opening from the bloated first attempt in Chapter 8:\n\nThe present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as lower at event boundaries than within events, supporting the claim that boundary detection reduces prediction error. These results are also consistent with predictive processing frameworks, which similarly predict reduced prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the reduction in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.\n\nFour theories in five sentences. The anchor result is buried under three sentences of “also consistent with.” The reader cannot tell which confirmation the paper is actually claiming.\nHere is the same opening after applying the two-job rule:\n\nSurprise ratings were lower at event boundaries than within events, confirming the prediction of Event Segmentation Theory that boundary detection triggers a model update that reduces prediction error. The effect was robust across all three activity types and held at both the group and individual level.\nThe present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that boundary-related prediction error reduction is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.\n\nTwo paragraphs. The first states the confirmed prediction and its scope. The second does genuine theoretical work — it uses a feature of the results to narrow the theoretical picture. Situation Models and Narrative Comprehension accounts do not appear. They were not in the introduction at the paragraph level, and they do not appear here. The reader does not miss them.\nThe same logic that governed your introduction governs your Discussion. The anchor holds at both ends. Chapter 7 addresses what happens when a reviewer disagrees.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Theory in the Discussion</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html",
+    "href": "chapters/10-ai.html",
+    "title": "10  Writing with AI",
+    "section": "",
+    "text": "10.1 What AI does well\nAI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.\nUsed poorly, it makes exactly the problem this guide is about significantly worse.\nAI writing tools are genuinely useful for:\nNotice what all of these have in common: they work on text that already has a clear argument behind it. AI is good at making a clear argument sound better. It is not good at finding the argument in the first place.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#what-ai-does-well",
+    "href": "chapters/10-ai.html#what-ai-does-well",
+    "title": "10  Writing with AI",
+    "section": "",
+    "text": "Sentence-level editing — improving clarity, flow, and concision once the argument is already clear\nCutting — identifying redundant sentences and paragraphs that do not advance the argument\nFormatting and consistency — standardising terminology, checking reference formatting, fixing grammar\nOvercoming blank page paralysis — generating a rough first draft that you then revise heavily",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "href": "chapters/10-ai.html#what-ai-does-badly-the-sycophancy-problem",
+    "title": "10  Writing with AI",
+    "section": "10.2 What AI does badly: the sycophancy problem",
+    "text": "10.2 What AI does badly: the sycophancy problem\nAI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it is a structural feature of how these systems are trained. Adding content feels like helping. Cutting content feels like withholding.\nThis tendency has a name in the AI research literature: sycophancy. The model tells you what seems helpful and agreeable rather than what is actually true or useful. In the context of academic writing, sycophancy produces exactly the bloat this guide is designed to prevent.\nA concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are “highly relevant to event cognition research.” It has added a sentence noting that “predictive processing frameworks offer a complementary perspective.” The writing is fluent. The argument is weaker.\nThe problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from Chapter 8, generated in thirty seconds.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#the-three-failure-modes",
+    "href": "chapters/10-ai.html#the-three-failure-modes",
+    "title": "10  Writing with AI",
+    "section": "10.3 The three failure modes",
+    "text": "10.3 The three failure modes\nSycophantic expansion. As described above — AI adds theories, qualifications, and hedges that dilute the argument. This is the most common failure mode and the hardest to detect because the output looks polished.\nConfident vagueness. AI connects theories to your argument with fluent but imprecise language. Phrases like “this aligns with”, “is consistent with”, and “offers a complementary perspective on” sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the filter test — the three questions introduced in Chapter 3 for deciding whether a theory belongs in your paper.\nPremature polish. AI produces text that looks finished before the argument is sound. This kills the impulse to revise. If a paragraph reads well, it feels wrong to delete it — even if it is doing no argumentative work. The polish is a trap.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#how-to-use-ai-well",
+    "href": "chapters/10-ai.html#how-to-use-ai-well",
+    "title": "10  Writing with AI",
+    "section": "10.4 How to use AI well",
+    "text": "10.4 How to use AI well\nThe single most important rule: complete your anchor sentence before opening an AI tool. If you have not yet worked through the anchor exercise in Chapter 2, do that first.\nIf you have not written — by hand, without AI assistance — the sentence My anchor theory is [theory], which predicts [specific hypothesis] in my study because [mechanism], you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.\nWith it, you can use AI productively. Specific prompts that work:\nFor drafting:\n\nI am writing the theoretical framing for a study that tests the following prediction: [paste anchor sentence]. Write a three-paragraph introduction that moves from the phenomenon to the anchor theory to this specific prediction. Do not introduce any theoretical frameworks other than [anchor theory].\n\nFor cutting:\n\nHere is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly serve this argument and suggest removing it.\n\nFor reviewer responses:\n\nA reviewer has asked me to add a discussion of [Theory X]. My anchor theory is [Theory Y]. In my design, both theories predict [same outcome]. Write a polite reviewer response explaining why a one-sentence acknowledgement is the appropriate level of treatment.\n\nNotice the pattern: in every case, you give the AI your anchor sentence as a constraint. The anchor is the filter. Without it, the AI optimises for something else — usually comprehensiveness, which is the opposite of what you need.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#a-note-on-honesty",
+    "href": "chapters/10-ai.html#a-note-on-honesty",
+    "title": "10  Writing with AI",
+    "section": "10.5 A note on honesty",
+    "text": "10.5 A note on honesty\nUsing AI to assist with writing is not dishonest, provided you follow your institution’s guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.\nIf you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.\nAI can help you write what you think. It cannot think for you. The anchor exercise, the filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-ai.html#the-sharp-tool",
+    "href": "chapters/10-ai.html#the-sharp-tool",
+    "title": "10  Writing with AI",
+    "section": "10.6 The sharp tool",
+    "text": "10.6 The sharp tool\nA sharp tool cuts well in the right hands and badly in the wrong ones. The same AI prompt produces a focused, well-argued theoretical framing when the writer has a clear anchor — and a bloated, theory-laden paragraph when they do not.\nThe guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. Everything else follows from holding it.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
     ]
   }
 ]

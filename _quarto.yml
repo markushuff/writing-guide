@@ -2,24 +2,39 @@ project:
   type: book
 
 book:
-  title: "writing-guide"
-  author: "Norah Jones"
-  date: "5/24/2026"
+  title: "Writing Guide"
+  author:
+    - name: Markus Huff
+      email: markus.huff@uni-tuebingen.de
+      url: https://iwm-tuebingen.de/de/iwm/personen/mhuff
+      affiliation:
+        - name: Leibniz-Institut für Wissensmedien & University of Tübingen
+          department: Department of Psychology
+          url: https://uni-tuebingen.de
+      orcid: 0000-0002-1433-4656
+  date: last-modified
+  date-format: "MMMM D, YYYY"
+  page-footer:
+    center: |
+      Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) • Markus Huff
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - chapters/01-problem.qmd
+    - chapters/02-framework-anchor.qmd
+    - chapters/03-framework-filters.qmd
+    - chapters/04-writing.qmd
+    - chapters/05-writing-landscape.qmd
+    - chapters/06-discussion.qmd
+    - chapters/07-review.qmd
+    - chapters/08-revision.qmd
+    - chapters/09-example.qmd
+    - chapters/10-ai.qmd
+    - chapters/further-reading.qmd
     - references.qmd
 
 bibliography: references.bib
+license: "CC BY"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
-
-editor: visual
-
+    theme: cosmo
