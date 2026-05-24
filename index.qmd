@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-This guide grew out of frustration with a pattern I kept seeing. Talented early carreer researchers would produce manuscript drafts 
+This guide grew out of frustration with a pattern I kept seeing. Talented early career researchers would produce manuscript drafts 
 that were theoretically exhaustive but argumentatively weak. Every relevant theory got a paragraph. Every related concept got a mention. The papers were comprehensive and unreadable.
 
 The problem wasn't knowledge. My students knew the literature well — sometimes too well. The problem was a set of unwritten rules nobody had told them about: how to decide which theories are load-bearing for your argument and which are not, how to write for a reader who needs to be convinced rather than impressed, and how to survive a review process that sometimes incentivizes the wrong things.
