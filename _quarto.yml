@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Writing Guide"
@@ -38,3 +39,4 @@ license: "CC BY"
 format:
   html:
     theme: cosmo
+    html-math-method: katex
