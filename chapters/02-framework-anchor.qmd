@@ -18,7 +18,7 @@ A good anchor theory has three properties. First, you can derive your specific h
 
 If your theory would predict the same result regardless of what you found, it is not your anchor — it is background.
 
-There is also a harder truth here. Sometimes a student cannot name the anchor theory because the study was not designed around one. In that case, the writing problem is actually a design problem in disguise. No amount of good writing will fix a study that was never theoretically grounded. If you find yourself in this situation, the right move is to stop writing and talk to your supervisor before going further.
+There is also a harder truth here. Sometimes finding the anchor theory is impossible because the study was not designed around one. In that case, the writing problem is actually a design problem in disguise. No amount of good writing will fix a study that was never theoretically grounded. If you find yourself in this situation, the right move is to stop writing and talk to your collaborators before going further.
 
 ::: callout-tip
 ### The anchor exercise
