@@ -16,7 +16,7 @@ The two filters below force a more honest question: does this theory do any work
 
 Apply them sequentially. A theory that fails the first filter does not need to be assessed against the second.
 
-## Filter 1 (2): Does it make a different prediction from your anchor?
+## Filter 1 (F1): Does it make a different prediction from your anchor?
 
 Not whether the theory addresses the same phenomenon — it almost certainly does, or you would not be considering it. The question is whether it predicts something *different* from your anchor, given your specific manipulation and dependent variable.
 
