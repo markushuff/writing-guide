@@ -7,10 +7,7 @@
 - See a complete reviewer response and cover letter written out
 :::
 
-This chapter walks through the complete process — from choosing an anchor 
-theory to handling a reviewer request and writing a cover letter — using 
-a fictional but realistic study in event cognition. The study is invented, 
-but the problems it illustrates are real.
+This chapter walks through the complete process — from choosing an anchor theory to handling a reviewer request and writing a cover letter — using a fictional but realistic study in event cognition. The study is invented, but the problems it illustrates are real.
 
 ## The study
 
@@ -46,23 +43,19 @@ Before rewriting, let's apply the tools from the previous chapters.
 
 This sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.
 
-**Step 2: Running the filters**
+**Step 2: Running the two filters**
 
 *Situation Models:*
 
-- Filter 1: Does it make a different prediction from EST for this 
-  design? No — both frameworks predict lower surprise at boundaries due to reduced prediction error. They differ in mechanism but not in direction. → Brief mention at most.
+- F1: Does it make a different prediction from EST for this design? No — both frameworks predict lower surprise at boundaries due to reduced prediction error. They differ in mechanism but not in direction. → Citation only.
 
 *Narrative Comprehension accounts:*
 
-- Filter 1: Does it make a different prediction for this design? No —   these accounts address goal and causal structures in narrative, not perceptual boundary detection in video. → Brief mention at most.
+- F1: Does it make a different prediction for this design? No — these accounts address goal and causal structures in narrative, not perceptual boundary detection in video. → Citation only.
 
 *Predictive processing:*
 
-- Filter 1: Does it make a different prediction? Potentially yes —   predictive processing also predicts reduced prediction error at 
-  boundaries. But does it predict something *different* from EST? 
-  In this design, no — both frameworks predict the same direction 
-  of effect. → One sentence acknowledging the connection.
+- F1: Does it make a different prediction? In this design, no — both EST and predictive processing predict reduced prediction error at boundaries, producing the same directional prediction for surprise ratings. → Citation only, with one sentence acknowledging the connection.
 
 The result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.
 
@@ -72,8 +65,7 @@ Here is what the theoretical framing looks like after applying the framework:
 
 ---
 
-*Everyday activities have a natural structure. Actions unfold in 
-sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).*
+*Everyday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).*
 
 *EST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.*
 
@@ -88,13 +80,16 @@ Three paragraphs. One job each. The first establishes the phenomenon and orients
 The paper is submitted and reviews come back. After waiting 24 hours, you sort the comments:
 
 **Must do:**
+
 - Reviewer 1 asks for clearer reporting of effect sizes → correct and straightforward, add to results section
 - Reviewer 2 notes a missing reference for the boundary detection paradigm → correct, add the citation
 
 **Negotiate:**
+
 - Reviewer 1 suggests the discussion overstates the implications for predictive processing → legitimate concern, revise the discussion to be more precise about scope
 
 **Resist:**
+
 - Reviewer 2 requests a substantive discussion of predictive processing frameworks throughout the introduction → does not change the theoretical argument; one sentence already acknowledges it
 
 ## The reviewer response
@@ -107,7 +102,7 @@ The paper is submitted and reviews come back. After waiting 24 hours, you sort t
 
 *Response:*
 
-We thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, we believe a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).
+We thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).
 
 ---
 
@@ -132,6 +127,6 @@ We thank the reviewer for raising predictive processing frameworks. We agree tha
 
 The difference between the first attempt and the revised version is not a difference in knowledge. The writer of the first attempt knew all four theories. The difference is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.
 
-The reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. **Everything depends on the anchor.**
+The reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. Everything depends on the anchor.
 
-That decision is the hardest part. Everything else — the funnel, the filters, the response document, the cover letter — follows from it.
+That decision is the hardest part. Everything else — the funnel, the two filters, the response document, the cover letter — follows from it.

@@ -1,8 +1,7 @@
 # Navigating the Theoretical Landscape
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon=false}
 ## In a nutshell
-
 - Your paper exists in a field full of other theories — this chapter is about handling them without letting them take over
 - Confidence in your argument changes how you write about competing work
 - There is a quick test that reveals whether your argument holds together
@@ -11,9 +10,10 @@
 You have your funnel. You know what your anchor theory is and what it predicts. But your paper does not exist in a vacuum — there are other theories in the field, and you need to handle them without letting them take over.
 
 ## Where other theories go
-Theories that passed Filter 1 but failed Filter 2 do not get their own paragraph — they get one sentence. Theories that failed Filter 3 are omitted entirely. Either way, the acknowledgement is brief, typically placed after you have stated your anchor theory:
 
-> Other theoretical accounts of \[phenomenon\] — including \[Theory X\] and \[Theory Y\] — offer complementary perspectives; the present study is specifically designed to test the prediction of \[anchor theory\] that \[specific prediction\].
+Theories that passed F1 but failed F2 get one sentence — a brief mention explaining why your study does not test them. Theories that failed F1 get a citation only. Either way, the acknowledgement is brief, typically placed after you have stated your anchor theory:
+
+> Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].
 
 This sentence does the necessary work — it signals awareness of the landscape without making the landscape your argument. Notice what it does not do: it does not explain why you excluded other theories, and it does not apologise for your focus. It simply states what your study is for.
 
@@ -25,14 +25,14 @@ Before submitting any draft, apply this test to your theoretical framing: read o
 
 If they do not — if the sequence feels incomplete, or if one of those sentences is doing housekeeping rather than advancing the argument — that paragraph needs to be revised or removed.
 
-::: callout-tip
+::: {.callout-tip icon=false}
 ## Before you write: the two-sentence check
 
 Before drafting your theoretical framing, complete both sentences below. Write them down. Do not start writing your introduction until you can complete them clearly and specifically.
 
 **Sentence 1: Your anchor**
 
-*My anchor theory is* **\[theory\]**, *which predicts* **\[specific hypothesis\]** *in my study because* **\[mechanism\]**.
+*My anchor theory is* **[theory]**, *which predicts* **[specific hypothesis]** *in my study because* **[mechanism]**.
 
 This sentence should be uncomfortable to write vaguely. If you find yourself writing "which predicts generally better performance" or "because of cognitive factors", you have not yet found your anchor. A good anchor sentence names a specific mechanism and connects it to a specific outcome in your specific design.
 
@@ -48,28 +48,27 @@ The difference is specificity. The strong version could only describe one study.
 
 **Sentence 2: Your landscape**
 
-*Other theories in the field that address* **\[phenomenon\]** *include* **\[list\]**. *They do not appear in this paper / appear only in one sentence because* **\[reason for each\]**.
+*Other theories in the field that address* **[phenomenon]** *include* **[list]**. *They do not appear in this paper / appear only briefly because* **[reason for each]**.
 
-This sentence forces you to be explicit about your exclusions before a reviewer forces you to be defensive about them. The reason for exclusion should always be one of three things: the theory makes no differential prediction for this design, it does not address this dependent variable mechanistically, or it would not change the interpretation of these results.
+This sentence forces you to be explicit about your exclusions before a reviewer forces you to be defensive about them. The reason for exclusion should always map onto one of the two filters: either the theory makes no differential prediction for this design, or it does not reach your dependent variable mechanistically.
 
 A weak landscape sentence:
 
-> *Other theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. They do not appear in this paper because they are not the focus of this study.*
+> *Other theories in the field that address event cognition include the Event-Indexing Model and the Structure Building Framework. They do not appear in this paper because they are not the focus of this study.*
 
 That reason — "not the focus" — is circular. It says nothing. A reviewer reading this would rightly ask: why not?
 
 A strong landscape sentence:
 
-> *Other theories in the field that address event cognition include Situation Models and Narrative Comprehension accounts. Situation Model theory addresses comprehension of spatial and causal relations rather than the temporal boundaries that are my dependent variable, so it does not generate a differential prediction for my boundary detection task. Narrative Comprehension accounts operate at the level of story-level meaning rather than the subsecond perceptual processes I am measuring, so including it would not change the interpretation of my results.*
+> *Other theories in the field that address event cognition include the Event-Indexing Model and the Structure Building Framework. The Event-Indexing Model addresses when situational dimension changes trigger updating, but makes no prediction about detection latency as a function of predictability — it does not reach my dependent variable. The Structure Building Framework similarly specifies the conditions for substructure shifts but not their temporal dynamics.*
 
-Notice that this version gives a specific reason for each theory — and each reason maps directly onto one of the three filters. You do not need to write this sentence in your paper. But you need to be able to write it before you write your paper. If a reviewer later asks why you did not discuss Situation Models, you have a precise, principled answer ready.
+Notice that this version gives a specific reason for each theory — and each reason maps onto one of the two filters. You do not need to write this sentence in your paper. But you need to be able to write it before you write your paper. If a reviewer later asks why you did not discuss these theories, you have a precise, principled answer ready.
 
-If you cannot give one of those three reasons for a theory's exclusion, go back to the filters. The theory may belong in your paper after all.
+If you cannot give one of those two reasons for a theory's exclusion, go back to the filters. The theory may belong in your paper after all.
 
 **If you cannot complete either sentence**
 
-Do not start writing. Talk to colleagues and collaborators first. Present your arguments in a lab meeting. A theoretical framing that cannot be summarised in two sentences will not become clearer at 2000 words — it will become longer.
+Do not start writing. Talk to colleagues and collaborators first. Present your argument in a lab meeting. A theoretical framing that cannot be summarised in two sentences will not become clearer at 2000 words — it will become longer.
 :::
 
 Once you can complete both sentences, you are ready to write.
-

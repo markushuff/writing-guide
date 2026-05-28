@@ -1,7 +1,8 @@
 # Two Filters, Three Outcomes
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## In a nutshell
+
 - Perceived relevance of a theory is not the same as argumentative necessity
 - Two filters determine how much work a theory does in your argument
 - The result is one of three levels of treatment — and only one leads to strong inference
@@ -37,20 +38,20 @@ If the answer is **yes** — you are in the territory of strong inference [@plat
 
 The two filters produce three possible outcomes:
 
-| Outcome | Treatment |
-|---|---|
-| Fails F1 | Citation only |
+| Outcome             | Treatment                             |
+|---------------------|---------------------------------------|
+| Fails F1            | Citation only                         |
 | Passes F1, fails F2 | Mention + explain why not tested here |
-| Passes both | Full treatment — strong inference |
+| Passes both         | Full treatment — strong inference     |
 
 ![Two filters, three outcomes](flowchart.svg){width="100%"}
 
-::: {.callout-tip icon=false}
+::: {.callout-tip icon="false"}
 ## Worked example: event cognition
 
 The anchor theory in both designs below is Event Segmentation Theory (EST; @zacks2007). EST holds that people continuously predict what will happen next based on an event model held in working memory. When prediction error rises, a boundary is perceived and the event model is updated.
 
----
+------------------------------------------------------------------------
 
 ### Design A: Boundary detection latency
 
@@ -74,15 +75,15 @@ The framework specifies what triggers a substructure shift, not how quickly one 
 
 #### How the filters apply in Design A
 
-| Theory | F1 | F2 | Treatment |
-|---|---|---|---|
-| SPECT | ✗ | — | Citation only |
-| Event-Indexing Model | ✓ | ✗ | Mention + explain |
-| Structure Building Framework | ✓ | ✗ | Mention + explain |
+| Theory                       | F1  | F2  | Treatment         |
+|------------------------------|-----|-----|-------------------|
+| SPECT                        | ✗   | —   | Citation only     |
+| Event-Indexing Model         | ✓   | ✗   | Mention + explain |
+| Structure Building Framework | ✓   | ✗   | Mention + explain |
 
 No theory earns full treatment in this design. That is not a failure of scholarship — it accurately reflects what each theory contributes to this specific argument.
 
----
+------------------------------------------------------------------------
 
 ### Design B: Memory and prediction across dimension changes
 
@@ -98,11 +99,11 @@ Both theories address recognition memory and prediction accuracy directly and me
 
 #### How the filters apply in Design B
 
-| Theory | F1 | F2 | Treatment |
-|---|---|---|---|
-| SPECT | ✗ | — | Citation only |
-| Event-Indexing Model | ✓ | ✓ | Full treatment — strong inference |
-| Structure Building Framework | ✓ | ✗ | Mention + explain |
+| Theory                       | F1  | F2  | Treatment                         |
+|------------------------------|-----|-----|-----------------------------------|
+| SPECT                        | ✗   | —   | Citation only                     |
+| Event-Indexing Model         | ✓   | ✓   | Full treatment — strong inference |
+| Structure Building Framework | ✓   | ✗   | Mention + explain                 |
 
 The same anchor, the same candidates, two different designs — and a fundamentally different argumentative structure. In Design A, the Event-Indexing Model earns a brief mention. In Design B, it earns equal billing. What changes is not the field, not the theories, but the design.
 :::

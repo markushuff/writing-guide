@@ -1,8 +1,7 @@
 # The Revision Process
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon=false}
 ## In a nutshell
-
 - Wait before you respond — decisions made in the first hours are rarely the right ones
 - Sort every comment before you write a single word of your response
 - The cover letter is read by the editor — make it count
@@ -25,7 +24,7 @@ Then read all the reviews once without taking notes. Read them again and sort ev
 
 **Negotiate.** Changes you disagree with but where the reviewer has a legitimate concern. These require a response that engages seriously with the concern while explaining your position.
 
-**Resist.** Changes that would genuinely weaken the paper — including, as discussed in Chapter 6, requests to add theoretical coverage that does no argumentative work. These require a polite, principled, specific response.
+**Resist.** Changes that would genuinely weaken the paper — including, as discussed in the chapter on surviving peer review, requests to add theoretical coverage that does no argumentative work. These require a polite, principled, specific response.
 
 Do this sorting before you draft anything. It gives you a clear picture of the work ahead and prevents the common mistake of making unnecessary concessions out of anxiety.
 
@@ -45,21 +44,22 @@ A good cover letter does four things.
 
 A cover letter template:
 
-------------------------------------------------------------------------
+---
 
-*Dear \[Editor\],*
+*Dear [Editor],*
 
-*We are pleased to resubmit our manuscript "\[Title\]" for consideration in \[Journal\]. The paper \[one-sentence statement of contribution\].*
+*We are pleased to resubmit our manuscript "[Title]" for consideration in [Journal]. The paper [one-sentence statement of contribution].*
 
-*We thank the reviewers for their careful reading. The reviews raised three main concerns: \[brief summary\]. We have addressed each of these in the revised manuscript.*
+*We thank the reviewers for their careful reading. The reviews raised three main concerns: [brief summary]. We have addressed each of these in the revised manuscript.*
 
-*The major changes are as follows: \[two to four sentences summarising substantive changes\]. We have also made numerous smaller revisions throughout to improve clarity.*
+*The major changes are as follows: [two to four sentences summarising substantive changes]. We have also made numerous smaller revisions throughout to improve clarity.*
 
-*We were unable to fully comply with one reviewer request: \[brief statement\]. Our reasons are explained in detail in the response document.*
+*We were unable to fully comply with one reviewer request: [brief statement]. Our reasons are explained in detail in the response document.*
 
-*Sincerely,* *\[Authors\]*
+*Sincerely,*
+*[Authors]*
 
-------------------------------------------------------------------------
+---
 
 Keep it to one page. Editors are busy. A cover letter that requires scrolling is already too long.
 
@@ -69,7 +69,7 @@ The response document is a formal record of every reviewer comment and your resp
 
 **Structure.** Organise by reviewer, then by comment. Number every comment and every response:
 
-------------------------------------------------------------------------
+---
 
 *Reviewer 1, Comment 3:*
 
@@ -77,9 +77,9 @@ The response document is a formal record of every reviewer comment and your resp
 
 *Response:*
 
-We thank the reviewer for this suggestion. \[Your response here.\] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.
+We thank the reviewer for this suggestion. [Your response here.] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.
 
-------------------------------------------------------------------------
+---
 
 Four rules for a strong response document:
 

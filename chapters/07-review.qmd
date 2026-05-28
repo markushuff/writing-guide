@@ -1,14 +1,13 @@
 # Surviving Peer Review
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon=false}
 ## In a nutshell
-
 - Reviewer demands for more theory coverage are common but not always valid
 - You have a principled basis for your choices — use it
 - How you respond matters as much as what you respond
 :::
 
-You have written a focused, well-argued paper. You have your anchor theory. You have applied the three filters. You have a clear funnel. Then the reviews come back, and Reviewer 2 wants you to discuss three more theories.
+You have written a focused, well-argued paper. You have your anchor theory. You have applied the two filters. You have a clear funnel. Then the reviews come back, and Reviewer 2 wants you to discuss three more theories.
 
 This chapter is about how to handle that — calmly, professionally, and without abandoning the argument you worked hard to build.
 
@@ -18,15 +17,15 @@ It helps to understand why this happens before deciding how to respond.
 
 Reviewers are experts in the field. They have spent years working with specific theoretical frameworks, and they notice when those frameworks are not discussed. This is not always unreasonable — sometimes a theory genuinely is relevant and the author missed it. But sometimes the request reflects habit, territory, or a different view of what a paper should do rather than a genuine gap in the argument.
 
-The key question is simply to run the theory through the three filters: does it make a different prediction for this design? Does it offer a mechanistic account of this dependent variable? Would including it change the interpretation of these results?
+The key question is simply to run the theory through the two filters: does it make a different prediction for this design? Does it offer a mechanistic account of this dependent variable?
 
-If the answer is no to all three, you have a principled basis for a polite but firm response. If the answer is yes to any of them, the reviewer may have identified something genuinely important — and you should take it seriously.
+If the answer is no to both, you have a principled basis for a polite but firm response. If the answer is yes to either, the reviewer may have identified something genuinely important — and you should take it seriously.
 
 ## The two types of reviewer request
 
 Not all requests for more theory are the same. It helps to distinguish them.
 
-**The legitimate request.** The reviewer identifies a theory that makes a differential prediction for your design, addresses your specific dependent variable, or would genuinely change the interpretation of your results. This is a gift. Engage with it seriously, run it through the filters, and if it passes, include it properly — not as a defensive gesture, but as a genuine improvement to the argument.
+**The legitimate request.** The reviewer identifies a theory that makes a differential prediction for your design and addresses your specific dependent variable. This is a gift. Engage with it seriously, run it through the filters, and if it passes both, include it properly — not as a defensive gesture, but as a genuine improvement to the argument.
 
 **The territorial request.** The reviewer wants their preferred framework acknowledged, but the framework does not do any argumentative work in your paper. This is common. It does not mean the reviewer is acting in bad faith — it may simply reflect a different view of what thorough scholarship looks like. But agreeing to add a paragraph that does no argumentative work makes your paper worse.
 
@@ -38,13 +37,13 @@ When a reviewer asks for more theoretical coverage, your response should do thre
 
 A weak response:
 
-> *We thank the reviewer for this suggestion. We have added a discussion of \[Theory X\] to the introduction.*
+> *We thank the reviewer for this suggestion. We have added a discussion of [Theory X] to the introduction.*
 
 This response adds words without adding argument. It is the written equivalent of the bloated manuscript you were trying to avoid.
 
 A strong response:
 
-> *We thank the reviewer for raising \[Theory X\]. This framework offers an important account of \[phenomenon\] at the level of \[description\]. In our study, however, \[Theory X\] and our anchor theory \[Theory Y\] generate identical predictions for \[specific manipulation and DV\], so including a substantive discussion of \[Theory X\] would not help the reader distinguish between the two accounts on the basis of our data. We have added a sentence acknowledging \[Theory X\] and its relationship to our theoretical framing \[cite location in manuscript\].*
+> *We thank the reviewer for raising [Theory X]. This framework offers an important account of [phenomenon] at the level of [description]. In our study, however, [Theory X] and our anchor theory [Theory Y] generate identical predictions for [specific manipulation and DV], so including a substantive discussion of [Theory X] would not help the reader distinguish between the two accounts on the basis of our data. We have added a sentence acknowledging [Theory X] and its relationship to our theoretical framing [cite location in manuscript].*
 
 This response is respectful, specific, and principled. It shows the reviewer that you have engaged seriously with their request and explains clearly why a one-sentence acknowledgement is the appropriate level of treatment.
 
@@ -52,7 +51,7 @@ This response is respectful, specific, and principled. It shows the reviewer tha
 
 Sometimes the right answer is to give ground — not because the reviewer is right about the theory being essential, but because the cost of resistance is higher than the cost of inclusion. This is a judgment call, and it depends on the journal, the editor, and how central the paper is to your research programme.
 
-If you do add a theory under pressure, add it properly. One weak paragraph that mentions a theory without engaging with it satisfies nobody and weakens the paper. If the theory is going in, apply the framework: what does it predict for your design? How does it relate to your results? What does including it add to the interpretation?
+If you do add a theory under pressure, add it properly. One weak paragraph that mentions a theory without engaging with it satisfies nobody and weakens the paper. If the theory is going in, apply the framework: does it make a different prediction for your design? Does it reach your dependent variable? What does including it add to the interpretation?
 
 A theory that earns its place even under pressure is better than a theory that was always there for the wrong reasons.
 

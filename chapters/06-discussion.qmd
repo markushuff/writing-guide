@@ -7,137 +7,58 @@
 - A simple test tells you whether your Discussion mirrors your introduction
 :::
 
-The introduction is where theory overload is most visible. But the
-Discussion section is where it does the most damage — because by the
-time the reader reaches it, they have invested in your argument and
-the stakes are higher.
+The introduction is where theory overload is most visible. But the Discussion section is where it does the most damage — because by the time the reader reaches it, they have invested in your argument and the stakes are higher.
 
-The pattern is predictable. A writer who mentioned four theories in
-the introduction feels obliged to return to all four in the Discussion.
-The results came out in favour of Event Segmentation Theory, so that
-gets a paragraph. Then, because Situation Models were mentioned in the
-introduction, they get a sentence noting that the results are "also
-consistent with" them. Predictive processing gets something similar.
-Narrative Comprehension accounts are noted as offering a "complementary
-perspective." By the end, every theory that appeared in the introduction
-has reappeared in the Discussion, and the reader is no longer sure which
-one the paper was actually about.
+The pattern is predictable. A writer who mentioned four theories in the introduction feels obliged to return to all four in the Discussion. The results came out in favour of Event Segmentation Theory, so that gets a paragraph. Then, because the Event-Indexing Model was mentioned in the introduction, it gets a sentence noting that the results are "also consistent with" it. The Structure Building Framework gets something similar. Narrative Comprehension accounts are noted as offering a "complementary perspective." By the end, every theory that appeared in the introduction has reappeared in the Discussion, and the reader is no longer sure which one the paper was actually about.
 
-This is the Discussion version of the omnibus paragraph. It has a
-specific cause: writers confuse two distinct tasks — *interpreting*
-results and *cataloguing* them.
+This is the Discussion version of the omnibus paragraph. It has a specific cause: writers confuse two distinct tasks — *interpreting* results and *cataloguing* them.
 
 ## Two jobs the Discussion actually has
 
 The Discussion has two theoretical jobs, and only two.
 
-**Job 1: Explain what the results mean for your anchor theory.** Did
-the results confirm the prediction? If so, what does that tell us about
-the mechanism? If not — or not cleanly — what does that tell us? This
-is the primary job. It should take most of the theoretical space in
-your Discussion.
+**Job 1: Explain what the results mean for your anchor theory.** Did the results confirm the prediction? If so, what does that tell us about the mechanism? If not — or not cleanly — what does that tell us? This is the primary job. It should take most of the theoretical space in your Discussion.
 
-**Job 2: Address theories that passed the filters.** If a competing
-theory earned a dedicated paragraph in your introduction — because it
-made a different prediction for your design — then your results say
-something about it, and the Discussion should say what. Did your
-results discriminate between the theories? If yes, state that clearly.
-If no — if the results were consistent with both — say that too, and
-explain what a future study would need to look like to adjudicate them.
+**Job 2: Address theories that passed both filters.** If a competing theory earned full treatment in your introduction — because it made a different prediction that your design could adjudicate — then your results say something about it, and the Discussion should say what. Did your results discriminate between the theories? If yes, state that clearly. If no — if the results were consistent with both — say that too, and explain what a future study would need to look like to adjudicate them.
 
-That is it. Two jobs. A theory that did not pass the filters in the
-introduction has not earned a paragraph in the Discussion. Results
-being "consistent with" a theory is not a reason to discuss it —
-almost any result is consistent with almost any sufficiently flexible
-theory. "Consistent with" is not an argument.
+That is it. Two jobs. A theory that received only a brief mention in the introduction — because it failed F2 — has not earned a paragraph in the Discussion. Results being "consistent with" a theory is not a reason to discuss it — almost any result is consistent with almost any sufficiently flexible theory. "Consistent with" is not an argument.
 
 ## The mirror test
 
-Here is a simple diagnostic. Draw a line down the middle of a page.
-On the left, list every theory that received substantive treatment in
-your introduction. On the right, list every theory that receives
-substantive treatment in your Discussion.
+Here is a simple diagnostic. Draw a line down the middle of a page. On the left, list every theory that received substantive treatment in your introduction. On the right, list every theory that receives substantive treatment in your Discussion.
 
-The two lists should match. A theory that appears on the right but not
-the left has entered your paper through the back door — included in
-the Discussion without having earned its place in the introduction. A
-theory that appears on the left but not the right is a loose thread
-you left for the reader to trip on.
+The two lists should match. A theory that appears on the right but not the left has entered your paper through the back door — included in the Discussion without having earned its place in the introduction. A theory that appears on the left but not the right is a loose thread you left for the reader to trip on.
 
-The mirror test does not mean every theory gets equal space in both
-sections. Your anchor theory will receive more Discussion than the
-theories that passed Filter 1. But every theory that earned a paragraph
-in the introduction should receive at least a sentence in the
-Discussion, and no theory should appear in the Discussion without
-having appeared in the introduction.
+The mirror test does not mean every theory gets equal space in both sections. Your anchor theory will receive more Discussion than any competing theory. But every theory that earned full treatment in the introduction should receive at least a sentence in the Discussion, and no theory should appear in the Discussion without having appeared in the introduction.
 
 ## What "consistent with" actually means
 
-When writers say their results are "consistent with" Theory X, they
-usually mean one of three things: the theory makes no differential
-prediction for this design; both theories happen to predict the same
-outcome; or the theory is flexible enough to accommodate almost any
-result. In the first two cases, "consistent with" is true but
-uninformative. In the third, it is not even a meaningful claim.
+When writers say their results are "consistent with" Theory X, they usually mean one of three things: the theory makes no differential prediction for this design; both theories happen to predict the same outcome; or the theory is flexible enough to accommodate almost any result. In the first two cases, "consistent with" is true but uninformative. In the third, it is not even a meaningful claim.
 
-The only case where "consistent with" earns space is when you can
-follow it with a sentence explaining *why* the consistency matters —
-what it adds to the argument that is not already provided by your
-anchor theory's confirmation. If you cannot write that sentence, cut
-the phrase.
+The only case where "consistent with" earns space is when you can follow it with a sentence explaining *why* the consistency matters — what it adds to the argument that is not already provided by your anchor theory's confirmation. If you cannot write that sentence, cut the phrase.
 
 ## A before and after
 
-Here is the Discussion opening from the bloated first attempt in
-Chapter 8:
+Here is the Discussion opening from the bloated first attempt in Chapter 9:
 
 ---
 
-*The present results are consistent with Event Segmentation Theory,
-as predicted. Participants rated surprise as lower at event boundaries
-than within events, supporting the claim that boundary detection
-reduces prediction error. These results are also consistent with
-predictive processing frameworks, which similarly predict reduced
-prediction error at moments of perceptual transition. Situation Models
-offer a complementary perspective: the updating of spatial and causal
-representations at boundaries may contribute to the reduction in
-surprise we observed. Narrative Comprehension accounts suggest that
-goal-structure processing at event transitions could additionally
-account for the boundary effect.*
+*The present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as lower at event boundaries than within events, supporting the claim that boundary detection reduces prediction error. These results are also consistent with predictive processing frameworks, which similarly predict reduced prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the reduction in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.*
 
 ---
 
-Four theories in five sentences. The anchor result is buried under
-three sentences of "also consistent with." The reader cannot tell
-which confirmation the paper is actually claiming.
+Four theories in five sentences. The anchor result is buried under three sentences of "also consistent with." The reader cannot tell which confirmation the paper is actually claiming.
 
 Here is the same opening after applying the two-job rule:
 
 ---
 
-*Surprise ratings were lower at event boundaries than within events,
-confirming the prediction of Event Segmentation Theory that boundary
-detection triggers a model update that reduces prediction error. The
-effect was robust across all three activity types and held at both the
-group and individual level.*
+*Surprise ratings were lower at event boundaries than within events, confirming the prediction of Event Segmentation Theory that boundary detection triggers a model update that reduces prediction error. The effect was robust across all three activity types and held at both the group and individual level.*
 
-*The present design does not discriminate between EST and predictive
-processing frameworks, which generate identical directional predictions
-for this paradigm. What the data do support is the more specific claim
-within EST that boundary-related prediction error reduction is
-perceptual rather than narrative in origin: the effect was present for
-clips of non-goal-directed activities as well as goal-directed ones,
-which is harder to account for on a goal-structure account.*
+*The present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that boundary-related prediction error reduction is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.*
 
 ---
 
-Two paragraphs. The first states the confirmed prediction and its
-scope. The second does genuine theoretical work — it uses a feature
-of the results to narrow the theoretical picture. Situation Models
-and Narrative Comprehension accounts do not appear. They were not in
-the introduction at the paragraph level, and they do not appear here.
-The reader does not miss them.
+Two paragraphs. The first states the confirmed prediction and its scope. The second does genuine theoretical work — it uses a feature of the results to narrow the theoretical picture. Theories that received only a brief mention in the introduction do not reappear here. The reader does not miss them.
 
-The same logic that governed your introduction governs your Discussion.
-The anchor holds at both ends. Chapter 7 addresses what happens when
-a reviewer disagrees.
+The same logic that governed your introduction governs your Discussion. The anchor holds at both ends. The next chapter addresses what happens when a reviewer disagrees.

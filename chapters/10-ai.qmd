@@ -1,8 +1,7 @@
 # Writing with AI
 
-::: {.callout-note icon="false"}
+::: {.callout-note icon=false}
 ## In a nutshell
-
 - AI writing tools are now part of academic life — this chapter is about using them wisely
 - They have a systematic tendency that makes theory overload worse
 - One simple rule changes how useful they are
@@ -16,36 +15,36 @@ Used poorly, it makes exactly the problem this guide is about significantly wors
 
 AI writing tools are genuinely useful for:
 
-- **Sentence-level editing** — improving clarity, flow, and concision once the argument is already clear
-- **Cutting** — identifying redundant sentences and paragraphs that do not advance the argument
-- **Formatting and consistency** — standardising terminology, checking reference formatting, fixing grammar
-- **Overcoming blank page paralysis** — generating a rough first draft that you then revise heavily
+- Sentence-level editing — improving clarity, flow, and concision once the argument is already clear
+- Cutting — identifying redundant sentences and paragraphs that do not advance the argument
+- Formatting and consistency — standardising terminology, checking reference formatting, fixing grammar
+- Overcoming blank page paralysis — generating a rough first draft that you then revise heavily
 
 Notice what all of these have in common: they work on text that already has a clear argument behind it. AI is good at making a clear argument sound better. It is not good at finding the argument in the first place.
 
-## What AI does badly: the sycophancy problem
+## What AI does badly: the expansion problem
 
-AI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it is a structural feature of how these systems are trained. Adding content feels like helping. Cutting content feels like withholding.
+AI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it reflects how these systems are trained. Large language models are typically fine-tuned using human feedback, where human raters judge which outputs are better. Raters tend to reward outputs that seem comprehensive and thorough — so models learn that adding content is usually the safer move. The result is a tool that is structurally biased towards inclusion.
 
-This tendency has a name in the AI research literature: sycophancy. The model tells you what seems helpful and agreeable rather than what is actually true or useful. In the context of academic writing, sycophancy produces exactly the bloat this guide is designed to prevent.
+In the AI research literature, a related phenomenon is called sycophancy: the tendency of models to tell users what seems agreeable rather than what is accurate or useful (Sharma et al. 2023, Towards Understanding Sycophancy in Language Models; Perez et al. 2022, Sycophancy to Subterfuge). In the context of academic writing, both tendencies — expansion and sycophancy — produce exactly the bloat this guide is designed to prevent.
 
 A concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are "highly relevant to event cognition research." It has added a sentence noting that "predictive processing frameworks offer a complementary perspective." The writing is fluent. The argument is weaker.
 
-The problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from Chapter 8, generated in thirty seconds.
+The problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from the worked example chapter, generated in thirty seconds.
 
 ## The three failure modes
 
 **Sycophantic expansion.** As described above — AI adds theories, qualifications, and hedges that dilute the argument. This is the most common failure mode and the hardest to detect because the output looks polished.
 
-**Confident vagueness.** AI connects theories to your argument with fluent but imprecise language. Phrases like "this aligns with", "is consistent with", and "offers a complementary perspective on" sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the filter test — the three questions introduced in Chapter 3 for deciding whether a theory belongs in your paper.
+**Confident vagueness.** AI connects theories to your argument with fluent but imprecise language. Phrases like "this aligns with", "is consistent with", and "offers a complementary perspective on" sound substantive but say nothing about whether the theory makes a differential prediction for your design. A theoretical framing full of these phrases passes the sycophancy test — it sounds agreeable — but fails the two filters introduced in the chapter on theory inclusion: does this theory make a different prediction for my design, and does it reach my dependent variable mechanistically?
 
 **Premature polish.** AI produces text that looks finished before the argument is sound. This kills the impulse to revise. If a paragraph reads well, it feels wrong to delete it — even if it is doing no argumentative work. The polish is a trap.
 
 ## How to use AI well
 
-The single most important rule: **complete your anchor sentence before opening an AI tool.** If you have not yet worked through the anchor exercise in Chapter 2, do that first.
+The single most important rule: complete your anchor sentence before opening an AI tool. If you have not yet worked through the anchor exercise in the chapter on choosing your anchor, do that first.
 
-If you have not written — by hand, without AI assistance — the sentence *My anchor theory is \[theory\], which predicts \[specific hypothesis\] in my study because \[mechanism\]*, you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.
+If you have not written — by hand, without AI assistance — the sentence *My anchor theory is [theory], which predicts [specific hypothesis] in my study because [mechanism]*, you are not ready to use AI for your theoretical framing. The anchor sentence is the constraint that keeps AI expansion in check. Without it, the AI has no basis for knowing what belongs in your paper and what does not.
 
 With it, you can use AI productively. Specific prompts that work:
 
@@ -53,7 +52,7 @@ With it, you can use AI productively. Specific prompts that work:
 
 > I am writing the theoretical framing for a study that tests the following prediction: [paste anchor sentence]. Write a three-paragraph introduction that moves from the phenomenon to the anchor theory to this specific prediction. Do not introduce any theoretical frameworks other than [anchor theory].
 
-**For cutting:** 
+**For cutting:**
 
 > Here is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly serve this argument and suggest removing it.
 
@@ -69,7 +68,7 @@ Using AI to assist with writing is not dishonest, provided you follow your insti
 
 If you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.
 
-AI can help you write what you think. It cannot think for you. The anchor exercise, the filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.
+AI can help you write what you think. It cannot think for you. The anchor exercise, the two filters, the two-sentence check — these are thinking tools, not writing tools. Do them yourself, on paper, before you open the AI.
 
 ## The sharp tool
 
