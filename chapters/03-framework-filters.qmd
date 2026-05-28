@@ -36,7 +36,7 @@ If the answer is **no** — mention it and explain why it is not tested here.
 
 If the answer is **yes** — you are in the territory of strong inference [@platt1964]. Both theories earn full treatment. Your introduction sets up the competition explicitly. Your results deliver the verdict. Your discussion addresses what the outcome means for both accounts — including the one that lost.
 
-The two filters produce three possible outcomes:
+The two filters (F1, F2) produce three possible outcomes:
 
 | Outcome             | Treatment                             |
 |---------------------|---------------------------------------|
