@@ -101,7 +101,7 @@ No competing theory earns full treatment in this design. That is not a failure o
 
 ### Design B: Memory and prediction across dimension changes
 
-Participants watch the same video clips, but now the number of situational dimension changes at event boundaries is manipulated — from one dimension changing to four. The dependent variables are recognition memory for boundary frames and prediction accuracy for events following the boundary.
+Participants watch the same video clips, but now the number of situational dimension changes at event boundaries is manipulated — from one dimension changing to four. The dependent variables are recognition memory for boundary frames and prediction accuracy for events following the boundary [@huff2014].
 
 **Event-Indexing Model**
 
