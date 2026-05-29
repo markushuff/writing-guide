@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -262,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-ai-does-badly-the-expansion-problem" class="level2" data-number="10.2">
 <h2 data-number="10.2" class="anchored" data-anchor-id="what-ai-does-badly-the-expansion-problem"><span class="header-section-number">10.2</span> What AI does badly: the expansion problem</h2>
-<p>AI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories. This is not a bug in any individual tool; it reflects how these systems are trained. Large language models are typically fine-tuned using human feedback, where human raters judge which outputs are better. Raters tend to reward outputs that seem comprehensive and thorough — so models learn that adding content is usually the safer move. The result is a tool that is structurally biased towards inclusion.</p>
-<p>In the AI research literature, a related phenomenon is called sycophancy: the tendency of models to tell users what seems agreeable rather than what is accurate or useful (Sharma et al.&nbsp;2023, Towards Understanding Sycophancy in Language Models; Perez et al.&nbsp;2022, Sycophancy to Subterfuge). In the context of academic writing, both tendencies — expansion and sycophancy — produce exactly the bloat this guide is designed to prevent.</p>
+<p>AI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories <span class="citation" data-cites="uhler2026">(<a href="../references.html#ref-uhler2026" role="doc-biblioref">Uhler et al., 2026</a>)</span>. This is not a bug in any individual tool; it reflects how these systems are trained. Large language models are typically fine-tuned using human feedback, where human raters judge which outputs are better. Raters tend to reward outputs that seem comprehensive and thorough — so models learn that adding content is usually the safer move. The result is a tool that is structurally biased towards inclusion.</p>
+<p>In the AI research literature, a related phenomenon is called sycophancy: the tendency of models to tell users what seems agreeable rather than what is accurate or useful <span class="citation" data-cites="cheng2026">(<a href="../references.html#ref-cheng2026" role="doc-biblioref">Cheng et al., 2026</a>)</span>. In the context of academic writing, both tendencies — expansion and sycophancy — produce exactly the bloat this guide is designed to prevent.</p>
 <p>A concrete example. You have a focused theoretical framing — three paragraphs, one anchor theory, one prediction. You ask an AI to improve it. The AI returns five paragraphs. It has added a paragraph on Situation Models because they are “highly relevant to event cognition research.” It has added a sentence noting that “predictive processing frameworks offer a complementary perspective.” The writing is fluent. The argument is weaker.</p>
 <p>The problem is invisible if you do not know what to look for. The expanded version sounds authoritative. It sounds thorough. It sounds like a paper that will satisfy reviewers. It is the first attempt from the worked example chapter, generated in thirty seconds.</p>
 </section>
@@ -304,6 +324,14 @@ ul.task-list li input[type="checkbox"] {
 <p>The guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. Everything else follows from holding it.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-cheng2026" class="csl-entry" role="listitem">
+Cheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., &amp; Jurafsky, D. (2026). Sycophantic <span>AI</span> decreases prosocial intentions and promotes dependence. <em>Science</em>, <em>391</em>(6792), eaec8352. <a href="https://doi.org/10.1126/science.aec8352">https://doi.org/10.1126/science.aec8352</a>
+</div>
+<div id="ref-uhler2026" class="csl-entry" role="listitem">
+Uhler, L., Jordan, V., Buder, J., Huff, M., &amp; Papenmeier, F. (2026). Influence of solution efficiency and valence of instruction on additive and subtractive solution strategies in humans, <span>GPT-4</span>, and <span>GPT-4o</span>. <em>Communications Psychology</em>, <em>4</em>(1), 41. <a href="https://doi.org/10.1038/s44271-026-00403-0">https://doi.org/10.1038/s44271-026-00403-0</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
