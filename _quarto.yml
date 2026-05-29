@@ -35,6 +35,7 @@ book:
 
 bibliography: references.bib
 license: "CC BY"
+csl: apa.csl
 
 format:
   html:

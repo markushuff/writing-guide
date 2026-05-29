@@ -1,7 +1,8 @@
 # The Revision Process
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## In a nutshell
+
 - Wait before you respond — decisions made in the first hours are rarely the right ones
 - Sort every comment before you write a single word of your response
 - The cover letter is read by the editor — make it count
@@ -44,22 +45,21 @@ A good cover letter does four things.
 
 A cover letter template:
 
----
+------------------------------------------------------------------------
 
-*Dear [Editor],*
+*Dear \[Editor\],*
 
-*We are pleased to resubmit our manuscript "[Title]" for consideration in [Journal]. The paper [one-sentence statement of contribution].*
+*We are pleased to resubmit our manuscript "\[Title\]" for consideration in \[Journal\]. The paper \[one-sentence statement of contribution\].*
 
-*We thank the reviewers for their careful reading. The reviews raised three main concerns: [brief summary]. We have addressed each of these in the revised manuscript.*
+*We thank the reviewers for their careful reading. The reviews raised three main concerns: \[brief summary\]. We have addressed each of these in the revised manuscript.*
 
-*The major changes are as follows: [two to four sentences summarising substantive changes]. We have also made numerous smaller revisions throughout to improve clarity.*
+*The major changes are as follows: \[two to four sentences summarising substantive changes\]. We have also made numerous smaller revisions throughout to improve clarity.*
 
-*We were unable to fully comply with one reviewer request: [brief statement]. Our reasons are explained in detail in the response document.*
+*We were unable to fully comply with one reviewer request: \[brief statement\]. Our reasons are explained in detail in the response document.*
 
-*Sincerely,*
-*[Authors]*
+*Sincerely,* *\[Authors\]*
 
----
+------------------------------------------------------------------------
 
 Keep it to one page. Editors are busy. A cover letter that requires scrolling is already too long.
 
@@ -69,7 +69,7 @@ The response document is a formal record of every reviewer comment and your resp
 
 **Structure.** Organise by reviewer, then by comment. Number every comment and every response:
 
----
+------------------------------------------------------------------------
 
 *Reviewer 1, Comment 3:*
 
@@ -77,9 +77,9 @@ The response document is a formal record of every reviewer comment and your resp
 
 *Response:*
 
-We thank the reviewer for this suggestion. [Your response here.] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.
+We thank the reviewer for this suggestion. \[Your response here.\] The relevant change appears on p. 4, lines 67–69 of the revised manuscript.
 
----
+------------------------------------------------------------------------
 
 Four rules for a strong response document:
 
