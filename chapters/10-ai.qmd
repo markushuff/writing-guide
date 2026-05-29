@@ -81,6 +81,10 @@ The following prompts work on existing text. In each case, the anchor sentence i
 
 The critical review prompt is the sharpest of these tools: it turns the sycophantic tendency on its head by explicitly instructing the AI to look for the weaknesses that sycophancy would normally conceal.
 
+If the critical review prompt flags weaknesses in your theoretical
+framing, address them before submission. The next section deals with
+the harder case: a reviewer who flags them after.
+
 ### After reviews come back
 
 **For reviewer responses:**
