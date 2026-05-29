@@ -46,6 +46,12 @@ The two filters produce three possible outcomes:
 
 ![Two filters, three outcomes](flowchart.svg){width="100%"}
 
+The three outcomes determine not just whether a theory appears, but how it appears in your prose. Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
+
+> Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].
+
+This sentence signals awareness of the landscape without making the landscape your argument. If you feel the urge to write something more defensive — explaining at length why you excluded a theory — that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor first.
+
 ::: {.callout-note icon="false"}
 ## What strong inference actually means
 
