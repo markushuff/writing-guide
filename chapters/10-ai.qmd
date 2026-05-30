@@ -2,11 +2,10 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- AI writing tools are now part of academic life — this chapter is about
-  using them wisely
-- They have a systematic tendency that makes theory overload worse
-- Used with the right constraints, they can also stress-test and
-  compress your argument
+
+- AI tools are trained to reward comprehensiveness, which makes theory overload worse by default
+- The anchor sentence and the two filters are the constraints that keep AI expansion in check
+- AI can compress, stress-test, and edit — but the thinking that precedes writing cannot be delegated to it
 :::
 
 AI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.

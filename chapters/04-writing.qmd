@@ -2,9 +2,9 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- Having a clear argument is not the same as writing it clearly
-- The funnel structure gives your framing a clear shape
-- Each level of the funnel maps onto exactly one paragraph job
+- The funnel moves from phenomenon to anchor theory to specific prediction — in that order, at that level of detail
+- Each paragraph has exactly one job; state that job before you write the paragraph
+- Five paragraph jobs cover a complete theoretical framing; a sixth is a signal to go back to the filters
 :::
 
 You have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.

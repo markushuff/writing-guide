@@ -3,9 +3,9 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- Perceived relevance of a theory is not the same as argumentative necessity
-- Two filters determine how much work a theory does in your argument
-- The result is one of three levels of treatment — and only one leads to strong inference
+- Filter 1: does the theory make a different prediction from your anchor for this design?
+- Filter 2: does it reach your dependent variable mechanistically?
+- Failing F1 earns a citation; passing F1 but failing F2 earns a brief mention; passing both earns full treatment and puts you in the territory of strong inference
 :::
 
 Once you have your anchor theory, you will inevitably encounter other theories that feel relevant. Some of them are. Most of them are not — at least not for this paper.

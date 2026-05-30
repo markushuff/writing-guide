@@ -3,11 +3,9 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- Wait before you respond — decisions made in the first hours are rarely the right ones
-- Sort every comment before you write a single word of your response
-- The cover letter is read by the editor — make it count
-- A good response document is specific, quoted, and referenced
-- See Chapter 7 for how to handle requests to add theoretical coverage
+- Sort every reviewer comment into must do, negotiate, or resist before writing a single word of your response
+- The cover letter signals to the editor that you have done the work; the response document is a formal record of every comment and every change
+- Open the submitted file, save a copy, and enable track changes before touching anything
 :::
 
 Getting reviews back is one of the most disorienting experiences in academic life. Even positive reviews require substantial work, and negative ones can feel like a personal attack on months or years of effort. This chapter is about the practical mechanics of turning a reviewed manuscript into an accepted one, with particular attention to the revision decisions that involve theoretical framing, which are consistently the most consequential and the hardest to get right.

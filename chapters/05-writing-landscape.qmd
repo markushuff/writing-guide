@@ -2,8 +2,9 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- Once you have a draft, three tests reveal whether your argument holds together
-- They work at increasing levels of scale: paragraph, paper, plain language
+- The argument progression test checks that each paragraph adds exactly one step toward the prediction, with no gaps and no redundancy
+- The elevator abstract checks that the whole paper compresses into two sentences without opening the manuscript
+- The plain-language summary checks that the draft is still about what you intended before you started writing
 :::
 
 You have your funnel. You know what your anchor theory is and what it predicts. Your paper sits in a field full of other theories, and you need to handle them without letting them take over. The two-sentence check in the previous chapter gave you a principled basis for those decisions before you started writing. This chapter gives you three tests to apply once you have a draft.

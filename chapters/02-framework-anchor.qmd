@@ -3,9 +3,9 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- Before deciding which theories belong in your paper, you need to answer a more fundamental question
-- Most writing problems at the theoretical level are thinking problems -- the writing feels hard because the thinking is not yet done
-- This chapter gives you a diagnostic exercise to find out
+- The anchor theory is the one you would have to abandon if your results came out differently — every other theory is judged relative to it
+- A good anchor theory generates a specific prediction for your specific design, not just for the phenomenon in general
+- If you cannot complete the anchor sentence cleanly, the thinking is not yet done
 :::
 
 Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: **which theory is actually driving your study?**

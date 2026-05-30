@@ -2,9 +2,9 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- Reviewer demands for more theory coverage are common but not always valid
-- You have a principled basis for your choices — use it
-- How you respond matters as much as what you respond
+- Run every requested theory through the two filters before deciding how to respond
+- A theory that fails both filters warrants a polite, specific explanation — not capitulation and not a flat refusal
+- Name the filter the theory fails, explain why your design cannot test it, and offer a citation as the appropriate level of treatment
 :::
 
 You have written a focused, well-argued paper. You have your anchor theory. You have applied the two filters. You have a clear funnel. Then the reviews come back, and Reviewer 2 wants you to discuss three more theories.

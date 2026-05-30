@@ -2,9 +2,9 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- The Discussion is where theory overload does its quietest damage
-- The section has two theoretical jobs, and only two
-- A simple test tells you whether your Discussion mirrors your introduction
+- The Discussion has two theoretical jobs: explain what the results mean for your anchor, and address any competing theory that passed both filters
+- Every theory in the Discussion should have appeared substantively in the introduction; every theory that appeared substantively in the introduction should reappear in the Discussion
+- Results being consistent with a theory is not a reason to discuss it
 :::
 
 The introduction is where theory overload is most visible. But the Discussion section is where it does the most damage — because by the time the reader reaches it, they have invested in your argument and the stakes are higher.
