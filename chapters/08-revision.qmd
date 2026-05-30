@@ -101,13 +101,13 @@ When submitting a revision, most journals ask for a version showing what was alt
 
 ## Rejection and resubmission
 
-A rejection carries information. Read it carefully before deciding what to do next.
+A rejection is hard to receive but carries information. Read it carefully before deciding what to do next.
 
-**Desk rejection** usually signals one of three things: the paper is outside the journal's scope, the contribution is not seen as significant enough for that venue, or the writing did not communicate the contribution clearly enough. The first is a targeting problem. The second and third are fixable. Journal editors vary in how much they explain — some gives you direction, some do not.
+**Desk rejection** usually signals one of three things: the paper is outside the journal's scope, the contribution is not seen as significant enough for that venue, or the writing did not communicate the contribution clearly enough. The first is a targeting problem. The second and third are fixable. Journal editors vary in how much they explain — some give you direction, some do not.
 
-**Rejection after review** is hard to receive but gives you something to work with. The reviews tell you exactly what needs to change. Read them as carefully as you would read an acceptance with major revisions, because that is often what they are at a different journal.
+**Rejection after review** gives you something to work with. The reviews tell you exactly what needs to change. A rejection at one journal with a clear set of reviews is often an acceptance at another, if you take them seriously.
 
-Before resubmitting elsewhere, ask honestly: do the reviews identify a genuine weakness in the argument or the evidence? If yes, fix it before resubmitting. Do not simply send the same paper to a lower-ranked journal and hope the reviewers miss the problem. They usually do not.
+Before resubmitting elsewhere, ask honestly: do the reviews identify a genuine weakness in the argument or the evidence? If yes, fix it before resubmitting. Fields are small, and reviewers are not randomly distributed across journals — the person who reviewed your paper at one venue may well be asked to review it at the next. Do not send the same paper to a lower-ranked journal and hope the problems go unnoticed.
 
 If the reviews reflect a scope mismatch rather than a genuine flaw, resubmit with confidence, but sharpen the cover letter to address the mismatch directly.
 
