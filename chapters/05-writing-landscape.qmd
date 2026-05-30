@@ -6,20 +6,19 @@
 - They work at increasing levels of scale: paragraph, paper, plain language
 :::
 
-You have your funnel. You know what your anchor theory is and what it predicts. But your paper does not exist in a vacuum — there are other theories in the field, and you need to handle them without letting them take over. The two-sentence check in the previous chapter gave you a principled basis for those decisions before you started writing. This chapter gives you three tests to apply once you have a draft.
+You have your funnel. You know what your anchor theory is and what it predicts. Your paper sits in a field full of other theories, and you need to handle them without letting them take over. The two-sentence check in the previous chapter gave you a principled basis for those decisions before you started writing. This chapter gives you three tests to apply once you have a draft.
 
 ## The argument progression test
 
-A well-written theoretical framing is a sequence of steps, each of
-which advances the argument by exactly one move. The test for this is simple: for each paragraph in your theoretical framing, ask — what single step does this paragraph add to my argument? Write it down in one sentence. If you cannot, the paragraph needs to be revised or removed.
+A well-written theoretical framing is a sequence of steps, each of which advances the argument by exactly one move. For each paragraph in your theoretical framing, ask: what single step does this paragraph add to my argument? Write it down in one sentence. If you cannot, the paragraph needs to be revised or removed.
 
-Then read your one-sentence summaries in sequence. They should tell the complete story of your theoretical argument — from phenomenon to prediction — without gaps or redundancy. A gap means a step is missing. Redundancy means two paragraphs are doing the same job, and one of them should go.
+Then read your one-sentence summaries in sequence. They should tell the complete story of your theoretical argument -- from phenomenon to prediction -- without gaps or redundancy. A gap means a step is missing. Redundancy means two paragraphs are doing the same job, and one of them should go.
 
-This is the paragraph-level version of the anchor sentence. The anchor sentence compresses your entire theoretical commitment into one sentence. The argument progression test checks whether your prose earns that compression — whether every paragraph is pulling its weight on the way there.
+This is the paragraph-level version of the anchor sentence. The anchor sentence compresses your entire theoretical commitment into one sentence. The argument progression test checks whether every paragraph is doing real work on the way to that sentence.
 
 ## The elevator abstract
 
-Once the argument holds paragraph by paragraph, check whether the whole paper compresses. Write two sentences: one stating what you did and why, one stating what you found and what it means. Do not open your manuscript while you do this. If you need the manuscript to produce two sentences, the paper's contribution is not yet clear to you — and if it is not clear to you, it will not be clear to your reader.
+Once the argument holds paragraph by paragraph, try to compress the whole paper into two sentences: one stating what you did and why, one stating what you found and what it means. Do not open your manuscript while you do this. A contribution that cannot be stated in two sentences without opening the manuscript is not yet clear enough to publish.
 
 A weak elevator abstract:
 
@@ -27,14 +26,12 @@ A weak elevator abstract:
 
 A strong elevator abstract:
 
-> We tested the prediction of Event Segmentation Theory that boundary detection reduces prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
-
-The difference is not length. The strong version names the mechanism, the operationalization, and what the result rules out. The weak version describes the study without making a claim.
+> We tested the prediction of Event Segmentation Theory that boundary detection reduces prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating -- not narrative goal structure -- drives the reduction.
 
 ## The plain-language summary
 
-In Chapter 2, you produced a plain-language summary before writing — a version of your study that a non-specialist could understand. Return to it now. Read it alongside your draft.
+In Chapter 2, you produced a plain-language summary before writing. Return to it now and read it alongside your draft.
 
-The question is not whether the two sound the same — they should not, the draft is a scientific document and the summary is not. The question is whether they are about the same thing. Academic writing has a well-known tendency to accumulate qualifications, hedges, and theoretical scaffolding until the original point is no longer visible. If your non-specialist summary describes a study that your draft no longer clearly resembles, the draft has drifted.
+The two will sound different because a scientific paper and a plain-language summary are different documents. What matters is whether they are about the same thing. Academic writing accumulates qualifications, hedges, and theoretical scaffolding until the original point is no longer visible. If your plain-language summary describes a study that your draft no longer clearly resembles, the draft has drifted.
 
 The plain-language summary does not change. The draft does.
