@@ -3,10 +3,9 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- Theory overload is rational but harmful — it produces comprehensive, unreadable drafts
-- The problem has three interlocking sources: theory proliferation,
-  reviewing culture, and writer response
-- Understanding where it comes from is the first step to fixing it
+- Theory proliferation, reviewing culture, and writer anxiety form a feedback loop that makes papers theoretically exhaustive and argumentatively weak
+- Each individual decision to add more coverage is understandable; the cumulative result is manuscripts that argue nothing
+- The writer cannot fix the incentive structure, but can choose not to be driven by it
 :::
 
 When researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.
