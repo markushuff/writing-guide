@@ -61,4 +61,4 @@ Reviewer responses are read by editors as well as reviewers. A response that com
 
 When in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.
 
-The next chapter addresses the practical mechanics of the revision process — the cover letter, the response document, and track changes.
+Chapter 8 addresses the practical mechanics of the revision process — the cover letter, the response document, and track changes.
