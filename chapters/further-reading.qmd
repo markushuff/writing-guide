@@ -55,14 +55,11 @@ relevant to the argument in Chapter 1 of this guide.
 
 Empirical evidence for the theory inflation problem. Across 2,225 articles in *Psychological Science*, the authors identified 359 distinct theories mentioned in text — most referred to only once. Theories proliferate faster than they are tested or retired. 
 
+**Platt, J. R. (1964).** Strong inference. *Science, 146*(3642), 347–353. <https://doi.org/10.1126/science.146.3642.347>
+
+Platt observed that fields advancing quickly shared a specific habit: devising competing hypotheses and designing experiments that could exclude at least one of them. Written for bench scientists in 1964, but the core question — what result would count against your hypothesis? — applies directly to the problem of theoretical framing in psychology.
+
 ## On the review process
-
-**Casadevall, A., & Fang, F. C. (2010).** Reproducible science. 
-*Infection and Immunity, 78*(12), 4972–4975.
-[https://doi.org/10.1128/IAI.00908-10](https://doi.org/10.1128/IAI.00908-10)
-
-A frank account of how reproducibility works in practice — its 
-strengths, its failures, and what authors can do about both.
 
 **Sternberg, R. J. (2002).** On civility in reviewing. *APS Observer.*
 [https://www.psychologicalscience.org/observer/on-civility-in-reviewing](https://www.psychologicalscience.org/observer/on-civility-in-reviewing)
@@ -77,7 +74,7 @@ Sycophantic AI decreases prosocial intentions and promotes dependence.
 *Science, 391*, eaec8352.
 [https://doi.org/10.1126/science.aec8352](https://doi.org/10.1126/science.aec8352)
 
-The empirical basis for the sycophancy problem described in Chapter 2.
+The empirical basis for the sycophancy problem described in Chapter 10.
 Across 11 state-of-the-art models, AI affirmed users' positions nearly
 50% more often than humans — even when those positions involved
 deception or harm.
@@ -86,7 +83,7 @@ deception or harm.
 
 Shows that AI tools systematically favour additive over subtractive
 solutions — directly relevant to why AI expands theoretical framings
-rather than cutting them. From our own department.
+rather than cutting them. 
 
 ---
 

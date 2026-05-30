@@ -2,7 +2,7 @@
 
 ::: {.callout-note icon=false}
 ## In a nutshell
-- A focused theoretical framing follows directly from the anchor sentence — the first attempt fails because it mentions four theories and commits to none
+- A focused theoretical framing follows directly from the anchor sentence
 - The two filters reduce four candidate theories to one anchor and one sentence of acknowledgement
 - A principled theoretical framing makes the reviewer response and cover letter straightforward to write
 :::
