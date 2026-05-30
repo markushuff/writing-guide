@@ -3,33 +3,19 @@
 ::: {.callout-note icon=false}
 ## In a nutshell
 - Having a clear argument is not the same as writing it clearly
-- The most common structural mistake is the omnibus paragraph, and there is a simple rule to avoid it
 - The funnel structure gives your framing a clear shape
+- Each level of the funnel maps onto exactly one paragraph job
 :::
 
 You have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.
 
-Many students hit a second problem at this point. They understand the logic of what they want to say, but the prose comes out wrong Is is often too dense, too hedged, or structured in a way that buries the argument. This chapter is about turning a clear theoretical decision into clear theoretical prose.
+A colleague once described **writing as debugging your thinking**. You believe the logic is clear until you try to put it into sentences, and then you discover the gaps. The *funnel structure* and the *paragraph rule* give the debugging process a shape.
 
-## One paragraph, one job
-
-The most common structural mistake in theoretical framing is the omnibus paragraph. A single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think.
-
-Every paragraph in your theoretical framing should have exactly one job. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.
-
-The jobs available to a paragraph in a theoretical framing are limited:
-
-- Establish why the phenomenon matters
-- Introduce the anchor theory and its core claim
-- State the specific prediction that follows from the anchor theory for your study
-- Acknowledge competing theories and explain why your study does not test them
-- State the gap your study fills
-
-That is roughly five paragraph jobs for an entire theoretical framing section. If you find yourself writing a sixth or seventh paragraph, something has gone wrong.
+Many students hit a second problem at this point. They understand the logic of what they want to say, but the prose comes out wrong: too dense, too hedged, or structured in a way that buries the argument. This chapter is about the writing itself — how the argument takes shape on the page.
 
 ## The funnel structure
 
-A well-written theoretical framing moves from broad to narrow, that is, from the phenomenon to the specific prediction. This is sometimes called the funnel structure, and it is standard for good reason: it orients the reader before it demands anything of them.
+A well-written theoretical framing moves from broad to narrow, from the phenomenon to the specific prediction. This is sometimes called the funnel structure, and it is standard for good reason: it orients the reader before it demands anything of them.
 
 ![The funnel structure for theoretical framing](funnel.svg){width=100%}
 
@@ -37,16 +23,39 @@ The funnel has three levels.
 
 ### The phenomenon
 
-One or two sentences establishing what you are studying and why it matters. This is not a literature review -- it is an orientation. The reader should finish these sentences knowing what the paper is about.
+One or two sentences establishing what you are studying and why it matters. This is not a literature review. It is an orientation. The reader should finish these sentences knowing what the paper is about.
 
 ### The anchor theory
 
-A concise statement of the theoretical account that drives your hypotheses. What does the theory claim? What mechanism does it propose? What does it predict in general? Keep this tight -- two to four sentences at most. You are not writing a review of the theory; you are establishing the lens through which your results will be interpreted.
+A concise statement of the theoretical account that drives your hypotheses. What does the theory claim? What mechanism does it propose? What does it predict in general? Keep this tight, two to four sentences at most. You are not writing a review of the theory; you are establishing the lens through which your results will be interpreted.
 
 ### The specific prediction
 
-The narrowest point of the funnel. Given your anchor theory and your specific design, what do you predict and why?
+The narrowest point of the funnel. Given your anchor theory and your specific design, what do you predict and why? This sentence, or two at most, is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.
 
-This sentence (or two at most) is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.
+For the prediction to land, the reader needs two things: to understand what the competing theories predict, and to see what gap your study fills. These are not separate sections of the framing — they are part of making the prediction feel inevitable. A prediction that appears without context feels asserted rather than argued. Competing theories and the gap belong inside the funnel, in the paragraphs that lead to the prediction.
+
+## One paragraph, one job
+
+The funnel describes the shape of the argument. The paragraph rule describes how that shape is built.
+
+Each level of the funnel corresponds to a small number of paragraph jobs, and each paragraph should have exactly one of them. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.
+
+The jobs map onto the funnel levels as follows:
+
+**Phenomenon**
+- Establish why the phenomenon matters
+
+**Anchor theory**
+- Introduce the anchor theory and its core claim
+- State the specific prediction that follows from the anchor theory for your study
+
+**Specific prediction**
+- Acknowledge competing theories and explain why your study does not test them
+- State the gap your study fills
+
+That is five paragraph jobs for an entire theoretical framing section. The list follows directly from the funnel. A sixth or seventh paragraph means either a job has been split across paragraphs unnecessarily, or a paragraph has been added that the funnel does not require. In either case, go back to the filters and ask whether the additional paragraph is doing argumentative work or just adding coverage.
+
+The most common structural mistake is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think. Keeping one job per paragraph prevents this.
 
 The next chapter addresses what to do with the theories that did not make it into the funnel.
