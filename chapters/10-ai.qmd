@@ -8,9 +8,9 @@
 - AI can compress, stress-test, and edit — but the thinking that precedes writing cannot be delegated to it
 :::
 
-AI writing tools — by which this chapter means large language model-based tools such as ChatGPT, Claude, Gemini, and similar systems — are now part of academic life. Most researchers use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. 
+AI writing tools — by which this chapter means large language model-based tools such as ChatGPT, Claude, Gemini, and similar systems — are now part of academic life. Most researchers use them in some form — for drafting, for editing, for getting past the first sentence. Used well, they can make the writing process faster and less painful.
 
-Used poorly, they make exactly the problem this guide is about significantly worse.
+Used poorly, they make the problem this guide is about significantly worse.
 
 ## The expansion problem
 

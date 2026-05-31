@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Writing Guide"
+  title: "The Focused Introduction: Writing the Theoretical Framing"
   author:
     - name: Markus Huff
       email: markus.huff@uni-tuebingen.de
