@@ -12,41 +12,41 @@
   {
     "objectID": "chapters/01-problem.html",
     "href": "chapters/01-problem.html",
-    "title": "1  The Problem",
+    "title": "1  Too Many Theories",
     "section": "",
     "text": "1.1 The theory overload problem\nWhen researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.\nThe cause is structural, not individual.\nPsychology — and cognitive psychology in particular — is a theory-rich field. For almost any phenomenon you study, there are multiple accounts, frameworks, and models that are at least partially relevant. Event cognition alone has produced a remarkable number of competing and overlapping theories: Event Segmentation Theory, Situation Models, Narrative Comprehension models, and more.\nWhen a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed. The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.\nThe scale of the problem is visible in the record. McPhetres et al. (2021) examined 2,225 articles published in Psychological Science between 2009 and 2019 and identified 359 distinct theories mentioned in text. The majority were cited only once. Theories accumulate in the literature faster than they are tested, refined, or retired — and the introduction section is where that accumulation is most visible.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Too Many Theories</span>"
     ]
   },
   {
     "objectID": "chapters/01-problem.html#where-it-comes-from",
     "href": "chapters/01-problem.html#where-it-comes-from",
-    "title": "1  The Problem",
+    "title": "1  Too Many Theories",
     "section": "1.2 Where it comes from",
     "text": "1.2 Where it comes from\nThe problem has three interlocking sources.\nTheory proliferation. Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.\nReviewing culture. Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper.\nWriter response. Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.\nThese three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Too Many Theories</span>"
     ]
   },
   {
     "objectID": "chapters/01-problem.html#why-preregistration-is-not-enough",
     "href": "chapters/01-problem.html#why-preregistration-is-not-enough",
-    "title": "1  The Problem",
+    "title": "1  Too Many Theories",
     "section": "1.3 Why preregistration is not enough",
     "text": "1.3 Why preregistration is not enough\nPreregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what Kerr (1998) called HARKing, Hypothesizing After Results are Known. But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states “we expect memory to be better at event boundaries” records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. Oberauer & Lewandowsky (2019) make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Too Many Theories</span>"
     ]
   },
   {
     "objectID": "chapters/01-problem.html#what-the-writer-can-do",
     "href": "chapters/01-problem.html#what-the-writer-can-do",
-    "title": "1  The Problem",
+    "title": "1  Too Many Theories",
     "section": "1.4 What the writer can do",
     "text": "1.4 What the writer can do\nThe feedback loop is real, and no single writer can dismantle it. But the writer is the one who can act — and that is what this guide is about.\n\n\n\n\nKerr, N. L. (1998). HARKing: Hypothesizing After the Results are Known. Personality and Social Psychology Review, 2(3), 196–217. https://doi.org/10.1207/s15327957pspr0203_4\n\n\nMcPhetres, J., Albayrak-Aydemir, N., Mendes, A. B., Chow, E. C., Gonzalez-Marquez, P., Loukras, E., Maus, A., O’Mahony, A., Pomareda, C., Primbs, M. A., Sackman, S. L., Smithson, C. J. R., & Volodko, K. (2021). A decade of theory as reflected in Psychological Science (2009–2019). PLOS ONE, 16(3), e0247986. https://doi.org/10.1371/journal.pone.0247986\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Problem</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Too Many Theories</span>"
     ]
   },
   {
@@ -114,7 +114,7 @@
     "href": "chapters/04-writing.html",
     "title": "4  Writing the Theoretical Framing",
     "section": "",
-    "text": "4.1 The funnel structure\nYou have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.\nA colleague once described writing as debugging your thinking. You believe the logic is clear until you try to put it into sentences, and then you discover the gaps. The funnel structure and the paragraph rule give the debugging process a shape.\nA well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.",
+    "text": "4.1 The funnel structure\nYou have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.\nA colleague once described writing as debugging thinking. You believe the logic is clear until you try to put it into sentences, and then you discover the gaps. The funnel structure and the paragraph rule give the debugging process a shape.\nA well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Writing the Theoretical Framing</span>"
     ]
@@ -457,6 +457,66 @@
     "text": "10.6 The sharp tool\nA sharp tool cuts well in the right hands and badly in the wrong ones. The same AI prompt produces a focused, well-argued theoretical framing when the writer has a clear anchor — and a bloated, theory-laden paragraph when they do not.\nThe guide you have just read is, among other things, a set of instructions for how to pick up the tool correctly. The anchor sentence is the handle. The constraints you bring to the tool determine how precisely it cuts.\n\n\n\n\nCheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., & Jurafsky, D. (2026). Sycophantic AI decreases prosocial intentions and promotes dependence. Science, 391(6792), eaec8352. https://doi.org/10.1126/science.aec8352\n\n\nUhler, L., Jordan, V., Buder, J., Huff, M., & Papenmeier, F. (2026). Influence of solution efficiency and valence of instruction on additive and subtractive solution strategies in humans, GPT-4, and GPT-4o. Communications Psychology, 4(1), 41. https://doi.org/10.1038/s44271-026-00403-0",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Writing with AI</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html",
+    "href": "chapters/11-schluss.html",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "",
+    "text": "11.1 Introduction\nPsychological researchers often assume that a strong introduction requires broad theoretical coverage. As manuscripts develop, introductions frequently expand. Additional theories are added, alternative perspectives are acknowledged, and reviewer suggestions introduce further literatures. The resulting text may cover a wide range of ideas, yet readers are sometimes left uncertain about which theory actually motivates the study.\nThe central argument of this book is that theoretical framing depends on selection. Every introduction includes some theories and excludes others. These decisions determine how readers understand the purpose of a study, the logic of its hypotheses, and the significance of its findings.\nThe framework presented in this book was developed to support those decisions. Its goal is to distinguish theories that are necessary for a particular argument from theories that are merely related to the topic.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html#focus-and-selection",
+    "href": "chapters/11-schluss.html#focus-and-selection",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "11.2 Focus and Selection",
+    "text": "11.2 Focus and Selection\nResearch problems are often theoretically complex. Multiple theories may offer plausible explanations for the same phenomenon, and different research traditions may emphasize different mechanisms. Authors therefore face decisions about which perspectives should play a central role in the introduction.\nNot all theories play the same role within an argument. Some theories provide the conceptual foundation for the hypotheses. Others offer historical context, alternative interpretations, or connections to adjacent research areas. A focused introduction makes these differences visible and allocates attention accordingly.\nTheories that motivate the research question and justify the hypotheses receive detailed treatment. Theories that occupy more peripheral roles receive less attention or are omitted entirely. The task of theoretical framing is to determine which theories carry the explanatory burden of the study and to organize the introduction around them.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html#excluding-is-not-ignoring",
+    "href": "chapters/11-schluss.html#excluding-is-not-ignoring",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "11.3 Excluding Is Not Ignoring",
+    "text": "11.3 Excluding Is Not Ignoring\nMany researchers hesitate to leave theories out of an introduction. Exclusion can feel intellectually risky, particularly in areas with extensive theoretical traditions. Authors may worry that omission will be interpreted as unfamiliarity with the literature or as a dismissal of competing perspectives.\nIn practice, every introduction depends on selective attention. No paper can discuss every theory that has been applied to a topic. The question is not whether selection occurs, but how it occurs.\nThe framework developed in this book provides a systematic basis for these decisions. When a theory is excluded, the exclusion does not imply that the theory is incorrect or unimportant. It indicates only that the theory is not required for understanding the argument developed in that particular paper.\nThis distinction becomes especially important during peer review. Requests to add theories are common, and some requests improve a manuscript substantially. Others increase the amount of theoretical material without strengthening the central argument. Authors who can distinguish between these situations are better positioned to revise their work without losing focus.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html#focus-and-cumulative-science",
+    "href": "chapters/11-schluss.html#focus-and-cumulative-science",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "11.4 Focus and Cumulative Science",
+    "text": "11.4 Focus and Cumulative Science\nThe consequences of theoretical framing extend beyond individual manuscripts. Scientific progress depends on the accumulation and evaluation of theoretical claims. Readers must be able to identify which predictions follow from which theories and how empirical findings bear on those predictions.\nWhen introductions draw on numerous loosely connected frameworks, these relationships become more difficult to identify. Theoretical claims overlap, predictions become less clearly linked to specific explanations, and the contribution of the study becomes harder to evaluate.\nFocused introductions create clearer connections between theory and evidence. Readers can identify the assumptions underlying a hypothesis, assess whether the evidence supports those assumptions, and compare competing explanations. Theoretical disagreements become easier to locate and empirical findings become easier to interpret.\nFor this reason, theoretical focus has implications that extend beyond writing style. It influences how effectively empirical findings contribute to theoretical development and cumulative scientific progress.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html#teaching-focus",
+    "href": "chapters/11-schluss.html#teaching-focus",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "11.5 Teaching Focus",
+    "text": "11.5 Teaching Focus\nTheory overload persists in part because researchers learn to write by reading published papers. This is a sensible strategy, but published introductions are often the product of a long revision process. Reviewer requests, additional citations, and efforts to satisfy multiple audiences may gradually expand the theoretical framing beyond what was necessary to motivate the original study.\nPublished introductions are therefore not always ideal teaching examples. They often reflect the history of a manuscript rather than the logic of the original argument.\nEarly-career researchers are particularly susceptible to this influence. Many receive extensive training in methods, statistics, and research design but comparatively little training in theoretical framing. Decisions about theory selection are often learned informally through reading published articles, observing advisors, and responding to reviewer feedback.\nAs a result, many researchers come to associate quality with breadth and assume that stronger introductions require more theories, more perspectives, and more citations. The experience of writing often suggests the opposite. As introductions grow, the central argument can become harder to identify. Authors may devote substantial effort to integrating theoretical perspectives that play little role in the development of the hypotheses.\nLearning to write focused introductions therefore requires learning to make explicit decisions about relevance and priority. The goal is not to minimize theory, but to determine which theoretical material is necessary for understanding the contribution of the paper.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-schluss.html#final-thoughts",
+    "href": "chapters/11-schluss.html#final-thoughts",
+    "title": "11  The Value of Theoretical Focus",
+    "section": "11.6 Final Thoughts",
+    "text": "11.6 Final Thoughts\nEvery empirical study requires theoretical choices. Researchers must decide which concepts to define, which literatures to review, which theories to discuss, and which predictions to derive. These decisions shape how readers understand the contribution of the work, but they also shape how researchers understand their own work.\nWriting is often treated as the final stage of research, a process in which completed ideas are translated into text. In practice, writing serves a different function. Researchers frequently discover weaknesses in their arguments only when they attempt to explain them clearly. Assumptions that appeared reasonable during study design become difficult to justify on the page. Theoretical connections that seemed obvious reveal gaps and inconsistencies.\nEarlier in this book, I described writing as the debugging thinking. The process of constructing an introduction forces researchers to specify which theories matter, how those theories relate to one another, and why they are necessary for understanding the study. Decisions about theoretical focus therefore do more than improve communication. They help clarify the underlying logic of the research itself.\nThe framework presented in this book treats theory selection as a methodological decision rather than a matter of style. Theories are included because they contribute to the argument of the paper. They are excluded when they do not. This process is rarely simple, and researchers will continue to face incentives to broaden their introductions. Additional theories can almost always be cited, and alternative perspectives can almost always be discussed. Yet the inclusion of more material does not necessarily strengthen a theoretical argument. In many cases, it obscures the logic that connects theory and evidence.\nWhen researchers distinguish central theories from peripheral ones, hypotheses become easier to justify, findings become easier to interpret, and theoretical contributions become easier to evaluate. Theoretical focus improves both the communication of research and the development of ideas. It helps transform writing from a record of thinking into a tool for refining it.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The Value of Theoretical Focus</span>"
     ]
   },
   {

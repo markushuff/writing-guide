@@ -31,6 +31,7 @@ book:
     - chapters/08-revision.qmd
     - chapters/09-example.qmd
     - chapters/10-ai.qmd
+    - chapters/11-schluss.qmd
     - chapters/further-reading.qmd
     - references.qmd
 
