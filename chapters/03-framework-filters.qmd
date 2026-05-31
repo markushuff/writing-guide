@@ -44,7 +44,8 @@ The two filters produce three possible outcomes:
 | Passes F1, fails F2 | Mention + explain why not tested here |
 | Passes both         | Full treatment — strong inference     |
 
-![Two filters, three outcomes](flowchart.svg){width="100%"}
+: Two filters, three outcomes.
+![](flowchart.svg){width="100%"}
 
 Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
 

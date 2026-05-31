@@ -30,6 +30,14 @@ Here is a simple diagnostic. Draw a line down the middle of a page. On the left,
 
 The two lists should largely match — and the reason follows directly from the two filters. A theory that passed both filters earned full treatment in your introduction and generated a result your study can speak to; it belongs on both sides. A theory that failed F1 or F2 earned at most a mention in your introduction; it has not earned a paragraph in your Discussion either. The filter decision made in the introduction determines the Discussion's shape.
 
+: The mirror test: Discussion treatment follows directly from introduction treatment.
+
+| Theory treatment in introduction | Expected Discussion treatment |
+|---|---|
+| Full treatment (passes F1 and F2) | Full treatment — state what the results showed |
+| Mention + explain (passes F1, fails F2) | One sentence — state that the study could not adjudicate |
+| Citation only (fails F1) | No Discussion space |
+
 Deviations from symmetry are sometimes legitimate, but each requires an explicit justification. A theory that loses space in the Discussion — because the results were null or ambiguous — still requires a verdict: say what the result means for that theory, even if the answer is that the study cannot adjudicate. A theory that gains space in the Discussion — because an unexpected finding opened up a theoretical connection that wasn't visible before data collection — must be clearly flagged as post-hoc and exploratory.
 
 For *preregistered studies*, and especially for *registered reports*, the mirror test has additional force. The left side of the page was fixed before data collection; it is part of the public record. The Discussion must account for every theory on the left, regardless of what the results showed. Dropping a preregistered competitor from the Discussion because the result was inconvenient is not a stylistic choice — it is a departure from the theoretical commitments the study was designed to test. Additions on the right are permitted, but must be labelled as unregistered, exploratory, and interpreted with appropriate caution.

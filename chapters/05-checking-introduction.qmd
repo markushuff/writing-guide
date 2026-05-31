@@ -30,6 +30,8 @@ A strong elevator abstract:
 
 > We tested the prediction of Event Segmentation Theory that boundary detection reduces prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
 
+The first sentence of a strong elevator abstract is usually the anchor sentence in another form — if the two cannot be made to match, the abstract and the theoretical framing are not yet about the same paper.
+
 ## The plain-language summary
 
 Close your manuscript. Without opening it, write two or three sentences explaining what your study is about and why it matters, in language a non-specialist could understand. No jargon, no theory names, no technical terms for your dependent variable. Then give what you wrote to a colleague outside your research group and ask whether it is clear.

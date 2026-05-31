@@ -6,6 +6,7 @@
 - The anchor theory is the one you would have to abandon if your results came out differently
 - A good anchor generates a specific prediction for your specific design, not just for the phenomenon in general
 - If you cannot complete the anchor sentence cleanly, the thinking is not yet done
+- A preregistration that names an effect without naming the theory and mechanism has not done the anchor work
 :::
 
 Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is actually driving your study?
@@ -20,7 +21,7 @@ A good anchor theory has three properties. First, you can derive your specific h
 
 A theory that predicts the same result regardless of what you found is background, not an anchor.
 
-Sometimes the anchor cannot be found because the study was not designed around one. No amount of good writing can fix that. Stop writing and talk to your collaborators before going further.
+Sometimes the anchor cannot be found because the study was not designed around one. If two theories both feel load-bearing, that is usually a signal that the design has not yet forced a decision between them — or that one is the anchor and the other belongs in the filters. No amount of good writing can fix either problem. Stop writing and talk to your collaborators before going further.
 
 ## The anchor exercise
 
@@ -39,5 +40,11 @@ The weak version could describe almost any study in event cognition. The strong 
 If you cannot complete the sentence cleanly, you are not ready to write. Talk to colleagues and collaborators first. A theoretical framing that cannot be summarised in one sentence will not become clearer at two thousand words — it will become longer.
 
 The same applies if you cannot explain your study in plain language — no jargon, no theory names — to someone outside the project. Both failures point to the same problem: the thinking is not yet done.
+
+## Preregistration and the anchor
+Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what @kerr1998 called HARKing, Hypothesizing After Results are Known.
+But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states "we expect memory to be better at event boundaries" records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. @oberauer2019 make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.
+In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common. It is not a moral failing. It is what happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
+The anchor sentence is what a strong preregistration should have contained. If you complete it now and find it differs from what you registered, that gap is worth understanding before you write a word of your introduction — and worth closing before you run the next study.
 
 Once you have your anchor, the next chapter gives you a principled way to handle everything else.

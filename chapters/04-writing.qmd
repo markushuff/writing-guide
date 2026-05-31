@@ -16,9 +16,10 @@ A colleague once described writing as debugging your thinking. You believe the l
 
 A well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.
 
-![The funnel structure for theoretical framing](funnel.svg){width=100%}
+: The funnel structure for theoretical framing.
+![](funnel.svg){width=100%}
 
-The funnel has three levels.
+### The funnel has three levels.
 
 **The phenomenon.** One or two sentences establishing what you are studying and why it matters. This is not a literature review. It is an orientation. The reader should finish these sentences knowing what the paper is about.
 
