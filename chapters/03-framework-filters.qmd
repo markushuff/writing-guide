@@ -38,14 +38,7 @@ If the answer is **yes** — you are in the territory of strong inference [@plat
 
 The two filters produce three possible outcomes:
 
-| Outcome             | Treatment                             |
-|---------------------|---------------------------------------|
-| Fails F1            | Citation only                         |
-| Passes F1, fails F2 | Mention + explain why not tested here |
-| Passes both         | Full treatment — strong inference     |
-
-: Two filters, three outcomes.
-![](flowchart.svg){width="100%"}
+![Two filters, three outcomes.](flowchart.svg){width="100%"}
 
 Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
 
@@ -104,6 +97,8 @@ The framework specifies what triggers a substructure shift, not how quickly one 
 
 #### How the filters apply in Design A
 
+: Filters in Design A
+
 | Theory                       | F1  | F2  | Treatment         |
 |------------------------------|-----|-----|-------------------|
 | SPECT                        | ✗   | —   | Citation only     |
@@ -127,6 +122,8 @@ Both theories address recognition memory and prediction accuracy directly and me
 → **Strong inference.** The introduction sets up the competition between global and incremental updating. The results report whether the pattern across dimension-change conditions is flat or linear. The discussion addresses what the outcome means for both theories.
 
 #### How the filters apply in Design B
+
+: Filters in Design B
 
 | Theory                       | F1  | F2  | Treatment                         |
 |------------------------------|-----|-----|-----------------------------------|

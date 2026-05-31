@@ -16,8 +16,8 @@ A colleague once described writing as debugging your thinking. You believe the l
 
 A well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.
 
-: The funnel structure for theoretical framing.
-![](funnel.svg){width=100%}
+
+![The funnel structure for theoretical framing.](funnel.svg){width="100%"}
 
 ### The funnel has three levels.
 
@@ -32,6 +32,8 @@ Competing theories and the gap your study fills belong inside the funnel — not
 ## One paragraph, one job
 
 Each level of the funnel corresponds to a small number of paragraph jobs. Each paragraph should have exactly one of them. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.
+
+: Paragraph jobs for each level of the funnel.
 
 | Funnel level | Paragraph job |
 |---|---|
