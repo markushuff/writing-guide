@@ -1,0 +1,103 @@
+## Finding your Anchor
+
+::: {.callout-note icon="false"}
+## In a nutshell
+
+- The anchor theory is the one you would have to abandon if your results came out differently — every other theory is judged relative to it
+- A good anchor theory generates a specific prediction for your specific design, not just for the phenomenon in general
+- If you cannot complete the anchor sentence cleanly, the thinking is not yet done
+:::
+
+Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: **which theory is actually driving your study?**
+
+We call this your anchor theory. It is the theoretical account that is load-bearing for your hypotheses -- the one you would have to abandon if your results came out differently. Every other theory in your manuscript will be judged relative to it.
+
+Finding your anchor is harder than it sounds. Many studies grow organically from a lab tradition, a paradigm, or an interesting effect rather than from a single theoretical commitment. In those cases, the anchor is often implicit -- everyone in the lab knows which theory motivates the work, but nobody has written it down explicitly. Writing it down is the first act of writing the paper.
+
+## What makes a good anchor theory
+
+A good anchor theory has three properties. First, you can derive your specific hypothesis directly from it -- not loosely inspired by it, but derived from it. Second, it makes a concrete prediction about your specific manipulation and dependent variable, not just about the broader phenomenon. Third, if your results contradict it, something scientifically important has been learned.
+
+A theory that predicts the same result regardless of what you found is background, not an anchor.
+
+Sometimes finding the anchor theory is impossible because the study was not designed around one. The study was never built around a theoretical commitment, and no amount of good writing can fix that. Stop writing and talk to your collaborators before going further.
+
+::: callout-tip
+### The anchor exercise
+
+Before writing a single word of your introduction, complete this sentence:
+
+> This study tests the prediction of \[theory\] that \[specific hypothesis\], as operationalized by \[dependent variable and manipulation\].
+
+If you can complete that sentence cleanly and specifically, you have your anchor. If you cannot -- if the sentence feels vague, or if several theories seem equally plausible -- you are not ready to write yet. Go back to your design and your data, and ask which theoretical account is most directly at stake.
+
+Once you have your anchor, everything else follows. The filters in the next chapter are all answered relative to it.
+:::
+
+## Preregistration and the anchor
+
+Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results -- what Kerr [-@kerr1998] called HARKing, Hypothesizing After Results are Known.
+
+But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states "we expect memory to be better at event boundaries" records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. @oberauer2019 make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.
+
+In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan -- but not always the anchor. This is common. It is not a moral failing. It is what happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
+
+What it means for writing is this: having a preregistration does not mean the anchor exercise has been done. If your preregistration names an expected effect without naming the theory, the mechanism, and the specific prediction, the anchor exercise remains necessary. Doing it now, before writing, is how you supply what the preregistration should have contained. And the anchor sentence you produce is also the core of a stronger preregistration for your next study.
+
+## Before you write: two checks
+
+With your anchor in hand, two further steps prepare you to write. The first checks the anchor itself. The second maps the theoretical landscape around it. Both need to be done before you open a document and start drafting.
+
+::: {.callout-tip icon="false"}
+### The two-sentence check
+
+Complete both sentences below. Write them down.
+
+**Sentence 1: Your anchor**
+
+*My anchor theory is* **[theory]**, *which predicts* **[specific hypothesis]** *in my study because* **[mechanism]**.
+
+This sentence should be uncomfortable to write vaguely. If you find yourself writing "which predicts generally better performance" or "because of cognitive factors", you have not yet found your anchor. A good anchor sentence names a specific mechanism and connects it to a specific outcome in your specific design.
+
+A weak anchor sentence:
+
+> My anchor theory is Event Segmentation Theory, which predicts better memory in my study because of event boundaries.
+
+A strong anchor sentence:
+
+> My anchor theory is Event Segmentation Theory, which predicts that memory for actions will be better at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model, making boundary-adjacent information more accessible.
+
+The difference is specificity. The strong version could only describe one study. The weak version could describe almost any study in event cognition.
+
+**Sentence 2: Your landscape**
+
+*Other theories in the field that address* **[phenomenon]** *include* **[list]**. *They do not appear in this paper / appear only briefly because* **[reason for each]**.
+
+This sentence forces you to be explicit about your exclusions before a reviewer forces you to be defensive about them. The reason for exclusion should always map onto one of the two filters: either the theory makes no differential prediction for this design, or it does not reach your dependent variable mechanistically.
+
+A weak landscape sentence:
+
+> Other theories in the field that address event cognition include the Event-Indexing Model and the Structure Building Framework. They do not appear in this paper because they are not the focus of this study.
+
+That reason -- "not the focus" -- is circular. It says nothing. A reviewer reading this would rightly ask: why not?
+
+A strong landscape sentence:
+
+> Other theories in the field that address event cognition include the Event-Indexing Model and the Structure Building Framework. The Event-Indexing Model addresses when situational dimension changes trigger updating, but makes no prediction about detection latency as a function of predictability -- it does not reach my dependent variable. The Structure Building Framework similarly specifies the conditions for substructure shifts but not their temporal dynamics.
+
+Each exclusion has a specific reason, and each reason maps onto one of the two filters. You do not need to write this sentence in your paper. But you need to be able to write it before you write your paper. If a reviewer later asks why you did not discuss these theories, you have a precise, principled answer ready.
+
+If you cannot give one of those two reasons for a theory's exclusion, go back to the filters. The theory may belong in your paper after all.
+
+**If you cannot complete either sentence**
+
+Do not start writing. Talk to colleagues and collaborators first. Present your argument in a lab meeting. A theoretical framing that cannot be summarised in two sentences will not become clearer at 2000 words -- it will become longer.
+:::
+
+## The plain-language summary
+
+Before you start writing, produce one more thing: a plain-language summary of your study. Write two or three sentences explaining what you are doing and why it matters, in language a non-specialist could understand. No jargon, no theory names, no technical terms for your dependent variable. If your study is about event boundaries and surprise ratings, write about how people experience moments of transition in everyday activities and what that tells us about how the mind works.
+
+Think of it as a clarity test, not a dumbing-down exercise. If you cannot explain what your study is about without the technical vocabulary, the technical vocabulary may be doing more load-bearing work than it should -- covering for an argument that is not yet fully clear.
+
+Write it down and keep it. You will return to it in Chapter 5, where it serves a different purpose: not as a starting point, but as a check on whether six thousand words of academic writing have obscured what was clear before you began. 

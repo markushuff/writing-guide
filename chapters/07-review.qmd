@@ -1,9 +1,10 @@
 # Surviving Peer Review
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## In a nutshell
+
 - Run every requested theory through the two filters before deciding how to respond
-- A theory that fails both filters warrants a polite, specific explanation — not capitulation and not a flat refusal
+- A theory that fails the filters warrants a polite, specific explanation — not capitulation and not a flat refusal
 - Name the filter the theory fails, explain why your design cannot test it, and offer a citation as the appropriate level of treatment
 :::
 
@@ -47,18 +48,4 @@ A strong response:
 
 This response is respectful, specific, and principled. It shows the reviewer that you have engaged seriously with their request and explains clearly why a one-sentence acknowledgement is the appropriate level of treatment.
 
-## When to give ground
-
-Sometimes the right answer is to give ground — not because the reviewer is right about the theory being essential, but because the cost of resistance is higher than the cost of inclusion. This is a judgment call, and it depends on the journal, the editor, and how central the paper is to your research programme.
-
-If you do add a theory under pressure, add it properly. One weak paragraph that mentions a theory without engaging with it satisfies nobody and weakens the paper. If the theory is going in, apply the framework: does it make a different prediction for your design? Does it reach your dependent variable? What does including it add to the interpretation?
-
-A theory that earns its place even under pressure is better than a theory that was always there for the wrong reasons.
-
-## A note on tone
-
-Reviewer responses are read by editors as well as reviewers. A response that comes across as dismissive or impatient — even when you are right — can damage your chances with the editor. Firmness and respect are not opposites. The strong response above is firm precisely because it is specific and engaged, not because it is blunt.
-
-When in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.
-
-Chapter 8 addresses the practical mechanics of the revision process — the cover letter, the response document, and track changes.
+Chapter 8 addresses the practical mechanics of the revision process — how to sort reviewer comments, write the cover letter, structure the response document, and decide when to give ground.

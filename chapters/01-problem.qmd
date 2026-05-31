@@ -4,25 +4,24 @@
 ## In a nutshell
 
 - Theory proliferation, reviewing culture, and writer anxiety form a feedback loop that makes papers theoretically exhaustive and argumentatively weak
+- Preregistration was designed to help, but only does the work if the theoretical thinking was done first
 - Each individual decision to add more coverage is understandable; the cumulative result is manuscripts that argue nothing
 - The writer cannot fix the incentive structure, but can choose not to be driven by it
 :::
 
 When researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.
 
-The rational response, that is, mention everything that might be relevant, produces manuscripts that are theoretically exhaustive and argumentatively weak. The cause is structural, not individual.
+The cause is structural, not individual.
 
 ## The theory overload problem
 
 Psychology — and cognitive psychology in particular — is a theory-rich field. For almost any phenomenon you study, there are multiple accounts, frameworks, and models that are at least partially relevant. Event cognition alone has produced a remarkable number of competing and overlapping theories: Event Segmentation Theory, Situation Models, Narrative Comprehension models, and more.
 
-When a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed.
-
-The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.
+When a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed. The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.
 
 ## Where it comes from
 
-The problem has three interlocking sources:
+The problem has three interlocking sources.
 
 **Theory proliferation.** Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.
 
@@ -30,4 +29,18 @@ The problem has three interlocking sources:
 
 **Writer response.** Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.
 
-These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation. But the writer is the one who can act — and that is what this guide is about.
+These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation.
+
+## Why preregistration is not enough
+
+Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what @kerr1998 called HARKing, Hypothesizing After Results are Known.
+
+But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states "we expect memory to be better at event boundaries" records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. @oberauer2019 make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.
+
+In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common. It is not a moral failing. It is what happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
+
+What it means for writing is this: having a preregistration does not mean the theoretical work is done. If your preregistration names an expected effect without naming the theory, the mechanism, and the specific prediction, that work remains. The anchor exercise in the next chapter is how you supply what the preregistration should have contained — and how you write a stronger one next time.
+
+## What the writer can do
+
+The feedback loop is real, and no single writer can dismantle it. But the writer is the one who can act — and that is what this guide is about.

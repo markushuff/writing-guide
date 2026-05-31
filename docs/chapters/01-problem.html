@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -126,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/02-framework-anchor.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding your Anchor</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding Your Anchor</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -144,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-writing-landscape.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking your argument</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking Your Draft</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -201,6 +221,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#the-theory-overload-problem" id="toc-the-theory-overload-problem" class="nav-link active" data-scroll-target="#the-theory-overload-problem"><span class="header-section-number">1.1</span> The theory overload problem</a></li>
   <li><a href="#where-it-comes-from" id="toc-where-it-comes-from" class="nav-link" data-scroll-target="#where-it-comes-from"><span class="header-section-number">1.2</span> Where it comes from</a></li>
+  <li><a href="#why-preregistration-is-not-enough" id="toc-why-preregistration-is-not-enough" class="nav-link" data-scroll-target="#why-preregistration-is-not-enough"><span class="header-section-number">1.3</span> Why preregistration is not enough</a></li>
+  <li><a href="#what-the-writer-can-do" id="toc-what-the-writer-can-do" class="nav-link" data-scroll-target="#what-the-writer-can-do"><span class="header-section-number">1.4</span> What the writer can do</a></li>
   </ul>
 </nav>
     </div>
@@ -238,28 +260,47 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-body-container callout-body">
 <ul>
 <li>Theory proliferation, reviewing culture, and writer anxiety form a feedback loop that makes papers theoretically exhaustive and argumentatively weak</li>
+<li>Preregistration was designed to help, but only does the work if the theoretical thinking was done first</li>
 <li>Each individual decision to add more coverage is understandable; the cumulative result is manuscripts that argue nothing</li>
 <li>The writer cannot fix the incentive structure, but can choose not to be driven by it</li>
 </ul>
 </div>
 </div>
 <p>When researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.</p>
-<p>The rational response, that is, mention everything that might be relevant, produces manuscripts that are theoretically exhaustive and argumentatively weak. The cause is structural, not individual.</p>
+<p>The cause is structural, not individual.</p>
 <section id="the-theory-overload-problem" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="the-theory-overload-problem"><span class="header-section-number">1.1</span> The theory overload problem</h2>
 <p>Psychology — and cognitive psychology in particular — is a theory-rich field. For almost any phenomenon you study, there are multiple accounts, frameworks, and models that are at least partially relevant. Event cognition alone has produced a remarkable number of competing and overlapping theories: Event Segmentation Theory, Situation Models, Narrative Comprehension models, and more.</p>
-<p>When a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed.</p>
-<p>The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.</p>
+<p>When a PhD student sits down to write, they face a genuine dilemma. They know this landscape well. They also know that reviewers are drawn from that same landscape — and that reviewers notice when their preferred theory is not discussed. The rational response is to mention everything. The result is a manuscript that mentions everything and argues nothing.</p>
 </section>
 <section id="where-it-comes-from" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="where-it-comes-from"><span class="header-section-number">1.2</span> Where it comes from</h2>
-<p>The problem has three interlocking sources:</p>
+<p>The problem has three interlocking sources.</p>
 <p><strong>Theory proliferation.</strong> Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.</p>
 <p><strong>Reviewing culture.</strong> Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper.</p>
 <p><strong>Writer response.</strong> Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.</p>
-<p>These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation. But the writer is the one who can act — and that is what this guide is about.</p>
+<p>These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation.</p>
+</section>
+<section id="why-preregistration-is-not-enough" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="why-preregistration-is-not-enough"><span class="header-section-number">1.3</span> Why preregistration is not enough</h2>
+<p>Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what <span class="citation" data-cites="kerr1998">Kerr (<a href="../references.html#ref-kerr1998" role="doc-biblioref">1998</a>)</span> called HARKing, Hypothesizing After Results are Known.</p>
+<p>But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states “we expect memory to be better at event boundaries” records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. <span class="citation" data-cites="oberauer2019">Oberauer &amp; Lewandowsky (<a href="../references.html#ref-oberauer2019" role="doc-biblioref">2019</a>)</span> make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.</p>
+<p>In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common. It is not a moral failing. It is what happens when the practical pressures of running a study outpace the slower work of theoretical clarification.</p>
+<p>What it means for writing is this: having a preregistration does not mean the theoretical work is done. If your preregistration names an expected effect without naming the theory, the mechanism, and the specific prediction, that work remains. The anchor exercise in the next chapter is how you supply what the preregistration should have contained — and how you write a stronger one next time.</p>
+</section>
+<section id="what-the-writer-can-do" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="what-the-writer-can-do"><span class="header-section-number">1.4</span> What the writer can do</h2>
+<p>The feedback loop is real, and no single writer can dismantle it. But the writer is the one who can act — and that is what this guide is about.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-kerr1998" class="csl-entry" role="listitem">
+Kerr, N. L. (1998). <span>HARKing</span>: <span>Hypothesizing After</span> the <span>Results</span> are <span>Known</span>. <em>Personality and Social Psychology Review</em>, <em>2</em>(3), 196–217. <a href="https://doi.org/10.1207/s15327957pspr0203_4">https://doi.org/10.1207/s15327957pspr0203_4</a>
+</div>
+<div id="ref-oberauer2019" class="csl-entry" role="listitem">
+Oberauer, K., &amp; Lewandowsky, S. (2019). Addressing the theory crisis in psychology. <em>Psychonomic Bulletin &amp; Review</em>, <em>26</em>(5), 1596–1618. <a href="https://doi.org/10.3758/s13423-019-01645-2">https://doi.org/10.3758/s13423-019-01645-2</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -670,8 +711,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/02-framework-anchor.html" class="pagination-link" aria-label="Finding your Anchor">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding your Anchor</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/02-framework-anchor.html" class="pagination-link" aria-label="Finding Your Anchor">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding Your Anchor</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

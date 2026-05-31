@@ -24,7 +24,7 @@ book:
     - chapters/02-framework-anchor.qmd
     - chapters/03-framework-filters.qmd
     - chapters/04-writing.qmd
-    - chapters/05-writing-landscape.qmd
+    - chapters/05-checking-introduction.qmd
     - chapters/06-discussion.qmd
     - chapters/07-review.qmd
     - chapters/08-revision.qmd

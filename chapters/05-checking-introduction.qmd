@@ -1,0 +1,39 @@
+# Checking Your Introduction
+
+::: {.callout-note icon="false"}
+## In a nutshell
+
+- The argument progression test checks that each paragraph adds exactly one step toward the prediction, with no gaps and no redundancy
+- The elevator abstract checks that the whole paper compresses into two sentences without opening the manuscript
+- The plain-language summary checks that you can describe your study consistently at two levels of abstraction
+:::
+
+You have a draft. Before you send it to co-authors or submit it, three checks catch the problems that are hardest to see from inside your own argument. Run them in order — each operates at a different level, and a problem caught early saves work later.
+
+## The argument progression test
+
+For each paragraph in your theoretical framing, ask: what single step does this paragraph add to my argument? Write it down in one sentence. If you cannot, the paragraph needs to be revised or removed.
+
+Then read your one-sentence summaries in sequence. They should tell the complete story of your theoretical argument — from phenomenon to prediction — without gaps or redundancy. A gap means a step is missing. Redundancy means two paragraphs are doing the same job, and one of them should go.
+
+This is the paragraph-level version of the anchor sentence. The anchor sentence compresses your entire theoretical commitment into one sentence. The argument progression test checks whether every paragraph is doing real work on the way to that sentence.
+
+## The elevator abstract
+
+Try to compress the whole paper into two sentences: one stating what you did and why, one stating what you found and what it means. Do not open your manuscript while you do this. A contribution that cannot be stated in two sentences without opening the manuscript is not yet clear enough to publish.
+
+A weak elevator abstract:
+
+> We studied event boundaries and surprise ratings in video clips. We found that surprise was lower at boundaries, which is consistent with Event Segmentation Theory.
+
+A strong elevator abstract:
+
+> We tested the prediction of Event Segmentation Theory that boundary detection reduces prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
+
+## The plain-language summary
+
+Close your manuscript. Without opening it, write two or three sentences explaining what your study is about and why it matters, in language a non-specialist could understand. No jargon, no theory names, no technical terms for your dependent variable. Then give what you wrote to a colleague outside your research group and ask whether it is clear.
+
+Open your draft and read it alongside your plain-language summary. The two will sound different because a scientific paper and a plain-language summary are different documents. What matters is whether they are about the same thing. Academic writing accumulates qualifications, hedges, and theoretical scaffolding until the original point is no longer visible.
+
+A mismatch between the two is rarely about the writing. It is a signal that the thinking behind the manuscript is not yet clear enough to produce consistent accounts of the same study at different levels of abstraction. If the two accounts do not converge, go back to the anchor sentence and rewrite it until they do.

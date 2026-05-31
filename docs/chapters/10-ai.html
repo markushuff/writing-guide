@@ -146,7 +146,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/02-framework-anchor.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding your Anchor</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Finding Your Anchor</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -163,8 +163,8 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/05-writing-landscape.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking your argument</span></span></a>
+  <a href="../chapters/05-checking-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Checking Your Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -267,13 +267,13 @@ div.csl-indent {
 <div class="callout-body-container callout-body">
 <ul>
 <li>AI tools are trained to reward comprehensiveness, which makes theory overload worse by default</li>
-<li>The anchor sentence and the two filters are the constraints that keep AI expansion in check</li>
+<li>The anchor sentence and the landscape sentence are the constraints that keep AI expansion in check</li>
 <li>AI can compress, stress-test, and edit — but the thinking that precedes writing cannot be delegated to it</li>
 </ul>
 </div>
 </div>
-<p>AI writing tools are now part of academic life. Most PhD students and postdocs use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page. This is not a problem. Used well, AI can make the writing process faster and less painful.</p>
-<p>Used poorly, it makes exactly the problem this guide is about significantly worse.</p>
+<p>AI writing tools — by which this chapter means large language model-based tools such as ChatGPT, Claude, Gemini, and similar systems — are now part of academic life. Most researchers use them in some form — for drafting, for editing, for overcoming the paralysis of the blank page.</p>
+<p>Used poorly, they make exactly the problem this guide is about significantly worse.</p>
 <section id="the-expansion-problem" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="the-expansion-problem"><span class="header-section-number">10.1</span> The expansion problem</h2>
 <p>AI writing tools have a systematic tendency to expand. Ask an AI to improve your introduction and it will suggest adding things — more context, more nuance, more theories <span class="citation" data-cites="uhler2026">(<a href="../references.html#ref-uhler2026" role="doc-biblioref">Uhler et al., 2026</a>)</span>. This is not a bug in any individual tool; it reflects how these systems are trained. Large language models are typically fine-tuned using human feedback, where human raters judge which outputs are better. Raters tend to reward outputs that seem comprehensive and thorough — so models learn that adding content is usually the safer move. The result is a tool that is structurally biased towards inclusion.</p>
@@ -300,37 +300,42 @@ div.csl-indent {
 </section>
 <section id="how-to-use-ai-well" class="level2" data-number="10.4">
 <h2 data-number="10.4" class="anchored" data-anchor-id="how-to-use-ai-well"><span class="header-section-number">10.4</span> How to use AI well</h2>
-<p>The most important rule: complete your anchor sentence and your two-sentence check before opening an AI tool. These are the constraints that keep AI expansion in check. Without them, the AI has no basis for knowing what belongs in your paper and what does not — and it will optimise for comprehensiveness, which is the opposite of what you need.</p>
-<p>With those constraints in place, AI can be used productively at every stage of the writing process.</p>
+<p>The most important rule: complete your anchor sentence and your landscape sentence before opening an AI tool. These are the constraints that keep AI expansion in check. Without them, the AI has no basis for knowing what belongs in your paper and what does not — and it will optimise for comprehensiveness, which is the opposite of what you need.</p>
+<p>With those constraints in place, AI can be used productively at every stage of the writing process. The prompts below are designed to work with specific inputs — paste them in exactly as instructed, and be precise. A vague prompt produces a vague response.</p>
 <section id="before-you-write" class="level3" data-number="10.4.1">
 <h3 data-number="10.4.1" class="anchored" data-anchor-id="before-you-write"><span class="header-section-number">10.4.1</span> Before you write</h3>
 <p><strong>For drafting:</strong></p>
 <blockquote class="blockquote">
-<p>I am writing the theoretical framing for a study that tests the following prediction: [paste anchor sentence]. Write a three-paragraph introduction that moves from the phenomenon to the anchor theory to this specific prediction. Do not introduce any theoretical frameworks other than [anchor theory].</p>
+<p>I am writing the theoretical framing for an empirical paper to be submitted to a peer-reviewed psychology journal. My anchor sentence is: [paste your anchor sentence exactly as written in the anchor exercise]. My landscape sentence is: [paste your landscape sentence exactly as written after the filter exercise]. Write a theoretical framing of exactly three paragraphs that moves from the phenomenon to the anchor theory to the specific prediction. The first paragraph establishes why the phenomenon matters. The second introduces the anchor theory and its mechanism. The third states the specific prediction and disposes of excluded theories in one sentence. Do not introduce any theoretical framework other than [anchor theory]. Do not use the phrases “consistent with”, “aligns with”, or “offers a complementary perspective”.</p>
 </blockquote>
 </section>
 <section id="once-you-have-a-draft" class="level3" data-number="10.4.2">
 <h3 data-number="10.4.2" class="anchored" data-anchor-id="once-you-have-a-draft"><span class="header-section-number">10.4.2</span> Once you have a draft</h3>
-<p>The following prompts work on existing text. In each case, the anchor sentence is the constraint that stops the AI from optimising for comprehensiveness instead of argumentative clarity.</p>
+<p>The following prompts work on existing text. In each case, the anchor sentence is the constraint that stops the AI from optimising for comprehensiveness instead of argumentative clarity. Always paste the full text you want assessed — AI cannot read your manuscript unless you provide it.</p>
+<p><strong>For summarising as a consistency check:</strong></p>
+<blockquote class="blockquote">
+<p>Here is my theoretical framing: [paste text]. Summarise the argument in three to five sentences, in your own words. Do not use the same sentence structures as the original. State: what phenomenon is being studied, which theory drives the hypotheses and what it predicts, and what the study will show. Do not add anything that is not explicitly stated in the text.</p>
+</blockquote>
+<p>This prompt uses AI’s limitations as a diagnostic tool. A competent summariser that cannot produce a coherent summary is telling you something: the source text contains gaps or contradictions that fluent prose was concealing. If the summary is confused or vague, the problem is not the AI — it is the framing. The “do not add anything that is not in the text” instruction is essential; without it, AI will fill gaps with plausible inference and mask the very inconsistencies you need to find.</p>
 <p><strong>For cutting:</strong></p>
 <blockquote class="blockquote">
-<p>Here is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly serve this argument and suggest removing it.</p>
+<p>Here is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Identify every sentence that does not directly advance the argument toward the prediction in the anchor sentence. For each such sentence, state in one line why it does not advance the argument, and recommend removing it or specify what it would need to say to earn its place.</p>
 </blockquote>
 <p><strong>For the argument progression test:</strong></p>
 <blockquote class="blockquote">
-<p>Here is my theoretical framing: [paste text]. For each paragraph, state in one sentence what single step it adds to the argument. Then tell me whether the sequence of steps tells a complete story from phenomenon to prediction, and identify any gaps or redundancies.</p>
+<p>Here is my theoretical framing: [paste text]. For each paragraph, write one sentence stating the single step it adds to the argument. Then assess whether the sequence of steps tells a complete story from phenomenon to prediction without gaps or redundancy. List any gap — a missing step — and any redundancy — two paragraphs doing the same job.</p>
 </blockquote>
 <p><strong>For the elevator abstract:</strong></p>
 <blockquote class="blockquote">
-<p>Here is my full manuscript: [paste text]. Write a two-sentence summary: one sentence stating what I did and why, one sentence stating what I found and what it means. Use the language of the manuscript but no more jargon than is necessary.</p>
+<p>Here is my full manuscript: [paste text]. Write a two-sentence summary of the paper. The first sentence states what I did and why — the theoretical prediction tested and how it was operationalized. The second sentence states what I found and what it means for the anchor theory. Use precise theoretical language but no unnecessary jargon. Do not begin either sentence with “This study” or “We found”.</p>
 </blockquote>
 <p><strong>For the plain-language summary:</strong></p>
 <blockquote class="blockquote">
-<p>Here is my theoretical framing: [paste text]. Explain what this study is about and why it matters in two or three sentences, using no technical terms and no theory names. Write it for someone with no background in psychology.</p>
+<p>Here is a description of my study: [paste a brief description of your design, manipulation, dependent variable, and main finding]. Write two to three sentences explaining what this study is about and why it matters. Use no technical terms, no theory names, and no field-specific jargon. Write for an intelligent adult with no background in this area of research. If anything in my description is unclear or would require specialist knowledge to understand, flag it.</p>
 </blockquote>
 <p><strong>For critical review:</strong></p>
 <blockquote class="blockquote">
-<p>Here is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Act as a critical reviewer. For each theory that receives more than a citation, assess whether it passes both filters: does it make a different prediction from my anchor for this specific design, and does it reach my dependent variable mechanistically? Flag any theory that receives substantive treatment without passing both filters. Flag any sentence that uses the phrases “consistent with”, “aligns with”, or “offers a complementary perspective” without specifying a differential prediction.</p>
+<p>Here is my theoretical framing: [paste text]. My anchor sentence is: [paste anchor sentence]. Act as a critical peer reviewer with expertise in this area. For each theory that receives more than a citation, assess whether it passes both of the following filters: (1) does it make a different prediction from my anchor theory for this specific manipulation and dependent variable, and (2) does it reach my dependent variable mechanistically — not just at the level of the phenomenon in general? Flag any theory that receives substantive treatment without passing both filters. Flag any sentence that uses the phrases “consistent with”, “aligns with”, or “offers a complementary perspective” without specifying a differential prediction. Be direct and specific; do not soften criticisms.</p>
 </blockquote>
 <p>The critical review prompt is the sharpest of these tools: it turns the sycophantic tendency on its head by explicitly instructing the AI to look for the weaknesses that sycophancy would normally conceal.</p>
 <p>If the critical review prompt flags weaknesses in your theoretical framing, address them before submission. The next section deals with the harder case: a reviewer who flags them after.</p>
@@ -339,16 +344,16 @@ div.csl-indent {
 <h3 data-number="10.4.3" class="anchored" data-anchor-id="after-reviews-come-back"><span class="header-section-number">10.4.3</span> After reviews come back</h3>
 <p><strong>For reviewer responses:</strong></p>
 <blockquote class="blockquote">
-<p>A reviewer has asked me to add a discussion of [Theory X]. My anchor theory is [Theory Y]. In my design, both theories predict [same outcome]. Write a polite reviewer response explaining why a one-sentence acknowledgement is the appropriate level of treatment.</p>
+<p>A reviewer has asked me to add a substantive discussion of [Theory X] to my introduction. My anchor theory is [Theory Y]. My anchor sentence is: [paste anchor sentence]. In my design, [Theory X] and [Theory Y] generate identical directional predictions for [specific manipulation and dependent variable] — [Theory X] fails Filter 1 because it makes no distinct prediction for this operationalization. Write a polite, specific response to the reviewer that: (1) acknowledges the importance of [Theory X] in the field, (2) explains precisely why our design cannot adjudicate between [Theory X] and [Theory Y], and (3) states that we have added a sentence acknowledging [Theory X] at [location in manuscript]. Do not be dismissive. Do not simply refuse. Be specific about why the filter fails for this design.</p>
 </blockquote>
-<p>Notice the pattern across all these prompts: in every case, you give the AI a constraint derived from the tools in this guide. The argument progression test prompt asks AI to do what you would do manually — but faster, and without the attachment to your own prose that makes self-editing hard. The plain-language summary prompt uses AI as a stand-in for the non-specialist reader: if the output does not match what you wrote before drafting, the draft has drifted from its original clarity. These prompts turn AI’s tendencies to compress and summarise into assets rather than liabilities — the opposite of asking it to expand and improve.</p>
+<p>Notice the pattern across all these prompts: in every case, you give the AI a constraint derived from the tools in this guide. The summarising prompt uses AI’s failure as a signal rather than a flaw — an incoherent summary points to an incoherent source. The argument progression test prompt asks AI to do what you would do manually — but faster, and without the attachment to your own prose that makes self-editing hard. The critical review prompt uses AI as a stand-in for the hostile reviewer: if it finds weaknesses, a real reviewer will too. These prompts turn AI’s tendencies to compress and summarise into assets rather than liabilities — the opposite of asking it to expand and improve.</p>
 </section>
 </section>
 <section id="a-note-on-honesty" class="level2" data-number="10.5">
 <h2 data-number="10.5" class="anchored" data-anchor-id="a-note-on-honesty"><span class="header-section-number">10.5</span> A note on honesty</h2>
 <p>Using AI to assist with writing is not dishonest, provided you follow your institution’s guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.</p>
 <p>If you cannot explain in your own words why each theory in your introduction is there — what it predicts for your design, why it matters for your argument — then the framing is not yours, regardless of who edited the sentences. A reviewer who asks a sharp question about your theoretical choices will expose this immediately.</p>
-<p>AI can help you write what you think. It cannot think for you. Every tool in this guide — the anchor exercise, the two filters, the two-sentence check, the argument progression test, the elevator abstract, the plain-language summary — is a thinking tool. Do it yourself, on paper, before you open the AI.</p>
+<p>AI can help you write what you think. It cannot think for you. Every tool in this guide — the anchor exercise, the two filters, the landscape sentence, the argument progression test, the elevator abstract, the plain-language summary — is a thinking tool. Do it yourself, on paper, before you open the AI.</p>
 </section>
 <section id="the-sharp-tool" class="level2" data-number="10.6">
 <h2 data-number="10.6" class="anchored" data-anchor-id="the-sharp-tool"><span class="header-section-number">10.6</span> The sharp tool</h2>

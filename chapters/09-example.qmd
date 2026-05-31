@@ -1,9 +1,10 @@
 # A Worked Example
 
-::: {.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## In a nutshell
+
 - A focused theoretical framing follows directly from the anchor sentence
-- The two filters reduce four candidate theories to one anchor and one sentence of acknowledgement
+- The two filters reduce four candidate theories to one anchor and one landscape sentence
 - A principled theoretical framing makes the reviewer response and cover letter straightforward to write
 :::
 
@@ -35,11 +36,11 @@ Notice also the final sentence — "we examined surprise ratings at event bounda
 
 ## Applying the framework
 
-Before rewriting, let's apply the tools from the previous chapters.
+Before rewriting, apply the tools from the previous chapters in order.
 
 **Step 1: The anchor exercise**
 
-> My anchor theory is Event Segmentation Theory, which predicts that surprise ratings will be lower at event boundaries than within events in my study, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.
+> This study tests the prediction of Event Segmentation Theory that surprise ratings will be lower at event boundaries than within events, as operationalized by a 7-point surprise rating scale at paused video clips, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.
 
 This sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.
 
@@ -59,6 +60,12 @@ This sentence is specific. It names a mechanism (event model updating), connects
 
 The result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.
 
+**Step 3: The landscape sentence**
+
+> Other theories in the field that address event cognition include Situation Models, Narrative Comprehension accounts, and predictive processing frameworks. They appear only briefly in this paper because none of them generates a differential prediction for surprise ratings as a function of boundary location in this design — they fail F1.
+
+This sentence is not for the paper. It is the written record of a principled decision, worked out before drafting begins. A reviewer who later asks why these theories were not discussed will get a precise answer, because the answer was already worked out here.
+
 ## The revised framing
 
 Here is what the theoretical framing looks like after applying the framework:
@@ -69,11 +76,11 @@ Here is what the theoretical framing looks like after applying the framework:
 
 *EST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.*
 
-*The present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models and Narrative Comprehension frameworks — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.*
+*The present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models, Narrative Comprehension frameworks, and predictive processing accounts — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.*
 
 ---
 
-Three paragraphs. One job each. The first establishes the phenomenon and orients the reader. The second introduces the anchor theory and its mechanism. The third states the specific prediction and places the other frameworks in one sentence.
+Three paragraphs. One job each. The first establishes the phenomenon and orients the reader. The second introduces the anchor theory and its mechanism. The third states the specific prediction and disposes of the other frameworks in one sentence.
 
 ## The reviews arrive
 
@@ -90,7 +97,7 @@ The paper is submitted and reviews come back. After waiting 24 hours, you sort t
 
 **Resist:**
 
-- Reviewer 2 requests a substantive discussion of predictive processing frameworks throughout the introduction → does not change the theoretical argument; one sentence already acknowledges it
+- Reviewer 2 requests a substantive discussion of predictive processing frameworks throughout the introduction → does not change the theoretical argument; one sentence already acknowledges it, and predictive processing fails F1 for this design
 
 ## The reviewer response
 
@@ -127,6 +134,4 @@ We thank the reviewer for raising predictive processing frameworks. We agree tha
 
 The difference between the first attempt and the revised version is not a difference in knowledge. The writer of the first attempt knew all four theories. The difference is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.
 
-The reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. Everything depends on the anchor.
-
-Everything else — the funnel, the two filters, the response document, the cover letter — follows from that commitment. The anchor is where the work begins.
+The reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. The anchor is where the work begins.

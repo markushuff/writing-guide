@@ -46,7 +46,7 @@ The two filters produce three possible outcomes:
 
 ![Two filters, three outcomes](flowchart.svg){width="100%"}
 
-The three outcomes determine not just whether a theory appears, but how it appears in your prose. Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
+Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
 
 > Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].
 
@@ -59,19 +59,27 @@ The term comes from a 1964 paper by the physicist John Platt, published in *Scie
 
 The key word is *exclude*. Strong inference is not about confirming your preferred theory. It is about designing a study that forces a decision. A result that is consistent with both theories is not strong inference, even if both theories were in play. Strong inference requires that at least one possible outcome of your study would count as evidence against at least one of the theories.
 
-This is what makes Design B in the worked example a strong inference study: a slope of zero across dimension-change conditions would exclude the Event-Indexing Model's additivity hypothesis; a positive slope would challenge EST's global updating assumption. The design does not merely accommodate both theories. It puts them in genuine competition.
-
 Platt was writing for scientists designing studies, not for writers revising manuscripts. For writers, strong inference is less a prescription than a diagnostic. It tells you what your study can legitimately claim about competing theories, and therefore how much space each theory has earned in your paper. If your design cannot adjudicate between two theories, the theories are not in genuine competition in this paper, and the writing should reflect that.
 
 Platt's practical test is worth carrying regardless: *what experiment could disprove your hypothesis?* A theory that has no answer to this question is not a scientific competitor, regardless of how relevant it feels.
 :::
+
+## Your landscape sentence
+
+With the filters in hand, you can now complete the second part of the anchor exercise from the previous chapter.
+
+> Other theories in the field that address [phenomenon] include [list]. They do not appear in this paper / appear only briefly because [reason for each].
+
+The reason for each exclusion should map directly onto one of the two filters: either the theory makes no differential prediction for this design, or it does not reach your dependent variable mechanistically. If you cannot give one of those reasons, the theory may belong in your paper after all.
+
+Write this sentence down before you start drafting. It is not for the paper — it is for you. A reviewer who later asks why you did not discuss a particular theory will get a precise, principled answer, because you worked it out before you wrote a single word of your introduction.
 
 ::: {.callout-tip icon="false"}
 ## Worked example: event cognition
 
 The anchor theory in both designs below is Event Segmentation Theory (EST; @zacks2007). EST holds that people continuously predict what will happen next based on an event model held in working memory. When prediction error rises, a boundary is perceived and the event model is updated.
 
-------------------------------------------------------------------------
+---
 
 ### Design A: Boundary detection latency
 
@@ -103,7 +111,7 @@ The framework specifies what triggers a substructure shift, not how quickly one 
 
 No competing theory earns full treatment in this design. That is not a failure of scholarship — it accurately reflects what each candidate theory contributes to this specific argument.
 
-------------------------------------------------------------------------
+---
 
 ### Design B: Memory and prediction across dimension changes
 
