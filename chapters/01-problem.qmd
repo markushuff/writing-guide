@@ -38,6 +38,4 @@ These three forces form a feedback loop. No single actor is to blame, and no sin
 Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what @kerr1998 called HARKing, Hypothesizing After Results are Known.
 But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states "we expect memory to be better at event boundaries" records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. @oberauer2019 make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.
 
-## What the writer can do
-
-The feedback loop is real, and no single writer can dismantle it. But the writer is the one who can act — and that is what this guide is about.
+The feedback loop is a structural problem. This guide focuses on the decisions that remain within your control.
