@@ -1,32 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 540">
 
-  <!-- Level 1: The phenomenon -->
-  <polygon points="80,20 600,20 560,145 120,145" fill="#2C2C2A" stroke="#2C2C2A" stroke-width="1"/>
-  <text x="340" y="64" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The phenomenon</text>
-  <text x="340" y="102" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#B4B2A9">Why it matters — one or two sentences</text>
+  <!-- Band 1: The phenomenon -->
+  <polygon points="60,30 620,30 589,115 91,115" fill="#2C2C2A" stroke="#2C2C2A" stroke-width="1"/>
 
-  <!-- Level 2: The anchor theory -->
-  <polygon points="120,155 560,155 520,280 160,280" fill="#5F5E5A" stroke="#5F5E5A" stroke-width="1"/>
-  <text x="340" y="200" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The anchor theory</text>
-  <text x="340" y="238" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#D3D1C7">Core claim and mechanism — two to four sentences</text>
+  <!-- Band 2: The anchor theory (two paragraph jobs) -->
+  <polygon points="95,125 586,125 520,305 160,305" fill="#5F5E5A" stroke="#5F5E5A" stroke-width="1"/>
 
-  <!-- Level 3: The specific prediction -->
-  <polygon points="160,290 520,290 480,415 200,415" fill="#888780" stroke="#888780" stroke-width="1"/>
-  <text x="340" y="336" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The specific prediction</text>
-  <text x="340" y="374" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#F1EFE8">Given your design — one or two sentences</text>
+  <!-- Band 3: The specific prediction (two paragraph jobs) -->
+  <polygon points="164,315 516,315 460,470 220,470" fill="#888780" stroke="#888780" stroke-width="1"/>
 
-  <!-- Right side labels -->
-  <line x1="560" y1="82" x2="622" y2="82" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
-  <text x="628" y="82" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Broad</text>
+  <!-- Band 1 text -->
+  <text x="340" y="62" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="22" font-weight="500" fill="#F1EFE8">The phenomenon</text>
+  <text x="340" y="85" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" fill="#B4B2A9">Why it matters</text>
 
-  <line x1="520" y1="217" x2="622" y2="217" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
-  <text x="628" y="217" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Focused</text>
+  <!-- Dashed divider within Band 2 -->
+  <line x1="127" y1="215" x2="553" y2="215" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="6,4"/>
 
-  <line x1="480" y1="352" x2="622" y2="352" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3,2"/>
-  <text x="628" y="352" dominant-baseline="central" font-family="sans-serif" font-size="15" fill="#888780">Specific</text>
+  <!-- Band 2 top text -->
+  <text x="340" y="158" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="19" font-weight="500" fill="#F1EFE8">The anchor theory</text>
+  <text x="340" y="179" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" fill="#D3D1C7">Core claim and mechanism</text>
+
+  <!-- Band 2 bottom text -->
+  <text x="340" y="248" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="19" font-weight="500" fill="#F1EFE8">Competing theories</text>
+  <text x="340" y="269" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" fill="#D3D1C7">Why not tested here</text>
+
+  <!-- Dashed divider within Band 3 -->
+  <line x1="192" y1="392" x2="488" y2="392" stroke="#F1EFE8" stroke-width="1" stroke-dasharray="6,4" stroke-opacity="0.5"/>
+
+  <!-- Band 3 top text -->
+  <text x="340" y="354" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="17" font-weight="500" fill="#F1EFE8">The gap your study fills</text>
+
+  <!-- Band 3 bottom text -->
+  <text x="340" y="431" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="17" font-weight="500" fill="#F1EFE8">The specific prediction</text>
 
   <!-- Bottom caption -->
-  <line x1="40" y1="438" x2="640" y2="438" stroke="#B4B2A9" stroke-width="0.5"/>
-  <text x="340" y="462" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888780">Everything before the prediction exists to make the prediction feel inevitable.</text>
+  <line x1="40" y1="488" x2="640" y2="488" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="340" y="510" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888780">Everything before the prediction exists to make the prediction feel inevitable.</text>
 
 </svg>

@@ -42,7 +42,7 @@ The cover letter is read by the editor, not the reviewers. Its job is to signal 
 
 A good cover letter does four things.
 
-**States what the paper is.** One sentence — the anchor sentence from your theoretical framing, adapted for a non-specialist editor. This is not the time for nuance; it is the time for clarity.
+**States what the paper is.** One sentence — the anchor sentence from your theoretical framing, adapted for a non-specialist editor. 
 
 **Acknowledges the reviewers' main concerns.** Two or three sentences summarising what the reviewers asked for. This shows the editor you read the reviews carefully and understood them.
 
@@ -95,7 +95,7 @@ Four rules for a strong response document:
 
 **Always give a page and line reference** for every change you made. This allows the editor and reviewers to find your revisions without reading the entire manuscript.
 
-**Be specific about what you changed.** "We have revised this section" is not a response. "We have added two sentences on p. 4 clarifying the relationship between our manipulation and the boundary detection measure" is a response.
+**Be specific about what you changed.** "We have revised this section" tells the reviewer nothing. "We have added two sentences on p. 4 clarifying the relationship between our manipulation and the boundary detection measure" tells them exactly what changed and where.
 
 **For points you are not complying with**, explain why clearly and specifically. Then offer something: an acknowledgement, a clarification, a sentence added. A pure refusal with no gesture towards the reviewer's concern rarely lands well.
 

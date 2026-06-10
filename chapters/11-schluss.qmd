@@ -20,9 +20,9 @@ Theories that motivate the research question and justify the hypotheses receive 
 
 Many researchers hesitate to leave theories out of an introduction. Exclusion can feel intellectually risky, particularly in areas with extensive theoretical traditions. Authors may worry that omission will be interpreted as unfamiliarity with the literature or as a dismissal of competing perspectives.
 
-In practice, every introduction depends on selective attention. No paper can discuss every theory that has been applied to a topic. The question is not whether selection occurs, but how it occurs.
+In practice, every introduction depends on selective attention. No paper can discuss every theory that has been applied to a topic. Selection always occurs; the question is how.
 
-The framework developed in this book provides a systematic basis for these decisions. When a theory is excluded, the exclusion does not imply that the theory is incorrect or unimportant. It indicates only that the theory is not required for understanding the argument developed in that particular paper.
+The framework developed in this book provides a systematic basis for these decisions. Exclusion means only that the theory is not required for understanding the argument in that particular paper.
 
 This distinction becomes especially important during peer review. Requests to add theories are common, and some requests improve a manuscript substantially. Others increase the amount of theoretical material without strengthening the central argument. Authors who can distinguish between these situations are better positioned to revise their work without losing focus.
 
@@ -46,7 +46,7 @@ Early-career researchers are particularly susceptible to this influence. Many re
 
 As a result, many researchers come to associate quality with breadth and assume that stronger introductions require more theories, more perspectives, and more citations. The experience of writing often suggests the opposite. As introductions grow, the central argument can become harder to identify. Authors may devote substantial effort to integrating theoretical perspectives that play little role in the development of the hypotheses.
 
-Learning to write focused introductions therefore requires learning to make explicit decisions about relevance and priority. The goal is not to minimize theory, but to determine which theoretical material is necessary for understanding the contribution of the paper.
+Learning to write focused introductions therefore requires learning to make explicit decisions about relevance and priority. The goal is to determine which theoretical material is necessary for understanding the contribution of the paper.
 
 ## Final Thoughts
 

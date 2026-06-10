@@ -27,10 +27,7 @@ this guide.
 **Pinker, S. (2014).** *The sense of style: The thinking person's guide 
 to writing in the 21st century.* Viking.
 
-Not specifically about academic writing, but the best book on 
-clear prose available. The chapter on the curse of knowledge is 
-essential reading for anyone who has ever been told their writing 
-is too technical.
+Broader in scope than this guide, but the best book on clear prose available. The chapter on the curse of knowledge is essential reading for anyone who has ever been told their writing is too technical.
 
 ## On theory in psychology
 

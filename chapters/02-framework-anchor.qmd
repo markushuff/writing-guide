@@ -17,7 +17,7 @@ Finding your anchor is harder than it sounds. Many studies grow organically from
 
 ## What makes a good anchor theory
 
-A good anchor theory has three properties. First, you can derive your specific hypothesis directly from it — not loosely inspired by it, but derived from it. Second, it makes a concrete prediction about your specific manipulation and dependent variable, not just about the broader phenomenon. Third, if your results contradict it, something scientifically important has been learned.
+A good anchor theory has three properties. First, you can derive your specific hypothesis directly from it. Second, it makes a concrete prediction about your specific manipulation and dependent variable, not just about the broader phenomenon. Third, if your results contradict it, something scientifically important has been learned.
 
 A theory that predicts the same result regardless of what you found is background, not an anchor.
 
@@ -43,6 +43,6 @@ The same applies if you cannot explain your study in plain language — no jargo
 
 ## Preregistration and the anchor
 If you have preregistered your study, the anchor exercise is a useful check: the anchor sentence is what a strong preregistration should have contained. If you complete it now and find it differs from what you registered — if the mechanism is vague, or the theory is named only loosely — that gap is worth understanding before you write a word of your introduction, and worth closing before you run the next study.
-In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common. It is not a moral failing. It is what happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
+In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common and happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
 
 Once you have your anchor, the next chapter gives you a principled way to handle everything else.

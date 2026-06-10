@@ -38,4 +38,4 @@ Close your manuscript. Without opening it, write two or three sentences explaini
 
 Open your draft and read it alongside your plain-language summary. The two will sound different because a scientific paper and a plain-language summary are different documents. What matters is whether they are about the same thing. Academic writing accumulates qualifications, hedges, and theoretical scaffolding until the original point is no longer visible.
 
-A mismatch between the two is rarely about the writing. It is a signal that the thinking behind the manuscript is not yet clear enough to produce consistent accounts of the same study at different levels of abstraction. If the two accounts do not converge, go back to the anchor sentence and rewrite it until they do.
+A mismatch usually signals that the thinking behind the manuscript is not yet clear enough to produce consistent accounts of the same study at different levels of abstraction. If the two accounts do not converge, go back to the anchor sentence and rewrite it until they do.
