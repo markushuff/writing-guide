@@ -16,7 +16,6 @@ A colleague once described writing as debugging thinking. You believe the logic 
 
 A well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.
 
-
 ![The funnel structure for theoretical framing.](funnel.svg){width="100%"}
 
 ### The funnel has five paragraph jobs.
@@ -31,20 +30,19 @@ A well-written theoretical framing moves from broad to narrow — from the pheno
 
 **The specific prediction.** The narrowest point of the funnel. Given your anchor theory and your specific design, what do you predict and why? This is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.
 
-
 ## One paragraph, one job
 
 Each level of the funnel corresponds to a small number of paragraph jobs. Each paragraph should have exactly one of them. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.
 
-: Paragraph jobs for each level of the funnel.
-
 | Funnel level | Paragraph job |
-|---|---|
+|------------------------------------|------------------------------------|
 | Phenomenon | Establish why the phenomenon matters |
 | Anchor theory | Introduce the anchor theory and its core claim |
 | Anchor theory | Acknowledge competing theories and explain why your study does not test them |
 | Specific prediction | State the gap your study fills |
 | Specific prediction | State the specific prediction that follows from the anchor theory for your study |
+
+: Paragraph jobs for each level of the funnel.
 
 Five jobs. A sixth paragraph means either a job has been split across paragraphs unnecessarily, or a paragraph has been added that the funnel does not require. In either case, go back to the filters and ask whether the additional paragraph is doing argumentative work or just adding coverage.
 
