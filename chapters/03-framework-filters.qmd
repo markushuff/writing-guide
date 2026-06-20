@@ -22,7 +22,7 @@ Not whether the theory addresses the same phenomenon — it almost certainly doe
 
 Two theories can address the same phenomenon at the field level while making identical predictions for your specific operationalization. Specificity of design is what creates the wedge — or reveals that there is none. A theory that makes no distinct prediction for your study is not a competitor. The reader should know it exists — hence the citation — but it has earned nothing more.
 
-If the answer is **no** — citation only.
+If the answer is **no** — citation only. Group these citations into a single parenthetical when you first introduce the broader phenomenon. Do not give them their own sentences.
 
 If the answer is **yes** — proceed to Filter 2.
 
@@ -42,7 +42,7 @@ The two filters produce three possible outcomes:
 
 Theories that failed F1 need only a citation. Theories that passed F1 but failed F2 earn one sentence, typically placed after you have stated your anchor theory:
 
-> Other theoretical accounts of [phenomenon] — including [Theory X] and [Theory Y] — offer complementary perspectives; the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].
+> While accounts like [Theory X] and [Theory Y] also address [phenomenon], they do not make specific predictions regarding [your specific dependent variable/mechanism]. Therefore, the present study is specifically designed to test the prediction of [anchor theory] that [specific prediction].
 
 This sentence signals awareness of the landscape without making the landscape your argument. If you feel the urge to write something more defensive — explaining at length why you excluded a theory — that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor first.
 
@@ -134,4 +134,4 @@ Both theories address recognition memory and prediction accuracy directly and me
 The same anchor, the same candidates, two different designs — and a fundamentally different argumentative structure. In Design A, the Event-Indexing Model earns a brief mention. In Design B, it earns equal billing. What changes is not the field, not the theories, but the design.
 :::
 
-The next chapter addresses how to write the theoretical framing once you know which theories belong and at what level.
+You now know exactly which theories belong in your paper, and how much space they have earned. The next chapter maps these three outcomes directly onto the structure of your introduction.

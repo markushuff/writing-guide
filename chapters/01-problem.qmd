@@ -10,7 +10,7 @@
 - The writer cannot fix the incentive structure, but can choose not to be driven by it
 :::
 
-When researchers sit down to write, they face a field that has accumulated theories faster than it has retired them. The rational response — mention everything that might be relevant — produces manuscripts that are theoretically exhaustive and argumentatively weak. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.
+When you sit down to draft a manuscript, the cursor blinks against a massive, invisible weight: the accumulated literature of your field. Because psychology has generated frameworks faster than it has retired them, the rational response to that blank page is defensive writing. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.
 
 The cause is structural, not individual.
 
@@ -28,14 +28,15 @@ The problem has three interlocking sources.
 
 **Theory proliferation.** Psychology has accumulated theories faster than it has retired them. Many theories overlap substantially but use different terminology, which makes them look more distinct than they are.
 
-**Reviewing culture.** Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper.
+**Reviewing culture.** Reviewers sometimes treat citation of their preferred framework as a condition of acceptance. This is rarely stated explicitly, but early-career researchers learn quickly that omitting a theory can sink a paper—so they throw in an extra paragraph about Theory X just in case Reviewer 2 happens to be its author.
 
 **Writer response.** Faced with these pressures, writers rationally expand their theoretical framing to pre-empt criticism. This makes each paper slightly worse, which makes the overall problem slightly worse.
 
 These three forces form a feedback loop. No single actor is to blame, and no single fix works in isolation.
 
 ## Why preregistration is not enough
-Preregistering a study has become standard practice in many areas of psychology, and for good reason. It creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what @kerr1998 called HARKing, Hypothesizing After Results are Known.
+
+In recent years, the field has leaned on preregistration to solve this exact problem of shifting, post-hoc theoretical framing. And for good reason: it creates a public record of your theoretical commitment before you see the data, protecting against the temptation to adjust the framing retrospectively to fit the results — what @kerr1998 called HARKing, Hypothesizing After Results are Known.
 But preregistration only does this work if the registered hypothesis names the theory and the mechanism, not just the expected effect. A preregistration that states "we expect memory to be better at event boundaries" records a prediction without a reason. It does not specify which theory generates the prediction, what mechanism connects theory to outcome, or what result would count against it. Oberauer and Lewandowsky [-@oberauer2019] make this point directly: preregistering a hypothesis that is only loosely connected to a theory does not increase the credibility of that hypothesis, because the inferential link from theory to prediction was weak to begin with. Preregistration records your thinking. It cannot replace it.
 
-The feedback loop is a structural problem. This guide focuses on the decisions that remain within your control.
+The feedback loop is a structural problem, and you cannot fix the incentive structure of the field alone. But you can choose not to be driven by it. The rest of this guide is about taking back control of your manuscript — starting with how you filter the overwhelming noise of the literature before you even write a single word.
