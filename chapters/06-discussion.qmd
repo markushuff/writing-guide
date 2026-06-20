@@ -54,7 +54,7 @@ Here is the Discussion opening from the bloated first attempt in Chapter 9:
 
 ---
 
-*The present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as lower at event boundaries than within events, supporting the claim that boundary detection reduces prediction error. These results are also consistent with predictive processing frameworks, which similarly predict reduced prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the reduction in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.*
+*The present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as higher at event boundaries than within events, supporting the claim that boundary detection elevates prediction error. These results are also consistent with predictive processing frameworks, which similarly predict higher prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the reduction in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.*
 
 ---
 
@@ -64,9 +64,9 @@ Here is the same opening after applying the two-job rule:
 
 ---
 
-*Surprise ratings were lower at event boundaries than within events, confirming the prediction of Event Segmentation Theory that boundary detection triggers a model update that reduces prediction error. The effect was robust across all three activity types and held at both the group and individual level.*
+*Surprise ratings were higher at event boundaries than within events, confirming the prediction of Event Segmentation Theory that boundary detection triggers a model update that elevates prediction error. The effect was robust across all three activity types and held at both the group and individual level.*
 
-*The present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that boundary-related prediction error reduction is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.*
+*The present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that boundary-related prediction error elevation is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.*
 
 ---
 

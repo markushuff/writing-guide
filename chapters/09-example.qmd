@@ -14,7 +14,7 @@ This chapter walks through the complete process — from choosing an anchor theo
 
 Imagine you have conducted the following study:
 
-> Participants watched short video clips of everyday activities — making coffee, unpacking groceries, setting a table. At unpredictable moments the video paused and participants rated their surprise on a 7-point scale. Pause points were either at event boundaries (moments of natural transition between sub-actions) or within events (mid-action). The dependent variable was surprise rating. The hypothesis was that surprise ratings would be lower at boundaries than within events, because boundary detection involves an updating of the current event model that reduces prediction error.
+> Participants watched short video clips of everyday activities — making coffee, unpacking groceries, setting a table. At unpredictable moments the video paused and participants rated their surprise on a 7-point scale. Pause points were either at event boundaries (moments of natural transition between sub-actions) or within events (mid-action). The dependent variable was surprise rating. The hypothesis was that surprise ratings would be higher at boundaries than within events, because a boundary is the point at which the current event model stops fitting the incoming activity and prediction error rises.
 
 This is a clean, focused study. It has one manipulation, one dependent variable, and one theoretical prediction. It should produce a clean, focused theoretical framing. It often does not — and here is why.
 
@@ -40,15 +40,15 @@ Before rewriting, apply the tools from the previous chapters in order.
 
 **Step 1: The anchor exercise**
 
-> This study tests the prediction of Event Segmentation Theory that surprise ratings will be lower at event boundaries than within events, as operationalized by a 7-point surprise rating scale at paused video clips, because boundary detection triggers an updating of the current event model that reduces prediction error, making boundary moments feel less surprising than mid-event pauses.
+> This study tests the prediction of Event Segmentation Theory that surprise ratings will be higher at event boundaries than within events, as operationalized by a 7-point surprise rating scale at paused video clips, because a boundary is the moment at which the current event model ceases to fit the incoming activity and prediction error rises, making boundary moments feel more surprising than mid-event pauses.
 
-This sentence is specific. It names a mechanism (event model updating), connects it to a specific outcome (lower surprise ratings), and could only describe this study.
+This sentence is specific. It names a mechanism (a transient rise in prediction error at the point where the event model fails), connects it to a specific outcome (higher surprise ratings), and could only describe this study.
 
 **Step 2: Running the two filters**
 
 *Situation Models:*
 
-- F1: Does it make a different prediction from EST for this design? No — both frameworks predict lower surprise at boundaries due to reduced prediction error. They differ in mechanism but not in direction. → Citation only.
+- F1: Does it make a different prediction from EST for this design? No — both frameworks predict elevated surprise at boundaries, EST because perceptual prediction error rises when the event model stops fitting, Situation Models because the situational dimensions being tracked change at the same moment. They differ in mechanism but not in direction. → Citation only.
 
 *Narrative Comprehension accounts:*
 
@@ -56,7 +56,7 @@ This sentence is specific. It names a mechanism (event model updating), connects
 
 *Predictive processing:*
 
-- F1: Does it make a different prediction? In this design, no — both EST and predictive processing predict reduced prediction error at boundaries, producing the same directional prediction for surprise ratings. → Citation only, with one sentence acknowledging the connection.
+- F1: Does it make a different prediction? In this design, no — both EST and predictive processing predict elevated prediction error at boundaries, producing the same directional prediction for surprise ratings. → Citation only, with one sentence acknowledging the connection.
 
 The result: Event Segmentation Theory is the anchor. The other three frameworks get at most one sentence between them.
 
@@ -74,9 +74,9 @@ Here is what the theoretical framing looks like after applying the framework:
 
 *Everyday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).*
 
-*EST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. At event boundaries, this model is updated: the current event ends, a new one begins, and prediction error is reduced. The theory predicts that boundary moments should therefore feel less surprising than within-event moments, where the current model is still active and prediction error may be higher.*
+*EST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. While the activity continues as expected, that model predicts well. At a transition, it no longer fits the incoming input, prediction error rises, and it is this transient rise that signals a boundary and triggers an update to a new event model. The theory therefore predicts that boundary moments should feel more surprising than within-event moments, where the current model is still fitting and prediction error remains low.*
 
-*The present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be lower at boundaries than within events. Other accounts of event cognition — including Situation Models, Narrative Comprehension frameworks, and predictive processing accounts — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.*
+*The present study tests this prediction directly. Participants watched video clips of everyday activities and rated their surprise at pause points located either at event boundaries or within events. If EST is correct, surprise ratings should be higher at boundaries than within events. Other accounts of event cognition — including Situation Models, Narrative Comprehension frameworks, and predictive processing accounts — address complementary aspects of event understanding but do not generate differential predictions for surprise ratings as a function of boundary location in this design.*
 
 ---
 
@@ -109,7 +109,7 @@ The paper is submitted and reviews come back. After waiting 24 hours, you sort t
 
 *Response:*
 
-We thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict lower surprise at boundaries due to reduced prediction error. Because our data cannot adjudicate between these accounts, a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).
+We thank the reviewer for raising predictive processing frameworks. We agree that predictive processing offers an important and compatible account of boundary-related phenomena. However, in the present design, predictive processing and Event Segmentation Theory generate identical directional predictions for surprise ratings at boundaries versus within-event pause points — both frameworks predict higher surprise at boundaries, driven by a transient rise in prediction error. Because our data cannot adjudicate between these accounts, a substantive discussion of predictive processing would imply a contrast our study is not designed to test. We have added a sentence in the introduction acknowledging the relationship between EST and predictive processing frameworks (p. 4, lines 67–69).
 
 ---
 
@@ -119,7 +119,7 @@ We thank the reviewer for raising predictive processing frameworks. We agree tha
 
 *Dear [Editor],*
 
-*We are pleased to resubmit our manuscript "Event boundaries reduce surprise: Evidence from a video-based rating task" for consideration in [Journal]. The paper tests the prediction of Event Segmentation Theory that surprise ratings will be lower at event boundaries than within events, using a video-based paradigm with everyday activities.*
+*We are pleased to resubmit our manuscript "Event boundaries increase surprise: Evidence from a video-based rating task" for consideration in [Journal]. The paper tests the prediction of Event Segmentation Theory that surprise ratings will be higher at event boundaries than within events, using a video-based paradigm with everyday activities.*
 
 *We thank the reviewers for their careful reading. The reviews raised three main concerns: the reporting of effect sizes, a missing reference, and the treatment of predictive processing frameworks. We have addressed the first two fully. On the third, we have added a sentence acknowledging the relationship between EST and predictive processing, but have not added a substantive discussion — our reasons are explained in detail in the response document.*
 

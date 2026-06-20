@@ -24,11 +24,11 @@ Try to compress the whole paper into two sentences: one stating what you did and
 
 A weak elevator abstract:
 
-> We studied event boundaries and surprise ratings in video clips. We found that surprise was lower at boundaries, which is consistent with Event Segmentation Theory.
+> We studied event boundaries and surprise ratings in video clips. We found that surprise was higher at boundaries, which is consistent with Event Segmentation Theory.
 
 A strong elevator abstract:
 
-> We tested the prediction of Event Segmentation Theory that boundary detection reduces prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
+> We tested the prediction of Event Segmentation Theory that boundary detection enhances prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
 
 The first sentence of a strong elevator abstract is usually the anchor sentence in another form — if the two cannot be made to match, the abstract and the theoretical framing are not yet about the same paper.
 

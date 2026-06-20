@@ -5,7 +5,7 @@
 
 - The funnel moves from phenomenon to anchor theory to specific prediction — in that order, at that level of detail
 - Each paragraph has exactly one job; state that job before you write the paragraph
-- Five paragraph jobs cover a complete theoretical framing; a sixth is a signal to go back to the filters
+- Five essential paragraph jobs cover a complete theoretical framing; adding a new job is a signal to go back to the filters
 :::
 
 You have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.
@@ -35,17 +35,17 @@ A well-written theoretical framing moves from broad to narrow — from the pheno
 Each level of the funnel corresponds to a small number of paragraph jobs. Each paragraph should have exactly one of them. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.
 
 | Funnel level | Paragraph job |
-|------------------------------------|------------------------------------|
-| Phenomenon | Establish why the phenomenon matters |
-| Anchor theory | Introduce the anchor theory and its core claim |
-| Anchor theory | Acknowledge competing theories and explain why your study does not test them |
-| Specific prediction | State the gap your study fills |
-| Specific prediction | State the specific prediction that follows from the anchor theory for your study |
+|-------------------------|---------------------------------------------------------------------------------|
+| 1. Phenomenon           | Establish what you are studying and why it matters                              |
+| 2. Anchor theory        | Introduce the anchor theory and its core claim                                  |
+| 3. Competing theories   | Acknowledge alternatives and explain why your design excludes them              |
+| 4. The Gap              | State what existing work leaves unresolved                                      |
+| 5. Specific prediction  | State the specific prediction that follows from the anchor theory for your study|
 
 : Paragraph jobs for each level of the funnel.
 
-Five jobs. A sixth paragraph means either a job has been split across paragraphs unnecessarily, or a paragraph has been added that the funnel does not require. In either case, go back to the filters and ask whether the additional paragraph is doing argumentative work or just adding coverage.
+These are the five essential jobs. A complex anchor theory might occasionally require two paragraphs to explain, but the rule remains: one paragraph, one job. If you find yourself adding a new job that is not on this list, go back to the filters. Ask whether that paragraph is doing actual argumentative work or just adding theoretical coverage to appease reviewers.
 
 The most common structural mistake is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think. One job per paragraph prevents this.
 
-The next chapter gives you three tests to apply once you have a draft.
+Once you have drafted these paragraphs, the next chapter provides three structural tests to verify that your argument actually flows.

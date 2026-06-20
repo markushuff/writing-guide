@@ -1,0 +1,103 @@
+# Naming Your Predictions
+
+::: {.callout-note icon="false"}
+## In a nutshell
+
+- A numbered label carries no theoretical content — every later sentence that invokes H2 makes the reader look it up, and most readers do not
+- A speaking name should denote the *prediction* and the mechanism it puts at risk, not the theory's brand and not the result you hope to find
+- Predictions that adjudicate between theories should be named in contrasting pairs, so the name itself says which result would count against which account
+:::
+
+The fifth job of the funnel is the specific prediction, and Chapter 4 treated it as an endpoint: everything before it exists to make it feel inevitable. But the prediction is not an endpoint. It is the one element of the theoretical framing that has to travel — through the Method, through the Results, into the Discussion, and often into the abstract and the response to reviewers. How you name it determines how much of the argument travels with it.
+
+Most manuscripts name it with a number. The introduction ends with "we therefore predicted that surprise ratings would be higher at event boundaries than within events (H1)", and from that point on the paper says H1. The convention is so standard that it rarely gets a second thought. It is worth a second thought, because the number is the point in the manuscript where the argument goes silent.
+
+## What a label costs
+
+A label is a pointer. "H2 was supported" is true, checkable, and empty: the reader has to return to the introduction, find the numbered sentence, and carry it forward. Readers do this the first time. By the third occurrence they are reading a sentence about bookkeeping rather than a sentence about event cognition.
+
+The cost compounds in three places. In the Results, a numbered hypothesis invites the writer to report an outcome instead of a finding — "H2 was confirmed, *F*(1, 47) = 8.31" says what happened to a proposition, not what happened to the mechanism. In the Discussion, it permits theory-free interpretation: a paragraph can state that H1 and H3 were supported and H2 was not, and be entirely silent about what the anchor theory now looks like. In review, it hides ambiguity, because a reviewer cannot tell from "H2" whether the prediction was directional, whether it followed from the anchor or from a competitor, or whether it was preregistered.
+
+The deepest cost is to the mirror test in the next chapter. That test asks which theories received substantive treatment on each side of the manuscript. Numbered hypotheses make it hard to apply, because H2 does not say whose prediction it was. A Discussion organised around H1 through H4 can look complete while adjudicating nothing. A Discussion organised around named predictions cannot hide this: the moment a name appears, the theory it belongs to appears with it.
+
+## What a speaking name has to do
+
+Not every name is an improvement. Three requirements separate a working name from a decorative one.
+
+**Name the prediction, not the theory.** "The EST hypothesis" is only marginally better than H1, and it fails outright as soon as your anchor generates two predictions. The name has to individuate *this* prediction within the anchor's family of predictions.
+
+**Put the contested mechanism in the name, not the outcome you expect.** "The boundary-surprise advantage" has already granted you the effect; the sentence "the boundary-surprise advantage was not supported" is close to self-contradictory. Name what is at stake, not what you hope will happen.
+
+**Avoid names the literature has already spent.** "The integration hypothesis" is in active use in bilingual language processing, in multisensory perception, and in text comprehension, and it means something different in each. A name that sends the reader to the wrong literature is worse than a number, which at least sends them to your introduction.
+
+: Naming the prediction: what each version tells the reader.
+
+| Version | What the reader learns | Verdict |
+|---|---|---|
+| H2 | Nothing without a lookup | Empty |
+| The EST hypothesis | Which theory, not which prediction | Fails with two predictions from one anchor |
+| The integration hypothesis | A research tradition, not a claim | Too many claimants |
+| The boundary-surprise advantage | The direction, plus the conclusion | Question-begging |
+| The perceptual-boundary prediction | The mechanism at stake and what would falsify it | Works |
+
+## Names come in pairs
+
+The strongest case for naming is not readability. It is strong inference [@plattStrongInference1964].
+
+A design that can adjudicate between two accounts has two predictions in it, and the pair should be named as a pair. In the running example, Event Segmentation Theory predicts elevated surprise at event boundaries because perceptual prediction error rises when the current event model stops fitting the input. A goal-structure account predicts the rise only where the activity has a goal structure to track. Call these the *perceptual-boundary prediction* and the *goal-structure prediction*, and the contrast is audible in every sentence that mentions either. The reader knows before seeing a single number that non-goal-directed clips are the crucial condition, because the names told them.
+
+Call them H1 and H2 and that information is gone. The design is just as strong; the writing no longer carries the strength.
+
+This is where naming does work that the two filters cannot do alone. The filters decide which theories belong in the paper. A named pair decides whether the reader can see the adjudication happening.
+
+If you find yourself needing more than three or four names, treat that as the same signal Chapter 4 gave for paragraph jobs: go back to the filters. A study with seven named predictions usually has one anchor and six pieces of coverage.
+
+## The orphan sentence test
+
+The previous chapter gave three tests for the introduction as a whole. Here is a fourth, aimed at a single sentence.
+
+Take any sentence in your Results or Discussion that refers to a prediction. Lift it out of the manuscript and read it alone.
+
+*"The perceptual-boundary prediction held for non-goal-directed activities as well."* Still informative in isolation.
+
+*"H2 was supported."* Informative only with the manuscript open beside it.
+
+Every orphaned sentence that fails this test is a sentence your reviewer will read without the argument attached.
+
+## Labels are not forbidden
+
+Preregistration templates and registered report formats are often organised around numbered hypotheses, and the numbering is load-bearing there: the analysis plan, the power analysis, and the public record all refer to it. Naming does not replace that, and the mirror test has more force for preregistered work, not less.
+
+The workable rule is to state both once and then use the name:
+
+---
+
+*Event Segmentation Theory holds that perceptual prediction error rises when the current event model no longer fits the input, and predicts that surprise ratings will be higher at event boundaries than within events (the perceptual-boundary prediction, H1). A goal-structure account predicts this increase only for activities with a trackable goal structure (the goal-structure prediction, H2).*
+
+---
+
+After this sentence, the manuscript uses the names. The numbers remain available for the preregistration, the analysis plan, and any reviewer who wants to check the correspondence, but they no longer carry the argument. Where a journal's format requires numbered reference in the Results, the name can ride along in the same sentence at negligible cost.
+
+## A before and after
+
+Here is a Results paragraph written to the labels:
+
+---
+
+*H1 was supported: surprise ratings were higher at boundaries than within events. H2 was not supported: the effect did not interact with activity type. H3 was supported.*
+
+---
+
+Three verdicts, no theory. The reader cannot tell what the study concluded about anything.
+
+Here is the same paragraph written to the names:
+
+---
+
+*The perceptual-boundary prediction was supported: surprise ratings were higher at boundaries than within events. The goal-structure prediction was not: the increase did not depend on whether the activity had a trackable goal structure, and was as large for non-goal-directed clips. Boundary agreement across raters was high, as the perceptual account requires.*
+
+---
+
+The same three results. But this version has already done the Discussion's first job, because the names carried the theories into the sentences. The reader knows which account survived, and the paragraph that follows in the Discussion can extend the argument instead of restarting it.
+
+Names are cheap to adopt, and they change what the rest of the manuscript is able to say. The next chapter follows the named prediction into the Discussion, where the theories it carries have to be given a verdict.
