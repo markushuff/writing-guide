@@ -3,7 +3,7 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- A numbered label carries no theoretical content — every later sentence that invokes "Hypothesis 2" makes the reader look it up, and most readers do not
+- A numbered label carries no theoretical content — every later sentence that invokes "Hypothesis 2" or "H2" makes the reader look it up, and most readers do not
 - A speaking name should denote the *prediction* and the mechanism it puts at risk, not the theory's brand and not the result you hope to find
 - Predictions that adjudicate between theories should be named in contrasting pairs, so the name itself says which result would count against which account
 :::
