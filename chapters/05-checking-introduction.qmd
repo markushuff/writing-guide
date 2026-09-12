@@ -1,4 +1,4 @@
-# Checking Your Introduction
+# Checking Your Introduction {#sec-checking}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -10,7 +10,7 @@
 
 You have a draft. Before you send it to co-authors or submit it, three checks catch the problems that are hardest to see from inside your own argument. Run them in order — each operates at a different level, and a problem caught early saves work later.
 
-## The argument progression test
+## The argument progression test {#sec-progression-test}
 
 For each paragraph in your theoretical framing, ask: what single step does this paragraph add to my argument? Write it down in one sentence. If you cannot, the paragraph needs to be revised or removed.
 
@@ -18,7 +18,7 @@ Then read your one-sentence summaries in sequence. They should tell the complete
 
 This is the paragraph-level version of the anchor sentence. The anchor sentence compresses your entire theoretical commitment into one sentence. The argument progression test checks whether every paragraph is doing real work on the way to that sentence.
 
-## The elevator abstract
+## The elevator abstract {#sec-elevator-abstract}
 
 Try to compress the whole paper into two sentences: one stating what you did and why, one stating what you found and what it means. Do not open your manuscript while you do this. A contribution that cannot be stated in two sentences without opening the manuscript is not yet clear enough to publish.
 
@@ -28,14 +28,14 @@ A weak elevator abstract:
 
 A strong elevator abstract:
 
-> We tested the prediction of Event Segmentation Theory that boundary detection enhances prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably lower at boundaries, supporting the specific claim that event model updating — not narrative goal structure — drives the reduction.
+> We tested the prediction of Event Segmentation Theory that event boundaries are points of elevated prediction error, using surprise ratings as a direct measure of that error across boundary and within-event pause points in everyday activity clips. Surprise was reliably higher at boundaries, supporting the specific claim that failure of the perceptual event model — not narrative goal structure — drives the increase.
 
 The first sentence of a strong elevator abstract is usually the anchor sentence in another form — if the two cannot be made to match, the abstract and the theoretical framing are not yet about the same paper.
 
-## The plain-language summary
+## The plain-language summary {#sec-plain-language}
 
 Close your manuscript. Without opening it, write two or three sentences explaining what your study is about and why it matters, in language a non-specialist could understand. No jargon, no theory names, no technical terms for your dependent variable. Then give what you wrote to a colleague outside your research group and ask whether it is clear.
 
 Open your draft and read it alongside your plain-language summary. The two will sound different because a scientific paper and a plain-language summary are different documents. What matters is whether they are about the same thing. Academic writing accumulates qualifications, hedges, and theoretical scaffolding until the original point is no longer visible.
 
-A mismatch usually signals that the thinking behind the manuscript is not yet clear enough to produce consistent accounts of the same study at different levels of abstraction. If the two accounts do not converge, go back to the anchor sentence and rewrite it until they do.
+A mismatch usually signals that the thinking behind the manuscript is not yet clear enough to produce consistent accounts of the same study at different levels of abstraction. If the two accounts do not converge, go back to the anchor sentence and rewrite it until they do. Once the argument holds, one element of it has to survive the rest of the manuscript: the prediction the funnel ends on. The next chapter is about what you call it.

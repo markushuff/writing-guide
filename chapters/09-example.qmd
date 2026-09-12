@@ -1,4 +1,4 @@
-# A Worked Example
+# A Worked Example {#sec-example}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell

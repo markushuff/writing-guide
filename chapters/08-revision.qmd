@@ -1,4 +1,4 @@
-# The Revision Process
+# The Revision Process {#sec-revision}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -24,7 +24,7 @@ Then read all the reviews once without taking notes. Read them again and sort ev
 
 **Negotiate.** Changes you disagree with but where the reviewer has a legitimate concern. These require a response that engages seriously with the concern while explaining your position.
 
-**Resist.** Changes that would genuinely weaken the paper. The most common example in theory-rich fields is a request to add theoretical coverage that does no argumentative work — a theory that fails F1 or F2 but that a reviewer considers important. These requests require a polite, principled, specific response: name the filter the theory fails, explain why your design cannot test it, and offer a citation as the appropriate level of treatment. Chapter 7 covers this in detail.
+**Resist.** Changes that would genuinely weaken the paper. The most common example in theory-rich fields is a request to add theoretical coverage that does no argumentative work — a theory that fails F1 or F2 but that a reviewer considers important. These requests require a polite, principled, specific response: name the filter the theory fails, explain why your design cannot test it, and offer a citation as the appropriate level of treatment. @sec-review covers this in detail.
 
 Do this sorting before you draft anything. It gives you a clear picture of the work ahead and prevents the common mistake of making unnecessary concessions out of anxiety.
 
@@ -36,7 +36,7 @@ If you do add a theory under pressure, add it properly. One weak paragraph that 
 
 A theory that earns its place even under pressure is better than a theory that was always there for the wrong reasons.
 
-## The cover letter
+## The cover letter {#sec-cover-letter}
 
 The cover letter is read by the editor, not the reviewers. Its job is to signal that you have taken the reviews seriously and done the work, and to flag anything the editor needs to know before reading the response document.
 
@@ -71,7 +71,7 @@ A cover letter template:
 
 Keep it to one page. Editors are busy. A cover letter that runs to two pages has already made a bad impression.
 
-## The response document
+## The response document {#sec-response-document}
 
 The response document is a formal record of every reviewer comment and your response to it. Done well, it makes the editor's job easy. Done badly, it creates more work for everyone.
 
@@ -121,6 +121,6 @@ If the reviews reflect a scope mismatch rather than a genuine flaw, resubmit wit
 
 Every document in the revision process is read by human beings who are doing you a favour. Reviewers are unpaid. Editors are overworked. A response that is clear, specific, and professionally warm makes their job easier and creates goodwill that carries forward.
 
-Firmness and respect are not opposites. A response that comes across as dismissive or impatient — even when you are right — can damage your chances with the editor. The strong response template in Chapter 7 is firm precisely because it is specific and engaged, not because it is blunt. When in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.
+Firmness and respect are not opposites. A response that comes across as dismissive or impatient — even when you are right — can damage your chances with the editor. The strong response template in @sec-review is firm precisely because it is specific and engaged, not because it is blunt. When in doubt, err on the side of explaining more rather than less. A reviewer who feels heard is more likely to accept a principled disagreement than one who feels dismissed.
 
 This does not mean being sycophantic; everyone can tell when praise is hollow. It means being direct, being specific, and treating the process as a collaboration even when it does not feel like one.

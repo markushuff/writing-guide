@@ -1,4 +1,4 @@
-# Two Filters, Three Outcomes
+# Two Filters, Three Outcomes {#sec-filters}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -16,7 +16,7 @@ The two filters below force a more honest question: does this theory do any work
 
 Apply them sequentially. A theory that fails the first filter does not need to be assessed against the second.
 
-## Filter 1 (F1): Does it make a different prediction from your anchor?
+## Filter 1 (F1): Does it make a different prediction from your anchor? {#sec-f1}
 
 Not whether the theory addresses the same phenomenon — it almost certainly does, or you would not be considering it. The question is whether it predicts something different from your anchor, given your specific manipulation and dependent variable.
 
@@ -26,7 +26,7 @@ If the answer is **no** — citation only. Group these citations into a single p
 
 If the answer is **yes** — proceed to Filter 2.
 
-## Filter 2 (F2): Does it reach your dependent variable mechanistically?
+## Filter 2 (F2): Does it reach your dependent variable mechanistically? {#sec-f2}
 
 A theory can make different predictions in principle and still not connect to your specific measure. If the theory addresses the phenomenon at a level of description that does not reach your DV, it cannot be tested by your study — and a theory that cannot be tested by your study is not a live competitor in your argument.
 
@@ -47,7 +47,7 @@ Theories that failed F1 need only a citation. Theories that passed F1 but failed
 This sentence signals awareness of the landscape without making the landscape your argument. If you feel the urge to write something more defensive — explaining at length why you excluded a theory — that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor first.
 
 ::: {.callout-note icon="false"}
-## What strong inference actually means
+## What strong inference actually means {#sec-strong-inference}
 
 The term comes from a 1964 paper by the physicist John Platt, published in *Science*. Platt observed that some fields — molecular biology and high-energy physics in particular — were advancing far faster than others, and asked why. His answer was that the fast-moving fields systematically practiced a specific method: devising competing hypotheses, designing experiments whose outcomes could exclude at least one of them, and recycling the procedure with whatever hypotheses remained.
 
@@ -58,7 +58,7 @@ Platt was writing for scientists designing studies, not for writers revising man
 Platt's practical test is worth carrying regardless: *what experiment could disprove your hypothesis?* A theory that has no answer to this question is not a scientific competitor, regardless of how relevant it feels.
 :::
 
-## Your landscape sentence
+## Your landscape sentence {#sec-landscape}
 
 With the filters in hand, you can now complete the second part of the anchor exercise from the previous chapter.
 

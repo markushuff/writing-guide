@@ -1,4 +1,4 @@
-# Naming Your Predictions
+# Naming Your Predictions {#sec-naming}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -8,7 +8,7 @@
 - Predictions that adjudicate between theories should be named in contrasting pairs, so the name itself says which result would count against which account
 :::
 
-The fifth job of the funnel is the specific prediction, and Chapter 4 treated it as an endpoint: everything before it exists to make it feel inevitable. But the prediction is not an endpoint. It is the one element of the theoretical framing that has to travel — through the Method, through the Results, into the Discussion, and often into the abstract and the response to reviewers. How you name it determines how much of the argument travels with it.
+The fifth job of the funnel is the specific prediction, and @sec-writing treated it as an endpoint: everything before it exists to make it feel inevitable. But the prediction is not an endpoint. It is the one element of the theoretical framing that has to travel — through the Method, through the Results, into the Discussion, and often into the abstract and the response to reviewers. How you name it determines how much of the argument travels with it.
 
 Most manuscripts name it with a number. The introduction ends with "we therefore predicted that surprise ratings would be higher at event boundaries than within events (H1)", and from that point on the paper says H1. The convention is so standard that it rarely gets a second thought. It is worth a second thought, because the number is the point in the manuscript where the argument goes silent.
 
@@ -18,7 +18,7 @@ A label is a pointer. "H2 was supported" is true, checkable, and empty: the read
 
 The cost compounds in three places. In the Results, a numbered hypothesis invites the writer to report an outcome instead of a finding — "H2 was confirmed, *F*(1, 47) = 8.31" says what happened to a proposition, not what happened to the mechanism. In the Discussion, it permits theory-free interpretation: a paragraph can state that H1 and H3 were supported and H2 was not, and be entirely silent about what the anchor theory now looks like. In review, it hides ambiguity, because a reviewer cannot tell from "H2" whether the prediction was directional, whether it followed from the anchor or from a competitor, or whether it was preregistered.
 
-The deepest cost is to the mirror test in the next chapter. That test asks which theories received substantive treatment on each side of the manuscript. Numbered hypotheses make it hard to apply, because H2 does not say whose prediction it was. A Discussion organised around H1 through H4 can look complete while adjudicating nothing. A Discussion organised around named predictions cannot hide this: the moment a name appears, the theory it belongs to appears with it.
+The deepest cost is to the mirror test (@sec-mirror-test). That test asks which theories received substantive treatment on each side of the manuscript. Numbered hypotheses make it hard to apply, because H2 does not say whose prediction it was. A Discussion organised around H1 through H4 can look complete while adjudicating nothing. A Discussion organised around named predictions cannot hide this: the moment a name appears, the theory it belongs to appears with it.
 
 ## What a speaking name has to do
 
@@ -50,11 +50,11 @@ Call them H1 and H2 and that information is gone. The design is just as strong; 
 
 This is where naming does work that the two filters cannot do alone. The filters decide which theories belong in the paper. A named pair decides whether the reader can see the adjudication happening.
 
-If you find yourself needing more than three or four names, treat that as the same signal Chapter 4 gave for paragraph jobs: go back to the filters. A study with seven named predictions usually has one anchor and six pieces of coverage.
+If you find yourself needing more than three or four names, treat that as the same signal @sec-one-job gave for paragraph jobs: go back to the filters. A study with seven named predictions usually has one anchor and six pieces of coverage.
 
-## The orphan sentence test
+## The orphan sentence test {#sec-orphan-test}
 
-The previous chapter gave three tests for the introduction as a whole. Here is a fourth, aimed at a single sentence.
+@sec-checking gave three tests for the introduction as a whole. Here is a fourth, aimed at a single sentence.
 
 Take any sentence in your Results or Discussion that refers to a prediction. Lift it out of the manuscript and read it alone.
 

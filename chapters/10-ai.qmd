@@ -1,4 +1,4 @@
-# Writing with AI
+# Writing with AI {#sec-ai}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -96,7 +96,7 @@ If the critical review prompt flags weaknesses in your theoretical framing, addr
 
 Notice the pattern across all these prompts: in every case, you give the AI a constraint derived from the tools in this guide. The summarising prompt uses AI's failure as a signal rather than a flaw — an incoherent summary points to an incoherent source. The argument progression test prompt asks AI to do what you would do manually — but faster, and without the attachment to your own prose that makes self-editing hard. The critical review prompt uses AI as a stand-in for the hostile reviewer: if it finds weaknesses, a real reviewer will too. These prompts turn AI's tendencies to compress and summarise into assets rather than liabilities — the opposite of asking it to expand and improve.
 
-## A note on honesty
+## A note on honesty {#sec-ai-honesty}
 
 Using AI to assist with writing is not dishonest, provided you follow your institution's guidelines and disclose appropriately. But there is a subtler form of dishonesty worth naming: using AI to generate a theoretical framing you do not fully understand, because the framing sounds authoritative enough to submit.
 

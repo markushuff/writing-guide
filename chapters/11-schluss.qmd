@@ -1,4 +1,4 @@
-# The Value of Theoretical Focus
+# The Value of Theoretical Focus {#sec-value}
 
 The worry behind most of the decisions this guide argues against is understandable. You are a PhD student in a theory-rich field. You know which frameworks reviewers care about. Leaving them out feels like an invitation to criticism. Every experienced researcher you know seems to discuss more theories than you are now being told to.
 

@@ -1,4 +1,4 @@
-# Theory in the Discussion
+# Theory in the Discussion {#sec-discussion}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -8,7 +8,7 @@
 - No other theory earns Discussion space — noting that results fit a theory is not an argument, because almost any result fits almost any sufficiently flexible theory
 :::
 
-Chapters 2 through 5 dealt with the introduction — finding your anchor, applying the filters, writing the funnel, and checking that the argument holds. The Discussion is a different challenge, and in some ways a harder one. Theory overload is most visible in the introduction, where the landscape of competing frameworks is impossible to miss. In the Discussion it does its quieter damage: by the time the reader reaches it, they have invested in your argument, and a Discussion that loses focus is harder to recover from than an introduction that does.
+The preceding chapters dealt with the introduction — finding your anchor, applying the filters, writing the funnel, checking that the argument holds, and naming the prediction it ends on. The Discussion is a different challenge, and in some ways a harder one. Theory overload is most visible in the introduction, where the landscape of competing frameworks is impossible to miss. In the Discussion it does its quieter damage: by the time the reader reaches it, they have invested in your argument, and a Discussion that loses focus is harder to recover from than an introduction that does.
 
 The pattern is predictable. A writer who mentioned four theories in the introduction feels obliged to return to all four in the Discussion. The results came out in favour of Event Segmentation Theory, so that gets a paragraph. Then, because the Event-Indexing Model was mentioned in the introduction, it gets a sentence noting that the results are "also consistent with" it. The Structure Building Framework gets something similar. Narrative Comprehension accounts are noted as offering a "complementary perspective." By the end, every theory that appeared in the introduction has reappeared in the Discussion, and the reader is no longer sure which one the paper was actually about.
 
@@ -24,7 +24,7 @@ The Discussion has two theoretical jobs, and only two.
 
 A theory that received only a brief mention in the introduction — because it failed F2 — has not earned a paragraph in the Discussion. Results being "consistent with" a theory is not a reason to discuss it — almost any result is consistent with almost any sufficiently flexible theory. "Consistent with" is not an argument. The next section shows what it actually means.
 
-## The mirror test
+## The mirror test {#sec-mirror-test}
 
 Here is a simple diagnostic. Draw a line down the middle of a page. On the left, list every theory that received substantive treatment in your introduction. On the right, list every theory that receives substantive treatment in your Discussion.
 
@@ -50,11 +50,11 @@ The only case where "consistent with" earns space is when you can follow it with
 
 ## A before and after
 
-Here is the Discussion opening from the bloated first attempt in Chapter 9:
+Here is the Discussion opening from the bloated first attempt in @sec-example:
 
 ---
 
-*The present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as higher at event boundaries than within events, supporting the claim that boundary detection elevates prediction error. These results are also consistent with predictive processing frameworks, which similarly predict higher prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the reduction in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.*
+*The present results are consistent with Event Segmentation Theory, as predicted. Participants rated surprise as higher at event boundaries than within events, supporting the claim that boundary detection is driven by a rise in prediction error. These results are also consistent with predictive processing frameworks, which similarly predict higher prediction error at moments of perceptual transition. Situation Models offer a complementary perspective: the updating of spatial and causal representations at boundaries may contribute to the increase in surprise we observed. Narrative Comprehension accounts suggest that goal-structure processing at event transitions could additionally account for the boundary effect.*
 
 ---
 
@@ -64,9 +64,9 @@ Here is the same opening after applying the two-job rule:
 
 ---
 
-*Surprise ratings were higher at event boundaries than within events, confirming the prediction of Event Segmentation Theory that boundary detection triggers a model update that elevates prediction error. The effect was robust across all three activity types and held at both the group and individual level.*
+*Surprise ratings were higher at event boundaries than within events, confirming the prediction of Event Segmentation Theory that a boundary is the point at which the current event model ceases to fit the input and prediction error rises. The effect was robust across all three activity types and held at both the group and individual level.*
 
-*The present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that boundary-related prediction error elevation is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.*
+*The present design does not discriminate between EST and predictive processing frameworks, which generate identical directional predictions for this paradigm. What the data do support is the more specific claim within EST that the boundary-related rise in prediction error is perceptual rather than narrative in origin: the effect was present for clips of non-goal-directed activities as well as goal-directed ones, which is harder to account for on a goal-structure account.*
 
 ---
 

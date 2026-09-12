@@ -45,7 +45,7 @@ crisis in psychology. *Psychonomic Bulletin & Review, 26*(5), 1596–1618.
 [https://doi.org/10.3758/s13423-019-01645-2](https://doi.org/10.3758/s13423-019-01645-2)
 
 A more recent and accessible treatment of the same problem. Directly 
-relevant to the argument in Chapter 1 of this guide.
+relevant to the argument of the opening chapter of this guide.
 
 **McPhetres, J., Albayrak-Aydemir, N., Barbosa Mendes, A., et al. (2021).** A decade of theory as reflected in *Psychological Science* (2009–2019). *PLOS ONE, 16*(3), e0247986.
 [https://doi.org/10.1371/journal.pone.0247986](https://doi.org/10.1371/journal.pone.0247986)
@@ -71,7 +71,7 @@ Sycophantic AI decreases prosocial intentions and promotes dependence.
 *Science, 391*, eaec8352.
 [https://doi.org/10.1126/science.aec8352](https://doi.org/10.1126/science.aec8352)
 
-The empirical basis for the sycophancy problem described in Chapter 10.
+The empirical basis for the sycophancy problem described in the chapter on writing with AI.
 Across 11 state-of-the-art models, AI affirmed users' positions nearly
 50% more often than humans — even when those positions involved
 deception or harm.

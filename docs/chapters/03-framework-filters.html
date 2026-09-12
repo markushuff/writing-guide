@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -61,10 +64,10 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -169,38 +172,44 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/05b-naming-predictions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Naming Your Predictions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/06-discussion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Theory in the Discussion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Theory in the Discussion</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Surviving Peer Review</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Surviving Peer Review</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/08-revision.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Revision Process</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Revision Process</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/09-example.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">A Worked Example</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">A Worked Example</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/10-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Writing with AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Writing with AI</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/11-schluss.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">The Value of Theoretical Focus</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">The Value of Theoretical Focus</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -225,9 +234,9 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#filter-1-f1-does-it-make-a-different-prediction-from-your-anchor" id="toc-filter-1-f1-does-it-make-a-different-prediction-from-your-anchor" class="nav-link active" data-scroll-target="#filter-1-f1-does-it-make-a-different-prediction-from-your-anchor"><span class="header-section-number">3.1</span> Filter 1 (F1): Does it make a different prediction from your anchor?</a></li>
-  <li><a href="#filter-2-f2-does-it-reach-your-dependent-variable-mechanistically" id="toc-filter-2-f2-does-it-reach-your-dependent-variable-mechanistically" class="nav-link" data-scroll-target="#filter-2-f2-does-it-reach-your-dependent-variable-mechanistically"><span class="header-section-number">3.2</span> Filter 2 (F2): Does it reach your dependent variable mechanistically?</a></li>
-  <li><a href="#your-landscape-sentence" id="toc-your-landscape-sentence" class="nav-link" data-scroll-target="#your-landscape-sentence"><span class="header-section-number">3.3</span> Your landscape sentence</a></li>
+  <li><a href="#sec-f1" id="toc-sec-f1" class="nav-link active" data-scroll-target="#sec-f1"><span class="header-section-number">3.1</span> Filter 1 (F1): Does it make a different prediction from your anchor?</a></li>
+  <li><a href="#sec-f2" id="toc-sec-f2" class="nav-link" data-scroll-target="#sec-f2"><span class="header-section-number">3.2</span> Filter 2 (F2): Does it reach your dependent variable mechanistically?</a></li>
+  <li><a href="#sec-landscape" id="toc-sec-landscape" class="nav-link" data-scroll-target="#sec-landscape"><span class="header-section-number">3.3</span> Your landscape sentence</a></li>
   </ul>
 </nav>
     </div>
@@ -236,7 +245,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Two Filters, Three Outcomes</span></h1>
+<h1 class="title"><span id="sec-filters" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Two Filters, Three Outcomes</span></span></h1>
 </div>
 
 
@@ -274,15 +283,15 @@ div.csl-indent {
 <p>The problem is that relevance is a spectrum, and “loosely related to the phenomenon I am studying” is not the same as “necessary for the argument I am making.” In a theory-rich field, almost any theory can be made to sound relevant with a sentence or two of framing. That is precisely the trap.</p>
 <p>The two filters below force a more honest question: does this theory do any work in this paper? Not in the field generally. Not in a review article. In this paper, with this design, for this argument.</p>
 <p>Apply them sequentially. A theory that fails the first filter does not need to be assessed against the second.</p>
-<section id="filter-1-f1-does-it-make-a-different-prediction-from-your-anchor" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="filter-1-f1-does-it-make-a-different-prediction-from-your-anchor"><span class="header-section-number">3.1</span> Filter 1 (F1): Does it make a different prediction from your anchor?</h2>
+<section id="sec-f1" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="sec-f1"><span class="header-section-number">3.1</span> Filter 1 (F1): Does it make a different prediction from your anchor?</h2>
 <p>Not whether the theory addresses the same phenomenon — it almost certainly does, or you would not be considering it. The question is whether it predicts something different from your anchor, given your specific manipulation and dependent variable.</p>
 <p>Two theories can address the same phenomenon at the field level while making identical predictions for your specific operationalization. Specificity of design is what creates the wedge — or reveals that there is none. A theory that makes no distinct prediction for your study is not a competitor. The reader should know it exists — hence the citation — but it has earned nothing more.</p>
 <p>If the answer is <strong>no</strong> — citation only. Group these citations into a single parenthetical when you first introduce the broader phenomenon. Do not give them their own sentences.</p>
 <p>If the answer is <strong>yes</strong> — proceed to Filter 2.</p>
 </section>
-<section id="filter-2-f2-does-it-reach-your-dependent-variable-mechanistically" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="filter-2-f2-does-it-reach-your-dependent-variable-mechanistically"><span class="header-section-number">3.2</span> Filter 2 (F2): Does it reach your dependent variable mechanistically?</h2>
+<section id="sec-f2" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-f2"><span class="header-section-number">3.2</span> Filter 2 (F2): Does it reach your dependent variable mechanistically?</h2>
 <p>A theory can make different predictions in principle and still not connect to your specific measure. If the theory addresses the phenomenon at a level of description that does not reach your DV, it cannot be tested by your study — and a theory that cannot be tested by your study is not a live competitor in your argument.</p>
 <p>Mentioning it briefly is the honest move: tell the reader the theory exists, that it addresses the phenomenon, and why your study does not test it.</p>
 <p>If the answer is <strong>no</strong> — mention it and explain why it is not tested here.</p>
@@ -316,8 +325,8 @@ div.csl-indent {
 </div>
 </div>
 </section>
-<section id="your-landscape-sentence" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="your-landscape-sentence"><span class="header-section-number">3.3</span> Your landscape sentence</h2>
+<section id="sec-landscape" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="sec-landscape"><span class="header-section-number">3.3</span> Your landscape sentence</h2>
 <p>With the filters in hand, you can now complete the second part of the anchor exercise from the previous chapter.</p>
 <blockquote class="blockquote">
 <p>Other theories in the field that address [phenomenon] include [list]. They do not appear in this paper / appear only briefly because [reason for each].</p>

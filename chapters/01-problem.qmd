@@ -1,4 +1,4 @@
-# Too Many Theories
+# Too Many Theories {#sec-problem}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell

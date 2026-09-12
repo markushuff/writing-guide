@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5ccb035bea26c1e21f80f44cf7c27909.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3f7f8e73c8d287b30bcf59c2b563615.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -149,38 +152,44 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/05b-naming-predictions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Naming Your Predictions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/06-discussion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Theory in the Discussion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Theory in the Discussion</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Surviving Peer Review</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Surviving Peer Review</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/08-revision.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Revision Process</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Revision Process</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/09-example.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">A Worked Example</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">A Worked Example</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/10-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Writing with AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Writing with AI</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/11-schluss.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">The Value of Theoretical Focus</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">The Value of Theoretical Focus</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -205,11 +214,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-funnel-structure" id="toc-the-funnel-structure" class="nav-link active" data-scroll-target="#the-funnel-structure"><span class="header-section-number">4.1</span> The funnel structure</a>
+  <li><a href="#sec-funnel" id="toc-sec-funnel" class="nav-link active" data-scroll-target="#sec-funnel"><span class="header-section-number">4.1</span> The funnel structure</a>
   <ul class="collapse">
   <li><a href="#the-funnel-has-five-paragraph-jobs." id="toc-the-funnel-has-five-paragraph-jobs." class="nav-link" data-scroll-target="#the-funnel-has-five-paragraph-jobs."><span class="header-section-number">4.1.1</span> The funnel has five paragraph jobs.</a></li>
   </ul></li>
-  <li><a href="#one-paragraph-one-job" id="toc-one-paragraph-one-job" class="nav-link" data-scroll-target="#one-paragraph-one-job"><span class="header-section-number">4.2</span> One paragraph, one job</a></li>
+  <li><a href="#sec-one-job" id="toc-sec-one-job" class="nav-link" data-scroll-target="#sec-one-job"><span class="header-section-number">4.2</span> One paragraph, one job</a></li>
   </ul>
 </nav>
     </div>
@@ -218,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Writing the Theoretical Framing</span></h1>
+<h1 class="title"><span id="sec-writing" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Writing the Theoretical Framing</span></span></h1>
 </div>
 
 
@@ -254,8 +263,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>You have your anchor theory. You have run every other candidate through the two filters. You know what belongs in your paper and what does not. Now you have to write it.</p>
 <p>A colleague once described writing as debugging thinking. You believe the logic is clear until you try to put it into sentences, and then you discover the gaps. The funnel structure and the paragraph rule give the debugging process a shape.</p>
-<section id="the-funnel-structure" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="the-funnel-structure"><span class="header-section-number">4.1</span> The funnel structure</h2>
+<section id="sec-funnel" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="sec-funnel"><span class="header-section-number">4.1</span> The funnel structure</h2>
 <p>A well-written theoretical framing moves from broad to narrow — from the phenomenon to the specific prediction. The reader needs to be oriented before they are asked to follow an argument.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -272,8 +281,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>The specific prediction.</strong> The narrowest point of the funnel. Given your anchor theory and your specific design, what do you predict and why? This is the payoff of the entire theoretical framing. Everything before it exists to make this prediction feel inevitable.</p>
 </section>
 </section>
-<section id="one-paragraph-one-job" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="one-paragraph-one-job"><span class="header-section-number">4.2</span> One paragraph, one job</h2>
+<section id="sec-one-job" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="sec-one-job"><span class="header-section-number">4.2</span> One paragraph, one job</h2>
 <p>Each level of the funnel corresponds to a small number of paragraph jobs. Each paragraph should have exactly one of them. State that job in a single sentence before you write the paragraph. If you cannot state it, you are not ready to write the paragraph.</p>
 <table class="caption-top table">
 <caption>Paragraph jobs for each level of the funnel.</caption>

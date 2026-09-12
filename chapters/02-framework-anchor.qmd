@@ -1,4 +1,4 @@
-# Finding Your Anchor
+# Finding Your Anchor {#sec-anchor}
 
 ::: {.callout-note icon="false"}
 ## In a nutshell
@@ -27,7 +27,7 @@ If two theories feel equally load-bearing, you are usually in one of two situati
 
 If you are not writing a direct comparison, no amount of good writing can fix the problem. Stop writing and talk to your collaborators before going further.
 
-## The anchor exercise
+## The anchor exercise {#sec-anchor-exercise}
 
 Before writing a single word of your introduction, complete this sentence. Write it down.
 
