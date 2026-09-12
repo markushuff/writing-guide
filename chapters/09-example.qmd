@@ -72,7 +72,7 @@ Here is what the theoretical framing looks like after applying the framework:
 
 ---
 
-*Everyday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people are remarkably consistent in where they perceive one sub-action to end and another to begin (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).*
+*Everyday activities have a natural structure. Actions unfold in sequences — making coffee involves boiling water, then adding grounds, then pouring — and people put the boundary in much the same place (Zacks & Tversky, 2001). These perceived transitions are event boundaries, and they play a central role in Event Segmentation Theory (EST; Zacks et al., 2007).*
 
 *EST proposes that people maintain an ongoing model of the current event — a working representation of what is happening and what is likely to happen next. While the activity continues as expected, that model predicts well. At a transition, it no longer fits the incoming input, prediction error rises, and it is this transient rise that signals a boundary and triggers an update to a new event model. The theory therefore predicts that boundary moments should feel more surprising than within-event moments, where the current model is still fitting and prediction error remains low.*
 
@@ -134,4 +134,4 @@ We thank the reviewer for raising predictive processing frameworks. We agree tha
 
 The writer of the first attempt knew all four theories. What the revised version adds is a decision — a commitment to one theoretical account and a willingness to let that commitment do the work.
 
-The reviewer response and cover letter follow directly from that commitment. Because the theoretical framing is principled, the response to Reviewer 2 is principled. Because the argument is clear, the cover letter is clear. The anchor is where the work begins.
+The reviewer response and cover letter follow directly from that commitment. Both restate a decision that was made, and written down, before any drafting began.

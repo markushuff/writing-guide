@@ -48,4 +48,4 @@ These are the five essential jobs. A complex anchor theory might occasionally re
 
 The most common structural mistake is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think. One job per paragraph prevents this.
 
-Once you have drafted these paragraphs, the next chapter provides three structural tests to verify that your argument actually flows.
+Once you have drafted these paragraphs, the next chapter provides three structural tests to verify that the argument holds.

@@ -47,7 +47,7 @@ Theories that failed F1 need only a citation. Theories that passed F1 but failed
 This sentence signals awareness of the landscape without making the landscape your argument. If you feel the urge to write something more defensive — explaining at length why you excluded a theory — that is usually a sign that your anchor is not yet clearly enough stated. Strengthen the anchor first.
 
 ::: {.callout-note icon="false"}
-## What strong inference actually means {#sec-strong-inference}
+## What strong inference means {#sec-strong-inference}
 
 The term comes from a 1964 paper by the physicist John Platt, published in *Science*. Platt observed that some fields — molecular biology and high-energy physics in particular — were advancing far faster than others, and asked why. His answer was that the fast-moving fields systematically practiced a specific method: devising competing hypotheses, designing experiments whose outcomes could exclude at least one of them, and recycling the procedure with whatever hypotheses remained.
 

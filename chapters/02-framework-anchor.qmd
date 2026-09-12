@@ -9,7 +9,7 @@
 - A preregistration that names an effect without naming the theory and mechanism has not done the anchor work
 :::
 
-Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is actually driving your study?
+Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is driving your study?
 
 We call this your anchor theory. It is the theoretical account that is load-bearing for your hypotheses — the one you would have to abandon if your results came out differently. Every other theory in your manuscript will be judged relative to it.
 
@@ -23,7 +23,7 @@ A theory that predicts the same result regardless of what you found is backgroun
 
 Sometimes the anchor cannot be found because the study was not designed around one. 
 
-If two theories feel equally load-bearing, you are usually in one of two situations. The first is a legitimate head-to-head design: your study explicitly pits two competing theories against each other. The second is a framing problem: your design has not actually forced a decision between them, and you are mistakenly treating a background theory as an anchor. 
+If two theories feel equally load-bearing, you are usually in one of two situations. The first is a legitimate head-to-head design: your study explicitly pits two competing theories against each other. The second is a framing problem: your design has not forced a decision between them, and you are mistakenly treating a background theory as an anchor. 
 
 If you are not writing a direct comparison, no amount of good writing can fix the problem. Stop writing and talk to your collaborators before going further.
 
@@ -48,4 +48,4 @@ If you cannot complete the sentence cleanly, you are not ready to write. Talk to
 If you have preregistered your study, the anchor exercise is a useful check: the anchor sentence is what a strong preregistration should have contained. If you complete it now and find it differs from what you registered — if the mechanism is vague, or the theory is named only loosely — that gap is worth understanding before you write a word of your introduction, and worth closing before you run the next study.
 In practice, experiments often run faster than the theoretical thinking is fully worked out. A preregistration written in the week before data collection captures the design, the expected effect, and the analysis plan — but not always the anchor. This is common and happens when the practical pressures of running a study outpace the slower work of theoretical clarification.
 
-Once you have defined your anchor, you have the criteria needed to process the rest of the literature. The next chapter provides a system to sort your references and decide what actually belongs in the paper.
+Once you have defined your anchor, you have the criteria needed to process the rest of the literature. The next chapter provides a system to sort your references and decide what belongs in the paper.
