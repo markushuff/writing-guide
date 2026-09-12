@@ -10,7 +10,7 @@
 
 Getting reviews back is one of the most disorienting experiences in academic life. Even positive reviews require substantial work, and negative ones can feel like a personal attack on months or years of effort. This chapter is about the practical mechanics of turning a reviewed manuscript into an accepted one, with particular attention to the revision decisions that involve theoretical framing, which are consistently the most consequential and the hardest to get right.
 
-![The revision process](revision.svg){width="100%"}
+![The revision process.](revision.svg){width="100%"}
 
 ## Before you write anything: the revision strategy
 

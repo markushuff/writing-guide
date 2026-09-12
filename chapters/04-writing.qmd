@@ -48,4 +48,14 @@ These are the five essential jobs. A complex anchor theory might occasionally re
 
 The most common structural mistake is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think. One job per paragraph prevents this.
 
+Here is one, built from the running example:
+
+---
+
+*Event Segmentation Theory (Zacks et al., 2007) proposes that people segment activity into discrete events, an idea with roots in the behaviour-unit studies of the 1970s. The theory has been applied to memory, attention, and film comprehension, though it has been criticised for underspecifying how event models are represented. Situation Models offer a related account. We measured surprise ratings at boundaries and within events.*
+
+---
+
+Six jobs in four sentences: the theory, its history, its applications, its critics, a competitor, and the method. None of them is finished. The history is real enough — boundary perception has been studied since @newtson1976 — but it is not doing a job here. Split the paragraph and the argument appears: one for the anchor and its mechanism, one for the prediction that follows. The history, the applications and the critics do not come back, because none of them changes what this study predicts.
+
 Once you have drafted these paragraphs, the next chapter provides three structural tests to verify that the argument holds.

@@ -16,6 +16,19 @@ For each paragraph in your theoretical framing, ask: what single step does this 
 
 Then read your one-sentence summaries in sequence. They should tell the complete story of your theoretical argument — from phenomenon to prediction — without gaps or redundancy. A gap means a step is missing. Redundancy means two paragraphs are doing the same job, and one of them should go.
 
+Applied to the bloated first attempt in @sec-example, the summaries come out like this:
+
+1. Several theories exist in event cognition.
+2. We measured surprise ratings.
+
+The sequence goes nowhere. Nothing in the first step leads to the second. The revised framing gives three steps that do:
+
+1. Everyday activity has a boundary structure that observers agree on.
+2. EST says boundaries are where the event model stops fitting and prediction error rises, so boundaries should feel more surprising.
+3. Surprise ratings at paused clips measure that error, and no competing account predicts anything different here.
+
+Each step uses the one before it. That is what the test is looking for.
+
 This is the paragraph-level version of the anchor sentence. The anchor sentence compresses your entire theoretical commitment into one sentence. The argument progression test checks whether every paragraph is doing real work on the way to that sentence.
 
 ## The elevator abstract {#sec-elevator-abstract}
@@ -35,6 +48,14 @@ The first sentence of a strong elevator abstract is usually the anchor sentence 
 ## The plain-language summary {#sec-plain-language}
 
 Close your manuscript. Without opening it, write two or three sentences explaining what your study is about and why it matters, in language a non-specialist could understand. No jargon, no theory names, no technical terms for your dependent variable. Then give what you wrote to a colleague outside your research group and ask whether it is clear.
+
+For the running example, a plain-language summary might read:
+
+> We showed people short videos of everyday activities and paused them at different moments. People were more surprised when we paused at the seam between two actions than in the middle of one. This tells us something about how people divide continuous activity into events.
+
+Read that against the framing in @sec-example. Both say the same thing: activity has seams, the seams are where something changes, and surprise tracks the change. They converge, so the check passes.
+
+The common failure is a summary that is only jargon-lite: "we studied event segmentation using a surprise-rating paradigm." That converges with your terminology rather than with your study, and it tells you nothing.
 
 Open your draft and read it alongside your plain-language summary. The two will sound different because a scientific paper and a plain-language summary are different documents. What matters is whether they are about the same thing. Academic writing accumulates qualifications, hedges, and theoretical scaffolding until the original point is no longer visible.
 

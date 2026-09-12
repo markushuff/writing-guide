@@ -91,7 +91,7 @@ The Event-Indexing Model specifies when situation model updating occurs, not how
 
 **Structure Building Framework** [@gernsbacher1990]
 
-The Structure Building Framework predicts that boundaries arise from coherence breaks — points at which incoming information is sufficiently discrepant to trigger a shift to a new substructure. EST emphasizes perceptual prediction error; the Structure Building Framework emphasizes semantic coherence. These can come apart: a scene can involve high perceptual change without a coherence break, and vice versa. *Passes F1.*
+The Structure Building Framework predicts that boundaries arise from coherence breaks — points at which incoming information is sufficiently discrepant to trigger a shift to a new substructure. EST emphasises perceptual prediction error; the Structure Building Framework emphasises semantic coherence. These can come apart: a scene can involve high perceptual change without a coherence break, and vice versa. *Passes F1.*
 
 The framework specifies what triggers a substructure shift, not how quickly one is detected. It makes no prediction about the temporal dynamics of boundary perception, and therefore does not reach detection latency as a dependent variable. *Fails F2.* → Mention + explain why not tested here.
 
