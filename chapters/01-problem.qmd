@@ -6,8 +6,6 @@
 - Theory proliferation, reviewing culture, and writer anxiety form a feedback loop that makes papers theoretically exhaustive and argumentatively weak
 - In *Psychological Science* alone, 359 distinct theories appeared across a decade of articles — most cited only once
 - Preregistration was designed to help, but only does the work if the theoretical thinking was done first
-- Each individual decision to add more coverage is understandable; the cumulative result is manuscripts that argue nothing
-- The writer cannot fix the incentive structure, but can choose not to be driven by it
 :::
 
 When you sit down to draft a manuscript, the cursor blinks against a massive, invisible weight: the accumulated literature of your field. Because psychology has generated frameworks faster than it has retired them, the rational response to that blank page is defensive writing. A paper that should make one clear argument instead surveys a landscape of loosely related theories, hedges every claim, and leaves the reader wondering what the point was.

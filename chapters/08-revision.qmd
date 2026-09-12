@@ -4,8 +4,8 @@
 ## In a nutshell
 
 - Sort every reviewer comment into must do, negotiate, or resist before writing a single word of your response
-- The cover letter signals to the editor that you have done the work; the response document is a formal record of every comment and every change
-- Open the submitted file, save a copy, and enable track changes before touching anything
+- Work on a copy of the submitted file with track changes enabled, never the original
+- The cover letter signals that you have done the work; the response document records every comment and every change
 :::
 
 Getting reviews back is one of the most disorienting experiences in academic life. Even positive reviews require substantial work, and negative ones can feel like a personal attack on months or years of effort. This chapter is about the practical mechanics of turning a reviewed manuscript into an accepted one, with particular attention to the revision decisions that involve theoretical framing, which are consistently the most consequential and the hardest to get right.
@@ -101,7 +101,7 @@ Four rules for a strong response document:
 
 ## Track changes
 
-When submitting a revision, most journals ask for a version showing what was altered. Open the file you submitted, save a copy under a new filename such as `paper_revision_1.docx`, and enable track changes before writing a single word. Never revise the original — you need an untouched baseline in case a co-author or editor later asks what changed between rounds.
+When submitting a revision, most journals ask for a version showing what was altered. Open the file you submitted, save a copy under a new filename such as `paper_revision_1.docx`, and enable track changes before you change anything. Never revise the original — you need an untouched baseline in case a co-author or editor later asks what changed between rounds.
 
 **Be selective.** Minor copyediting and formatting changes do not need to be visible — they create noise that obscures the substantive revisions. Track the things that matter: added paragraphs, deleted sections, changed conclusions, new analyses.
 

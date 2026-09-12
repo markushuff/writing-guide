@@ -3,9 +3,9 @@
 ::: {.callout-note icon="false"}
 ## In a nutshell
 
-- A numbered label carries no theoretical content — every later sentence that invokes "Hypothesis 2" or "H2" makes the reader look it up, and most readers do not
-- A speaking name should denote the *prediction* and the mechanism it puts at risk, not the theory's brand and not the result you hope to find
-- Predictions that adjudicate between theories should be named in contrasting pairs, so the name itself says which result would count against which account
+- A numbered label carries no theoretical content; every sentence that invokes "Hypothesis 2" or "H2" sends the reader back to the introduction
+- A speaking name should denote the *prediction* and the mechanism it puts at risk, not the theory's brand
+- Name adjudicating predictions in contrasting pairs, so the name says which result counts against which account
 :::
 
 The fifth job of the funnel is the specific prediction, and @sec-writing treated it as an endpoint: everything before it exists to make it feel inevitable. That is only half true. The prediction is the one element of the theoretical framing that has to travel — through the Method, through the Results, into the Discussion, and often into the abstract and the response to reviewers. How you name it determines how much of the argument travels with it.

@@ -6,7 +6,6 @@
 - The anchor theory is the one you would have to abandon if your results came out differently
 - A good anchor generates a specific prediction for your specific design, not just for the phenomenon in general
 - If you cannot complete the anchor sentence cleanly, the thinking is not yet done
-- A preregistration that names an effect without naming the theory and mechanism has not done the anchor work
 :::
 
 Before you can decide which theories belong in your paper and which do not, you need to answer a more fundamental question: which theory is driving your study?

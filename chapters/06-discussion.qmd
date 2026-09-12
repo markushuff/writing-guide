@@ -5,7 +5,7 @@
 
 - Explain what the results mean for your anchor — confirmation, disconfirmation, or something in between — and what that tells us about the mechanism
 - Return to every theory that passed both filters and state what the results showed about it; silence is not an answer
-- No other theory earns Discussion space — noting that results fit a theory is not an argument, because a theory loose enough will fit whatever you found
+- No other theory earns Discussion space; a theory loose enough will fit whatever you found
 :::
 
 The preceding chapters dealt with the introduction — finding your anchor, applying the filters, writing the funnel, checking that the argument holds, and naming the prediction it ends on. The Discussion is a different challenge, and in some ways a harder one. Theory overload is most visible in the introduction, where the landscape of competing frameworks is impossible to miss. In the Discussion it does its quieter damage: by the time the reader reaches it, they have invested in your argument, and a Discussion that loses focus is harder to recover from than an introduction that does.

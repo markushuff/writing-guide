@@ -5,7 +5,7 @@
 
 - Filter 1: does the theory make a different prediction from your anchor for this design?
 - Filter 2: does it reach your dependent variable mechanistically?
-- Failing F1 earns a citation; passing F1 but failing F2 earns a brief mention; passing both earns full treatment and puts you in the territory of strong inference
+- Fail F1 and the theory earns a citation; fail F2 and it earns a brief mention; pass both and it earns full treatment
 :::
 
 Once you have your anchor theory, you will inevitably encounter other theories that feel relevant. Some of them are. Most of them are not — at least not for this paper.
