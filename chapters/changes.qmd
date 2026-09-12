@@ -1,0 +1,11 @@
+# Changes {.unnumbered}
+
+Substantive changes to this guide are recorded here. Corrections of typography and style are not listed; the full history is in the [repository](https://github.com/markushuff/writing-guide).
+
+## 12 September 2026
+
+**Correction to the worked example.** Earlier versions had the central example the wrong way round. They reported surprise ratings as *lower* at event boundaries than within events, on the grounds that boundary detection reduces prediction error. Event Segmentation Theory holds the opposite: a boundary is the point at which the current event model stops fitting the input, prediction error rises, and that rise is what triggers the update. Surprise should therefore be *higher* at boundaries. The example now runs in that direction throughout. The filter decisions in the worked example are unaffected, because the competing accounts make the same directional prediction either way.
+
+**New chapter.** "Naming Your Predictions", on why numbered hypotheses lose the theoretical content of a prediction, and what a working name has to do.
+
+**Cross-references.** References between chapters are now Quarto cross-references rather than literal chapter numbers.

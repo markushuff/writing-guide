@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this guide, please cite it as below."
+title: "The Focused Introduction: Writing the Theoretical Framing"
+authors:
+  - family-names: Huff
+    given-names: Markus
+    orcid: "https://orcid.org/0000-0002-1433-4656"
+    affiliation: "Leibniz-Institut für Wissensmedien and University of Tübingen"
+url: "https://markushuff.github.io/writing-guide/"
+repository-code: "https://github.com/markushuff/writing-guide"
+license: CC-BY-4.0
+date-released: 2026-09-12
+preferred-citation:
+  type: book
+  title: "The Focused Introduction: Writing the Theoretical Framing"
+  authors:
+    - family-names: Huff
+      given-names: Markus
+      orcid: "https://orcid.org/0000-0002-1433-4656"
+  year: 2026
+  url: "https://markushuff.github.io/writing-guide/"

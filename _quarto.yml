@@ -14,6 +14,11 @@ book:
           department: Department of Psychology
           url: https://uni-tuebingen.de
       orcid: 0000-0002-1433-4656
+  description: |
+    A practical guide to writing focused theoretical framings: choosing an anchor theory,
+    filtering the literature, and writing an introduction that argues rather than covers.
+  repo-url: https://github.com/markushuff/writing-guide
+  repo-actions: [edit, issue, source]
   date: last-modified
   date-format: "MMMM D, YYYY"
   page-footer:
@@ -34,6 +39,7 @@ book:
     - chapters/10-ai.qmd
     - chapters/11-schluss.qmd
     - chapters/further-reading.qmd
+    - chapters/changes.qmd
     - references.qmd
 
 bibliography: references.bib
