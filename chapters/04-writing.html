@@ -26,7 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -321,9 +341,19 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>These are the five essential jobs. A complex anchor theory might occasionally require two paragraphs to explain, but the rule remains: one paragraph, one job. If you find yourself adding a new job that is not on this list, go back to the filters. Ask whether that paragraph is doing actual argumentative work or just adding theoretical coverage to appease reviewers.</p>
 <p>The most common structural mistake is the omnibus paragraph — a single paragraph that introduces a theory, summarises its history, notes its limitations, compares it to alternatives, and mentions your study without connecting it to the argument. The reader finishes it without knowing what to think. One job per paragraph prevents this.</p>
+<p>Here is one, built from the running example:</p>
+<hr>
+<p><em>Event Segmentation Theory (Zacks et al., 2007) proposes that people segment activity into discrete events, an idea with roots in the behaviour-unit studies of the 1970s. The theory has been applied to memory, attention, and film comprehension, though it has been criticised for underspecifying how event models are represented. Situation Models offer a related account. We measured surprise ratings at boundaries and within events.</em></p>
+<hr>
+<p>Six jobs in four sentences: the theory, its history, its applications, its critics, a competitor, and the method. None of them is finished. The history is real enough — boundary perception has been studied since <span class="citation" data-cites="newtson1976">Newtson &amp; Engquist (<a href="../references.html#ref-newtson1976" role="doc-biblioref">1976</a>)</span> — but it is not doing a job here. Split the paragraph and the argument appears: one for the anchor and its mechanism, one for the prediction that follows. The history, the applications and the critics do not come back, because none of them changes what this study predicts.</p>
 <p>Once you have drafted these paragraphs, the next chapter provides three structural tests to verify that the argument holds.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-newtson1976" class="csl-entry" role="listitem">
+Newtson, D., &amp; Engquist, G. (1976). The perceptual organization of ongoing behavior. <em>Journal of Experimental Social Psychology</em>, <em>12</em>(5), 436–450. <a href="https://doi.org/10.1016/0022-1031(76)90076-7">https://doi.org/10.1016/0022-1031(76)90076-7</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
